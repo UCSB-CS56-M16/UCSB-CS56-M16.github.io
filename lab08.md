@@ -84,7 +84,7 @@ Next, find the Heroku "Getting Started With Java" tutorial. There are two ways t
 <div style="clear:right;">
 </div>
 
-![Select Docs from Menu](https://www.cs.ucsb.edu/~pconrad/images/heroku/50/SelectDocsFromMenu.png)
+![Select Docs from Menu](IMAGES/SelectDocsFromMenu.png)
 
 -   (2) Find the "docs" link from the menu at upper left. That should take you to documentation, where you can find the "getting started with Java" as well as many other helpful links.
 
