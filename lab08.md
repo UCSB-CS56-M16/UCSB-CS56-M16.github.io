@@ -1,5 +1,3 @@
-\_\_NOTOC\_\_
-
 This is an individual lab on the topic of Java web apps on Heroku.
 
 Step 0: Understanding what we are trying to do
