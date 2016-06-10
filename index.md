@@ -18,8 +18,8 @@ title: CS56, Summer 2016, pconrad
   <tr>
     <td><a href="{{hwk.url}}">{{ hwk.title }}</a></td>
     <td>{{hwk.ready}}</td>
-    <td>{{hwk.assigned}}</td>
-    <td>{{hwk.due}}</td>
+    <td>{{hwk.assigned | date: "%A, %B %-d, %Y"%h:%m  }}</td> 
+    <td>{{hwk.due | date: "%A, %B %-d, %Y %h:%m" }}</td>
   </tr>
 {% endfor %}
 </table>
