@@ -93,27 +93,27 @@ Throughout the quarter, when I refer to '''HFJ''', this means your Head First Ja
 ! java code
 ! explanation
 |-
-{{blankWikiTableRow|2em|30em}}
+<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
 | declare a variable that indicates whether this year is a leap year or not, and initialize it to say that it is not a leap year
 |-
-{{blankWikiTableRow|2em|30em}}
+<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
 | declare a variable item of type MenuItem, and initialize it to a "Caesar Salad" that costs 8.95.   Assume those are the two parameters that the constructor takes.
 |-
-{{blankWikiTableRow|2em|30em}}
+<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
 | declare a variable of type double called total
 |-
-{{blankWikiTableRow|2em|30em}}
+<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
 | an assignment statement that calls the method getPrice on the variable item and adds the result into the variable total
 |}
 </li>
 
-<li> (6 pts) According to chapter two, anytime you need to test a class in Java, you need at least two classes.  (As we'll discuss in lecture, this isn't strictly true, but let's go with it for now.)   In the (oversimplified) view the author is presented (it is just chapter two, after all,) what are the <em>two roles</em> that these two classes are playing? <b>Idenfity the roles, and explain each briefly,</b> {{Space|4em}}
+<li> (6 pts) According to chapter two, anytime you need to test a class in Java, you need at least two classes.  (As we'll discuss in lecture, this isn't strictly true, but let's go with it for now.)   In the (oversimplified) view the author is presented (it is just chapter two, after all,) what are the <em>two roles</em> that these two classes are playing? <b>Idenfity the roles, and explain each briefly,</b> 
 </li>
 
-<li> (6 pts) The author describes two different approaches to a problem&mdash;one taken by "Larry", and the other taken by "Brad".    Based on what you read here, and in your own words, how would you characterize the main difference between the two approaches?    {{Space|6em}}
+<li> (6 pts) The author describes two different approaches to a problem&mdash;one taken by "Larry", and the other taken by "Brad".    Based on what you read here, and in your own words, how would you characterize the main difference between the two approaches?    
 </li>
 
-<li> (6 pts) Throughout the book, some important material is sometimes in the little "side boxes" and dialogues.  It's important to read everything on every page.   One of these little side-boxes contains some important information about the "heap" in Java, and how it differs from the heap in C++.   (C++ is not specifically mentioned, but from taking CS32, you should know about how the heap works in C++.)    <b>Briefly explain</b> what the authors tell us about the heap in Java&mdash;something that is definitely different from the heap in C++.  {{Space|6em}}
+<li> (6 pts) Throughout the book, some important material is sometimes in the little "side boxes" and dialogues.  It's important to read everything on every page.   One of these little side-boxes contains some important information about the "heap" in Java, and how it differs from the heap in C++.   (C++ is not specifically mentioned, but from taking CS32, you should know about how the heap works in C++.)    <b>Briefly explain</b> what the authors tell us about the heap in Java&mdash;something that is definitely different from the heap in C++. 
 </li>
 </ol>
 
