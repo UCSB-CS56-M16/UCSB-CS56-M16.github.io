@@ -61,25 +61,25 @@ Throughout the quarter, when I refer to '''HFJ''', this means your Head First Ja
 
 <li> (8 pts) On page 5 and 6, there is a set of exercises, and the answer to those.  Here is a similar set of exercises, but the answer are not provided.  Fill in the blanks.
 
-<table class="wikitable" border="1">
+<table class="wikitable" border="1" width="100%">
 <tr>
 <th> java code</th>
 <th> explanation</th>
 </tr>
 <tr>
-<td> `boolean cs56IsAwesome= true;`   </td>
+<td> <code>boolean cs56IsAwesome= true;<code>   </td>
 <td> <div style="height: 2em; width: 30em;">&nbsp;</div></td>
 </tr>
 <tr>
-<td> `Course c = new Course("CMPSC56","W16");` </td>
+<td> <code>Course c = new Course("CMPSC56","W16");<code> </td>
 <td> <div style="height: 2em; width: 30em;">&nbsp;</div></td>
 </td>
 </tr>
 <tr>
-<td> `String thisQuarter = "M16";`</td>
+<td> <code>String thisQuarter = "M16";<code></td>
 <td> <div style="height: 2em; width: 30em;">&nbsp;</div></td>
 <tr>
-<td> `if (c.getQuarter().equals(thisQuarter))` </td>
+<td> <code>if (c.getQuarter().equals(thisQuarter))<code> </td>
 <td> <div style="height: 2em; width: 30em;">&nbsp;</div></td>
 </tr>
 </table>
