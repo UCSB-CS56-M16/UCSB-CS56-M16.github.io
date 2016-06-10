@@ -88,23 +88,27 @@ Throughout the quarter, when I refer to '''HFJ''', this means your Head First Ja
 
 <li> (8 pts) Now, the same kind of exercise, but in reverse---I give you the description, you give me the code.    These are designed that you should be able to just reason them out from the examples of Java code given on p.4 and p.5, and your general programming background from CS16 and CS24 in C/C++---no other knowledge of Java should be needed.
 
-{| class="wikitable" border="1" 
-|-
-! java code
-! explanation
-|-
+<table class="wikitable" border="1" width="100%">
+<tr>
+<th> java code</th>
+<th> explanation</th>
+</tr>
 <td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
-| declare a variable that indicates whether this year is a leap year or not, and initialize it to say that it is not a leap year
-|-
+<td> declare a variable that indicates whether this year is a leap year or not, and initialize it to say that it is not a leap year</td>
+</tr>
+<tr>
 <td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
-| declare a variable item of type MenuItem, and initialize it to a "Caesar Salad" that costs 8.95.   Assume those are the two parameters that the constructor takes.
-|-
+<td> declare a variable item of type MenuItem, and initialize it to a "Caesar Salad" that costs 8.95.   Assume those are the two parameters that the constructor takes. </td>
+</tr>
+<tr>
 <td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
-| declare a variable of type double called total
-|-
+<td> declare a variable of type double called total</td>
+</tr>
+<tr>
 <td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
-| an assignment statement that calls the method getPrice on the variable item and adds the result into the variable total
-|}
+<td> an assignment statement that calls the method getPrice on the variable item and adds the result into the variable total</td>
+</td>
+</table>
 </li>
 
 <li> (6 pts) According to chapter two, anytime you need to test a class in Java, you need at least two classes.  (As we'll discuss in lecture, this isn't strictly true, but let's go with it for now.)   In the (oversimplified) view the author is presented (it is just chapter two, after all,) what are the <em>two roles</em> that these two classes are playing? <b>Idenfity the roles, and explain each briefly,</b> 
