@@ -5,7 +5,7 @@ title: CS56, Summer 2016, pconrad
 # CS56, Summer 2016
 
 
-## Homework Assignments:
+## Homework:
 
 <table id="hwk_table">
 <tr>
