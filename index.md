@@ -7,8 +7,15 @@ title: CS56, Summer 2016, pconrad
 
 ## Homework Assignments:
 
-<ul>
+<table>
+<tr>
+  <th>Hxx</th>
+  <th>ready?</th>
+</tr>
 {% for hwk in site.hwk %}
-  <li><a href="{{hwk.url}}">{{ hwk.title }}</a></li>
+  <tr>
+    <td><a href="{{hwk.url}}">{{ hwk.title }}</a></td>
+    <td>{{hwk.ready}}</td>
+  </tr>
 {% endfor %}
-</ul>
+</table>
