@@ -77,10 +77,10 @@ Throughout the quarter, when I refer to '''HFJ''', this means your Head First Ja
 </tr>
 <tr>
 <td> <code>String thisQuarter = "M16";<code></td>
-<td> <div style="height: 2em; width: 30em;">&nbsp;</div></td>
+<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
 <tr>
 <td> <code>if (c.getQuarter().equals(thisQuarter))<code> </td>
-<td> <div style="height: 2em; width: 30em;">&nbsp;</div></td>
+<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
 </tr>
 </table>
 
