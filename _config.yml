@@ -1,6 +1,8 @@
 collections:
- - 
-  hwk
+  hwk:
+    output: true
+    permalink: /hwk/:path/
+
 
 defaults:
   -
