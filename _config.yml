@@ -1,6 +1,16 @@
+collections:
+ - 
+  hwk
+
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "default"
+      layout: default
+  - 
+    scope:
+      path: ""
+      type: hwk
+    values:
+      layout: hwk
