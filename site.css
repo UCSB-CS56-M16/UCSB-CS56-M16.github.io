@@ -28,7 +28,7 @@ a {
 #hwk_table {
   border: 1px solid black; 
 }
-}
+
 a:hover {
   text-decoration: underline;
 }
