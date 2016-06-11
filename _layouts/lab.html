@@ -5,6 +5,7 @@
     <title>{{ page.num }} - {{ page.desc }} - {{course}}</title>
   </head>
   <body id="page-top">
+      <div id="container">
     {% include nav.html %}
 <h1>{{page.num}} : {{page.desc}}</h1>
 <table class="asn_table">
@@ -14,5 +15,6 @@
 </table>
     
     {{ content }}
+    </div>
   </body>
 </html>
