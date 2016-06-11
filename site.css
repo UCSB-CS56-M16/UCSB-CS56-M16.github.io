@@ -60,6 +60,7 @@ a {
 
 .asn_table * .asn_date {
     width: auto;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -77,6 +78,7 @@ a {
     
     .asn_table * .asn_date {
 	width: 3em;
+	font-size: 16px;
     }
     
 }
