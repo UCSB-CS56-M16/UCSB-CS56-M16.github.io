@@ -2,6 +2,8 @@ course: "CS56 M16"
 
 exclude: [vendor]
 
+timezone: America/Los_Angeles
+
 collections:
   hwk:
     output: true
