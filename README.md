@@ -10,6 +10,6 @@ To test locally:
 * `bundle install --path vendor/bundle`
 * `bundle exec jekyll serve`
 
-To check Jekyll status on Travis-CI:
+Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/UCSB-CS56-M16/UCSB-CS56-M16.github.io.svg?branch=master)](https://travis-ci.org/UCSB-CS56-M16/UCSB-CS56-M16.github.io)
 * Travis-ci: https://travis-ci.org/UCSB-CS56-M16/UCSB-CS56-M16.github.io
-
+* To add a status image like this in your README.md, see [these instructions](https://docs.travis-ci.com/user/status-images/)
