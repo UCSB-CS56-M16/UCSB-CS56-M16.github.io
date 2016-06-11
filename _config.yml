@@ -4,6 +4,9 @@ collections:
   hwk:
     output: true
     permalink: /hwk/:path/
+  lab:
+    output: true
+    permalink: /lab/:path/
 
 
 defaults:
@@ -18,3 +21,9 @@ defaults:
       type: hwk
     values:
       layout: hwk
+  - 
+    scope:
+      path: ""
+      type: lab
+    values:
+      layout: lab
