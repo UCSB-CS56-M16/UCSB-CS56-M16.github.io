@@ -14,11 +14,14 @@ html {
   }
 }
 
+background-color: #18335d;
+
 body {
     padding-left: 3px;
     margin-left:auto; margin-right:auto;
     font: 1rem/1.5 "PT Sans", sans-serif;
     color: black;
+    background-color: #ffe;
     width: 800px;
 }
 
