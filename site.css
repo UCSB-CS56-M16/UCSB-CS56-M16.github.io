@@ -5,6 +5,7 @@ layout: nil
 
 /* Include your usual CSS here. */
 
+/*
 html {
   font-size: 16px;
 
@@ -13,27 +14,23 @@ html {
   html {
       font-size: 20px;
   }
-}
+}*/
 
-
+/*
 body {
     background-color: #18335d;
     font: 1rem/1.5 "PT Sans", sans-serif;
     color: black;
 }
-
+*/
+/*
 #container {
     padding: 3px 3px 3px 3px;
     margin: 3px auto 3px auto;
     background-color: #ffe;
     width: 800px;
 }
-
-a {
-  color: #08c;
-  text-decoration: none;
-}
-
+*/
 
 .asn_table  {
     border: 2px solid black;
@@ -55,7 +52,6 @@ a {
 
 .asn_table * .asn_desc {
     width: auto;
-    text-overflow: ellipsis;
 }
 
 .asn_table * .asn_date {
@@ -83,7 +79,3 @@ a {
     
 }
 
-
-a:hover {
-  text-decoration: underline;
-}
