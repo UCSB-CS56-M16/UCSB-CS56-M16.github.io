@@ -59,9 +59,22 @@ a {
 }
 
 @media only screen and (max-device-width: 480px) {
- .asn_table * .asn_date {
-    width: 5em;
-  }
+    .asn_table * .asn_num {
+	width: 3em;
+    }
+    
+    .asn_table * .asn_ready {
+	width: 3em;
+    }
+    
+    .asn_table * .asn_desc {
+	width: 5em;
+    }
+    
+    .asn_table * .asn_date {
+	width: 3em;
+    }
+    
 }
 
 
