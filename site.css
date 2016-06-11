@@ -17,9 +17,9 @@ html {
 
 
 body {
+    background-color: #18335d;
     font: 1rem/1.5 "PT Sans", sans-serif;
     color: black;
-    background-color: #18335d;
 }
 
 #container {
