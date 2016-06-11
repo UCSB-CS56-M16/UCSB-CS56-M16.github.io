@@ -5,3 +5,7 @@
   <td class="asn_date" >{{asn.assigned | date: "%a %m/%d %I:%M%p"  }}</td> 
   <td class="asn_date" >{{asn.due | date: "%a %m/%d %I:%M%p" }}</td>
 </tr>
+
+{% if asn.last_before %}
+<tr><th colspan="5">{{asn.last_before}}</th></tr>
+{% endif %}

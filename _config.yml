@@ -8,9 +8,14 @@ collections:
   hwk:
     output: true
     permalink: /hwk/:path/
+    last_before: false
   lab:
     output: true
     permalink: /lab/:path/
+    last_before: false
+  exam:
+    output: true
+    permalink: /exam/:path/
 
 
 defaults:
@@ -31,3 +36,10 @@ defaults:
       type: lab
     values:
       layout: lab
+
+    scope:
+      path: ""
+      type: exam
+    values:
+      layout: exam_info
+      

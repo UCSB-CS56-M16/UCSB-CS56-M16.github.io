@@ -2,7 +2,7 @@
 num: "h00"
 desc: "Java basics"
 ready: false
-assigned: 2016-06-20 09:30:00.00-7:00
+assigned: 2016-06-21 09:30:00.00-7:00
 due: 2016-06-22 09:30:00.00-7:00
 ---
 

@@ -12,3 +12,7 @@ title: CS56, Summer 2016, pconrad
 ## Labs:
 
 {%include lab_table.html %}
+
+## Exams:
+
+{%include exam_table.html %}

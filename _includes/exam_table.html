@@ -1,0 +1,6 @@
+<table id="exam_table" class="asn_table">
+{% include exam_table_header_row.html %}
+{% for asn in site.exam %}
+ {% include exam_table_row.html %}
+{% endfor %}
+</table>
