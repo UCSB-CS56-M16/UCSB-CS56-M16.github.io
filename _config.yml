@@ -1,3 +1,5 @@
+course: "CS56 M16"
+
 exclude: [vendor]
 
 collections:

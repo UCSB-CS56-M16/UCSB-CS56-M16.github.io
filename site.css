@@ -10,24 +10,60 @@ html {
 }
 @media (min-width: 48rem) {
   html {
-    font-size: 20px;
+      font-size: 20px;
   }
 }
 
 body {
-  margin: 0;
-  font: 1rem/1.5 "PT Sans", sans-serif;
-  color: black;
+    padding-left: 3px;
+    margin-left:auto; margin-right:auto;
+    font: 1rem/1.5 "PT Sans", sans-serif;
+    color: black;
+    width: 800px;
 }
+
+
+
 
 a {
   color: #08c;
   text-decoration: none;
 }
 
-#hwk_table {
-  border: 1px solid black; 
+
+.asn_table  {
+    border: 2px solid black;
+    border-collapse: collapse;
 }
+
+.asn_table * td,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.asn_table * .asn_num {
+    width: 3em;
+}
+
+.asn_table * .asn_ready {
+    width: 3em;
+}
+
+.asn_table * .asn_desc {
+    width: auto;
+    text-overflow: ellipsis;
+}
+
+.asn_table * .asn_date {
+    width: auto;
+}
+
+@media only screen and (max-device-width: 480px) {
+ .asn_table * .asn_date {
+    width: 5em;
+  }
+}
+
 
 a:hover {
   text-decoration: underline;
