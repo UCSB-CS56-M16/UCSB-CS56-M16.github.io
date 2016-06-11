@@ -7,9 +7,11 @@ Jekyll status on Travis-CI: [![Build Status](https://travis-ci.org/UCSB-CS56-M16
 * To add a status image like this in your README.md, see [these instructions](https://docs.travis-ci.com/user/status-images/)
 
 To test locally:
-* install rvm (the Ruby version manager)
-* `git clone` the repo
-* `rvm install ruby-x.x.x` (whatever version is specified in the Gemfile)
-* `gem install bundler`
-* `bundle install --path vendor/bundle`
-* `bundle exec jekyll serve`
+* One time setup:
+    * `git clone` the repo
+    * Install rvm (the Ruby version manager)
+    * Run `./setup.sh` to install correct ruby version, bundler version, and bundle the gems
+* From then on, to test the site locally:
+    * Run `./jekyll.sh
+    * Point browser to localhost:4000
+
