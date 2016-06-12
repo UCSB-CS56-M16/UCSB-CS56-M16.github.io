@@ -79,3 +79,7 @@ body {
     
 }
 
+@media print {
+	div.header {display: none; }
+	div.footer {display: none; }
+}
