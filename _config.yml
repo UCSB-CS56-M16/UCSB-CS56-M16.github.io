@@ -1,4 +1,6 @@
-course: "CS56 M16"
+course: "CS56"
+qtr: "M16"
+quarter: "Summer 2016"
 
 exclude: [vendor]
 

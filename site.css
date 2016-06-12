@@ -1,42 +1,8 @@
-
 ---
-layout: nil
+layout: null
 ---
 
-.hwk_header_name {
-  width:75%; text-align:left; border-bottom:none;
-}
-
-.hwk_header_subtext {
-  text-align:left; font-style:italic; 
-  vertical-align:bottom; font-size: 8pt !important; 
-  font-family:Arial Narrow, sans-serif; 
-  color:#333; border-top:none;
-}
-
-.hwk_header_umail_label {
-   padding-right:300px; 
-   border-right:none; 
-   vertical-align:middle; 
-   height:1.5em; 
-   text-align:left;"
-}
-
-.hwk_header_umail_entry {
-   border-left: none;
-   vertical-align:middle;
-}
-
-.hwk_header_circle_section {
-  font-size: 8pt !important; 
-  font-family:Arial Narrow, sans-serif; 
-  color:#666; 
-  line-height: 100%; 
-  vertical-align:top; 
-  padding-top: 1pt; 
-  padding-left: 2pt; 
-  padding-right: 2pt;
-}
+{% include hwk_header.css %}
 
 
 .asn_table  {
@@ -94,3 +60,4 @@ layout: nil
 		font-family: "Times New Roman",  serif;
 	}
 }
+

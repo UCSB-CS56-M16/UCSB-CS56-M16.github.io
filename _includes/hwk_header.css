@@ -1,0 +1,86 @@
+---
+layout: null
+---	    
+/* hwk_header.css */
+
+div.hwk-page-header {
+    page-break-before:always;
+    font-family: Arial Narrow,sans-serif;
+    font-size: 18px; font-weight: bold; text-align:right;
+    page-break-before:always; float:right;
+    text-align:right;
+    margin:0px; padding:0px;
+    width:8em; margin-left: 1em;
+}
+
+
+div.hwk-page-header table {
+    text-align:right; float:right; width:25%; text-align:right;
+    margin:0px; padding:0px; border-width: 0px;
+}
+
+div.hwk-page-header table tr {
+    margin:0px; padding:0px; line-height: 1.0;
+}
+
+div.hwk-page-header table tr td {
+    margin:0px; padding:0px; line-height: 1.0; border-width:0px;
+}
+
+div.hwk-page-header * td.page-num {
+    font-family: Arial, sans-serif;
+    color:black; font-size: 800%; text-align: center;
+}
+
+div.hwk-page-header * td.asn-num {
+    font-family: Arial Narrow, sans-serif; color:black; font-size: 500%; text-align:center; padding-left: 3px; padding-right: 3px;
+}
+
+div.hwk-page-header * td.course-qtr {
+    font-family: Arial Narrow, sans-serif;  color:black; font-size: 150%; text-align:center; padding-left: 3px; padding-right: 3px;
+}
+
+table.hwk-header-table *  {
+    border-collapse: collapse;
+    background-color: pink;
+    font-family:Arial Narrow, sans-serif;
+    font-size: 8pt;
+}
+
+.hwk-header-table {
+    width: 75%;
+}
+
+.hwk-header-name {
+    width:75%; text-align:left; border-bottom:none;
+}
+
+.hwk-header-subtext {
+  text-align:left; font-style:italic; 
+  vertical-align:bottom; 
+
+  color:#333; border-top:none;
+}
+
+.hwk-header-umail-label {
+   padding-right:300px; 
+   border-right:none; 
+   vertical-align:middle; 
+   height:1.5em; 
+   text-align:left;
+}
+
+.hwk-header-umail-entry {
+   border-left: none;
+   vertical-align:middle;
+}
+
+.hwk-header-section {
+
+  line-height: 100%; 
+  vertical-align: top; 
+  padding-top: 1pt; 
+  padding-left: 2pt; 
+  padding-right: 2pt;
+}
+
