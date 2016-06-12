@@ -6,14 +6,10 @@ assigned: 2016-06-21 09:30:00.00-7:00
 due: 2016-06-22 09:30:00.00-7:00
 ---
 
-# H00
-
-
-<div style="font-size:120%">
 
 <ol>
 
-<li> (6 pts) Please write your name: __________________________
+<li> (6 pts) Please write your name: __________________________ </li>
 
 
 <li> (5 pts)  If you didn't do it yet: 
@@ -25,7 +21,7 @@ Login at https://github.ucsb.edu
 
 This establishes your account on the local private UCSB Github server.    Until you have logged in at least once, your login doesn't exist, so we can't add you to the CS56 "organization"&nbsp;and that is something we must do before Thursday's lab.       <b>If it doesn't work</b>: Email help@engineering.ucsb.edu, and cc Prof. Conrad (pconrad@cs.ucsb.edu).  Include "github.ucsb.edu access" in the subject line.     Indicate whether the problem is CSIL access in general, or only access to github.ucsb.edu.
 
-Write your CSIL username here:
+Write your CSIL username here:_________________________________
 
 Points will be awarded if you do this by the time this homework is graded.  If not, you'll still have to do it, but you wont get those points back.
 
@@ -40,7 +36,7 @@ In addition to the UCSB campus github server, we will also be using the regular 
 
 * fill in the form at: http://bit.ly/cs56-w16-githubform
 
-Write your github.com username in the box here
+Write your github.com username in the box here: _____________________________
 
 Points will be awarded if you do this by the time this homework is graded.  If not, you'll still have to do it, but you wont get those points back.
 
@@ -94,19 +90,19 @@ Throughout the quarter, when I refer to '''HFJ''', this means your Head First Ja
 <th> java code</th>
 <th> explanation</th>
 </tr>
-<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
+<td> <div style="padding-top: 2em; padding-left: 15em;">&nbsp;</div></td>
 <td> declare a variable that indicates whether this year is a leap year or not, and initialize it to say that it is not a leap year</td>
 </tr>
 <tr>
-<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
+<td> <div style="padding-top: 2em; padding-left: 15em;">&nbsp;</div></td>
 <td> declare a variable item of type MenuItem, and initialize it to a "Caesar Salad" that costs 8.95.   Assume those are the two parameters that the constructor takes. </td>
 </tr>
 <tr>
-<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
+<td> <div style="padding-top: 2em; padding-left: 15em;">&nbsp;</div></td>
 <td> declare a variable of type double called total</td>
 </tr>
 <tr>
-<td> <div style="padding-top: 2em; padding-left: 30em;">&nbsp;</div></td>
+<td> <div style="padding-top: 2em; padding-left: 15em;">&nbsp;</div></td>
 <td> an assignment statement that calls the method getPrice on the variable item and adds the result into the variable total</td>
 </td>
 </table>
