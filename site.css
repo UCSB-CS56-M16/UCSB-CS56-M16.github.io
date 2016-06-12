@@ -3,34 +3,6 @@
 layout: nil
 ---
 
-/* Include your usual CSS here. */
-
-/*
-html {
-  font-size: 16px;
-
-}
-@media (min-width: 48rem) {
-  html {
-      font-size: 20px;
-  }
-}*/
-
-/*
-body {
-    background-color: #18335d;
-    font: 1rem/1.5 "PT Sans", sans-serif;
-    color: black;
-}
-*/
-/*
-#container {
-    padding: 3px 3px 3px 3px;
-    margin: 3px auto 3px auto;
-    background-color: #ffe;
-    width: 800px;
-}
-*/
 
 .asn_table  {
     border: 2px solid black;
@@ -82,6 +54,8 @@ body {
 @media print {
 	div.header {display: none; }
 	div.footer {display: none; }
-	font-size: 12px;
-	font-family: "Times New Roman",  serif;
+	body { 
+		font-size: 12px;
+		font-family: "Times New Roman",  serif;
+	}
 }
