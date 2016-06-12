@@ -82,4 +82,6 @@ body {
 @media print {
 	div.header {display: none; }
 	div.footer {display: none; }
+	font-size: 12px;
+	font-family: "Times New Roman",  serif;
 }
