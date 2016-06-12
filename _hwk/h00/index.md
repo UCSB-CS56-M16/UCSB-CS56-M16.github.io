@@ -105,6 +105,7 @@ Throughout the quarter, when I refer to '''HFJ''', this means your Head First Ja
 <td> <div style="padding-top: 2em; padding-left: 15em;">&nbsp;</div></td>
 <td> an assignment statement that calls the method getPrice on the variable item and adds the result into the variable total</td>
 </td>
+</tr>
 </table>
 </li>
 
