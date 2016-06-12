@@ -1,6 +1,10 @@
 course: "CS56"
 qtr: "M16"
 quarter: "Summer 2016"
+hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/chapters/HFJ_Chapter_"
+
+kramdown:
+   parse_block_html: true
 
 exclude: [vendor]
 
@@ -45,3 +49,4 @@ defaults:
     values:
       layout: exam_info
       
+
