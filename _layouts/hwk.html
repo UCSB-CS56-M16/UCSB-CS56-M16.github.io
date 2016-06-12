@@ -8,12 +8,14 @@
       <div id="container" data-role="page">
       {% include nav.html %}
         <div id="content"  class="ui-content">
+        <div class="hwk-header">
           <h1>{{page.num}} : {{page.desc}}</h1>
           <table class="asn_table">
             {% include asn_table_header_row.html %}
             {% assign asn = page %}
             {% include asn_table_row.html %}
           </table>
+        </div><!-- hwk-header -->  
           {{ content }}
         </div><!-- content -->
         {% include footer.html %}
