@@ -42,7 +42,6 @@ div.hwk-page-header * td.course-qtr {
 
 table.hwk-header-table *  {
     border-collapse: collapse;
-    background-color: pink;
     font-family:Arial Narrow, sans-serif;
     font-size: 8pt;
 }
@@ -84,3 +83,36 @@ table.hwk-header-table *  {
   padding-right: 2pt;
 }
 
+
+nav ul {
+    list-style-type: none;
+    margin: 2px 1em 2px 1em;
+    padding: 2px 1em 2px 1em;
+    
+}
+
+nav ul li {
+    display: inline;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(249,249,249);
+    border-bottom-color: rgb(221, 221, 221);
+    line-height: 20.8px;
+    margin: 2px 1em 2px 1em;
+    padding: 2px 1em 2px 1em;
+
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li a:visited {
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: rgb(51, 136, 204);
+    color: white;
+}

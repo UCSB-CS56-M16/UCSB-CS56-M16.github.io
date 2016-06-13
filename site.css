@@ -2,8 +2,6 @@
 layout: null
 ---
 
-{% include hwk_header.css %}
-
 
 .asn_table  {
     border: 2px solid black;
@@ -52,6 +50,13 @@ layout: null
     
 }
 
+.pagebreak {
+    page-break-before: always;
+    height: 0.5em;
+    width: 100%;
+    border: 1px solid black;
+}
+
 @media print {
 	div.header {display: none; }
 	div.footer {display: none; }
@@ -59,5 +64,13 @@ layout: null
 		font-size: 12px;
 		font-family: "Times New Roman",  serif;
 	}
+	
+	.pagebreak {
+	    page-break-before: always;
+	    height: 0.5em;
+	    width: 100%;
+	    border: none;
+	}
+
 }
 
