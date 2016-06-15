@@ -34,8 +34,7 @@ To run a servlet locally on your own machine, you could also use a servlet conta
 You may already have some experience with creating static web pages, and/or with creating web applications (e.g. using PHP, Python (Django or Flask) or Ruby on Rails.) If so, then the "Learn More" section will be basic review.
 
 If you are new to writing software for the web, you are <em>strongly encouaged</em> to read the background information at the "learn more" link below.
-
--   
+-   (Learn more about [Static Web Pages vs Web Apps](https://foo.cs.ucsb.edu/56wiki/index.php/WIP:Labs:Getting_Started_With_Heroku_In_Java:Learn_More#Static_Web_Pages_vs_Web_Apps) )
 
 ### Disk Quota
 
