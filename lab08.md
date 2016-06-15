@@ -54,7 +54,10 @@ Step 1: Create a Heroku Account associated with your umail.ucsb.edu
 
 If you do not already have a Heroku account associated with your umail.ucsb.edu account, navigate to <https://www.heroku.com/> and click the "Sign up for Free" link.
 
-<https://www.cs.ucsb.edu/~pconrad/images/heroku/50/HerokuSignup.png>
+<div style="clear:right;">
+</div>
+
+![Select Docs from Menu](IMAGES/HerokuSignup.png)
 
 You'll be asked for:
 
