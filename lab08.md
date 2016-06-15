@@ -46,8 +46,8 @@ IMPORTANT: if you are working on CSIL, and at some point things just "stop worki
 Then you probably have a disk quota problem.
 
 -   The best way to troubleshoot this, if you cannot log in, is to ask someone else that CAN log in to allow you to use a terminal window on their screen.
-    -   Use `ssh` `yourusername@csil.cs.ucsb.edu` to get into your account from their terminal session.
--   For troubleshooting tips, visit: <https://foo.cs.ucsb.edu/56wiki/index.php/CSIL#CSIL_disk_quota_Troubleshooting>
+    -   Use `ssh yourusername@csil.cs.ucsb.edu` to get into your account from their terminal session.
+-   For troubleshooting tips, visit: [CSIL Disk Quota Troubleshooting](https://foo.cs.ucsb.edu/56wiki/index.php/CSIL#CSIL_disk_quota_Troubleshooting)
 
 Step 1: Create a Heroku Account associated with your umail.ucsb.edu
 -------------------------------------------------------------------
