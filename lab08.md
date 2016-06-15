@@ -54,7 +54,7 @@ Step 1: Create a Heroku Account associated with your umail.ucsb.edu
 
 If you do not already have a Heroku account associated with your umail.ucsb.edu account, navigate to <https://www.heroku.com/> and click the "Sign up for Free" link.
 
-![Select Docs from Menu](IMAGES/HerokuSignup.png)
+![Heroku Signup](IMAGES/HerokuSignup.png)
 
 You'll be asked for:
 
@@ -71,7 +71,7 @@ You'll be asked for:
 </div>
 Step 2: Find the Heroku "Getting Started With Java" tutorial
 ------------------------------------------------------------
-![Select Docs from Menu](IMAGES/HerokuDashboardWithGettingStarted.png)
+![Heroku Dashboard Getting Started](IMAGES/HerokuDashboardWithGettingStarted.png)
 
 Next, find the Heroku "Getting Started With Java" tutorial. There are two ways to find this:
 
@@ -92,7 +92,7 @@ However, you get there, you are looking for the page that looks like the one at 
 
 |                                                                      |                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| ![Select Docs from Menu](IMAGES/JavaOnHeroku.png) |![Select Docs from Menu](IMAGES/GettingStartedWithJavaOnHeroku.png) |
+| ![Java on Heroku](IMAGES/JavaOnHeroku.png) |![Getting Started with Java on Heroku](IMAGES/GettingStartedWithJavaOnHeroku.png) |
 
 Step 3: Completing the Heroku Java Tutorial on CSIL
 ---------------------------------------------------
@@ -260,7 +260,7 @@ In this case, type N and hit enter, and then read through this step again.
 </td>
 </tr>
 </table>
-![Select Docs from Menu](IMAGES/IHaveDownloadedTheToolbelt.png)
+![I Have Downloaded Toolbelt Button](IMAGES/IHaveDownloadedTheToolbelt.png)
 
 ### Step 3c: Prepare the app
 
@@ -300,7 +300,7 @@ Here's what to do to add a remote for <https://github.com>
     -   This time, DO NOT add a .gitignore or a license. You are creating an empty repo.
 
 It should look like this:
-![Select Docs from Menu](IMAGES/emptyRepoGithub.png)
+![Empty Github Repo](IMAGES/emptyRepoGithub.png)
 
 Note that if you do accidentally create it with those files, you can still proceed, but you'll have to deal with a "merge conflict" on those files. That's not the end of the world—it's actually much easier to resolve that folks may think. You just edit the conflicting files, and then do another "git add", "git commit", "git push". But it's an extra detail we don't really want to deal with today if we can avoid it.
 
