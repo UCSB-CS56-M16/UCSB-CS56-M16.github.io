@@ -54,9 +54,6 @@ Step 1: Create a Heroku Account associated with your umail.ucsb.edu
 
 If you do not already have a Heroku account associated with your umail.ucsb.edu account, navigate to <https://www.heroku.com/> and click the "Sign up for Free" link.
 
-<div style="clear:right;">
-</div>
-
 ![Select Docs from Menu](IMAGES/HerokuSignup.png)
 
 You'll be asked for:
@@ -74,15 +71,12 @@ You'll be asked for:
 </div>
 Step 2: Find the Heroku "Getting Started With Java" tutorial
 ------------------------------------------------------------
-
-<https://www.cs.ucsb.edu/~pconrad/images/heroku/50/HerokuDashboardWithGettingStarted.png>
+![Select Docs from Menu](IMAGES/HerokuDashboardWithGettingStarted.png)
 
 Next, find the Heroku "Getting Started With Java" tutorial. There are two ways to find this:
 
 -   (1) Just login to your Heroku account. If you are a new Heroku user, there may very well be some kind of obvious link, such as the one you find in the picture to right ("Java: Get Started")
 
-<div style="clear:right;">
-</div>
 
 ![Select Docs from Menu](IMAGES/SelectDocsFromMenu.png)
 
@@ -98,7 +92,7 @@ However, you get there, you are looking for the page that looks like the one at 
 
 |                                                                      |                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| <https://www.cs.ucsb.edu/~pconrad/images/heroku/30/JavaOnHeroku.png> | <https://www.cs.ucsb.edu/~pconrad/images/heroku/30/GettingStartedWithJavaOnHeroku.png> |
+| ![Select Docs from Menu](IMAGES/JavaOnHeroku.png) |![Select Docs from Menu](IMAGES/GettingStartedWithJavaOnHeroku.png) |
 
 Step 3: Completing the Heroku Java Tutorial on CSIL
 ---------------------------------------------------
@@ -253,9 +247,9 @@ What do you see?
       version      #  display version
     -bash-4.3$ 
 
-In this case, click on the button on the Heroku tutorial web page, and continue:
+In this case, click on the button (shown below) on the Heroku tutorial web page, and continue:
 
-<http://www.cs.ucsb.edu/~pconrad/images/heroku/50/IHaveDownloadedTheToolbelt.png>
+
 
 </td>
 <td style="vertical-align:top;">
@@ -268,6 +262,8 @@ In this case, type N and hit enter, and then read through this step again.
 </td>
 </tr>
 </table>
+![Select Docs from Menu](IMAGES/IHaveDownloadedTheToolbelt.png)
+
 ### Step 3c: Prepare the app
 
 Now, continue with the [Prepare the app](https://devcenter.heroku.com/articles/getting-started-with-java#prepare-the-app) step. I would suggest doing this first though:
@@ -275,7 +271,7 @@ Now, continue with the [Prepare the app](https://devcenter.heroku.com/articles/g
     mkdir -p ~/cs56/lab08
     cd ~/cs56/lab08
 
-At this step, you are invited to do a `git` `clone` on a certain repo. This repo is the starting point code for working with Java on Heroku.
+At this step, you are invited to do a `git clone` on a certain repo. This repo is the starting point code for working with Java on Heroku.
 
 So do that git clone next—the one in the Heroku instructions.
 
@@ -306,8 +302,7 @@ Here's what to do to add a remote for <https://github.com>
     -   This time, DO NOT add a .gitignore or a license. You are creating an empty repo.
 
 It should look like this:
-
-<http://www.cs.ucsb.edu/~pconrad/images/github/50/emptyRepoGithub.png>
+![Select Docs from Menu](IMAGES/emptyRepoGithub.png)
 
 Note that if you do accidentally create it with those files, you can still proceed, but you'll have to deal with a "merge conflict" on those files. That's not the end of the world—it's actually much easier to resolve that folks may think. You just edit the conflicting files, and then do another "git add", "git commit", "git push". But it's an extra detail we don't really want to deal with today if we can avoid it.
 
@@ -315,13 +310,13 @@ Note that if you do accidentally create it with those files, you can still proce
 
 (3) At the command line, cd into the place you cloned the `java-getting-started` repo provided in the Heroku tutorial. The type this command (substituting the
 
-`git` `remote` `add` `github`<em>paste-ssh-url-from-step-2-above-here</em>
+`git remote add github`<em>paste-ssh-url-from-step-2-above-here</em>
 
 So, it will look something like this:
 
-`git` `remote` `add` `github` `git@github.com:yourgithubid/cs56-w16-lab08.git`
+`git remote add github git@github.com:yourgithubid/cs56-w16-lab08.git`
 
-Then, do this command: `git` `push` `github` `master`
+Then, do this command: `git push github master`
 
 If you then go to the <https://github.com> page for this repo, you should see the contents of the Heroku "java-getting-started" repo appear on the github.com page.
 
@@ -333,13 +328,13 @@ We are now going to repeat this step for <https://github.ucsb.edu>
 
 (6) At the command line, cd into the place you cloned the `java-getting-started` repo provided in the Heroku tutorial (same as step 3 above). Then type this command:
 
-`git` `remote` `add` `ucsb`<em>paste-ssh-url-from-step-5-above-here</em>
+`git remote add ucsb`<em>paste-ssh-url-from-step-5-above-here</em>
 
 So, it will look something like this:
 
-`git` `remote` `add` `ucsb` `git@github.ucsb.edu:yourgithubid/cs56-w16-lab08.git`
+`git remote add ucsb git@github.ucsb.edu:yourgithubid/cs56-w16-lab08.git`
 
-Then, do this command: `git` `push` `ucsb` `master`
+Then, do this command: `git push ucsb master`
 
 If you then go to the <https://github.ucsb.edu> page for this repo, you should see the contents of the Heroku "java-getting-started" repo appear on the github.com page.
 
@@ -352,8 +347,8 @@ Note that the names `github` and `ucsb` that we used for the additional remotes 
 
 The idea is that now:
 
--   you can `git` `pull` from any of these remotes where you have read access
--   you can `git` `pull` from any of these remotes where you have write access
+-   you can `git pull` from any of these remotes where you have read access
+-   you can `git pull` from any of these remotes where you have write access
 
 This is, in general, the mechanism you can use if you need to move code from one repo to another, e.g. from a repo on github.com to github.ucsb.edu, or vice-versa. You just git pull from one place, and git push to the other.
 
@@ -362,13 +357,13 @@ Note that in this setup the repos do NOT automatically stay in sync by any means
 At a later stage, you'll see that there is a command that automatically adds a fourth remote to your repo:
 
 -   This remote is called `heroku`
--   When you `git` `push` `heroku` `master` the code you push updates a running web app on the Heroku server
+-   When you `git push heroku master` the code you push updates a running web app on the Heroku server
 
 But, we're getting ahead of ourselves. Let's continue with the Heroku tutorial.
 
 ### Step 3d: Deploy the app
 
-For the [Deploy the app](https://devcenter.heroku.com/articles/getting-started-with-java#deploy-the-app) step, the only note is that you cannot use the "heroku open" command if you are logged in via ssh without X11 forwarding. Instead, just open a web browser and point it at the URL you were given, in the message that came from the `git` `push` `origin` `master` step, e.g.
+For the [Deploy the app](https://devcenter.heroku.com/articles/getting-started-with-java#deploy-the-app) step, the only note is that you cannot use the "heroku open" command if you are logged in via ssh without X11 forwarding. Instead, just open a web browser and point it at the URL you were given, in the message that came from the `git push origin master` step, e.g.
 
     http://warm-eyrie-9006.herokuapp.com/ deployed to Heroku
 
@@ -444,18 +439,18 @@ Add a line below it that looks like this:
 
 Then do a:
 
--   `git` `add`
--   `git` `commit` `-m` `"Go` `Gauchos"`
--   `git` `push` `heroku` `master`
+-   `git add`
+-   `git commit -m "Go Gauchos"`
+-   `git push heroku master`
 
 Also, for good measure:
 
--   `git` `push` `github` `master`
--   `git` `push` `ucsb` `master`
+-   `git push github master`
+-   `git push ucsb master`
 
 You will NOT likely be able to do
 
--   `git` `push` `origin` `master` THIS WON'T WORK.
+-   `git push origin master` THIS WON'T WORK.
 
 Reason: origin, the place you cloned from, is a repo owned by Heroku. You have no "write permission" to that repo.
 
@@ -508,7 +503,7 @@ Continue through these steps:
 
 For the most part, the rest of the instructions work with no modifications, except for the following cautions:
 
--   When running the app locally (via `heroku` `local` `web`), you are running the web app directly on the CSIL machine where you are logged in. In this case, you can use this shell command to check whether the web app is running:
+-   When running the app locally (via `heroku local web`), you are running the web app directly on the CSIL machine where you are logged in. In this case, you can use this shell command to check whether the web app is running:
 
 <!-- -->
 
@@ -516,7 +511,7 @@ For the most part, the rest of the instructions work with no modifications, exce
 
 You <em>might</em> also be able to type `hostname` to see the name of your machine, and the use URL such as `http://butthead.cs.ucsb.edu:5000`in a regular browser.
 
--   When running the web app on heroku, the instructions typically tell you to type `heroku` `open` to bring up a web browser directed towards the app on heroku. This <em>might</em> work if you are logged in directly on a machine in the CSIL or Phelps labs, but it will NOT work if you are ssh'd in (unless, perhaps, you are using XMing or some other X11 forwarding.) Instead, get the URL for your app from the Heroku Dashboard. Log on to <http://heroku.com>, and find your running web app there. It will give you the URL that you can use to bring it up in a regular browser.
+-   When running the web app on heroku, the instructions typically tell you to type `heroku open` to bring up a web browser directed towards the app on heroku. This <em>might</em> work if you are logged in directly on a machine in the CSIL or Phelps labs, but it will NOT work if you are ssh'd in (unless, perhaps, you are using XMing or some other X11 forwarding.) Instead, get the URL for your app from the Heroku Dashboard. Log on to <http://heroku.com>, and find your running web app there. It will give you the URL that you can use to bring it up in a regular browser.
 
 Step 4: Submitting
 ------------------
