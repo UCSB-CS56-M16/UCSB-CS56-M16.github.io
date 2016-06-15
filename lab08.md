@@ -154,10 +154,8 @@ So, for now, "choose" standalone, but DON'T follow the instructions listed.
 
 Choosing Standalone invites you to type the following command, which you SHOULD NOT DO:
 
-<div>
-`$` <span style="text-decoration:line-through">`wget` `-qO-` `https://toolbelt.heroku.com/install.sh` `|` `sh`</span> <span style="font-size:120%; font-weight:bold;color:#600;"><span style="font-size:200%">←</span><span>DO NOT DO THIS!</span></span>
+**DO NOT DO THIS! -->** `$ wget -qO- https://toolbelt.heroku.com/install.sh | sh` **<-- DO NOT DO THIS!**
 
-</div>
 **Why you shouldn't do that**
 
 Here's what that command does:
