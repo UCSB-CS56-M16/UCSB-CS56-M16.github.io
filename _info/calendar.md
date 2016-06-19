@@ -3,4 +3,6 @@ title: Calendar
 layout: calendar
 ---
 
-TODO: Put calendar here
+# Calendar
+
+<div id='calendar'></div>
