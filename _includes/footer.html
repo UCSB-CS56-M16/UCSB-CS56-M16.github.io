@@ -1,7 +1,8 @@
 <div data-role="footer" class="footer">
  <nav data-role="navbar" data-grid-"d">
   <ul>
-   <li><a href="https://github.com/UCSB-CS56-M16/UCSB-CS56-M16.github.io/">this site on github</a></li>
+   <li><a href="{{site.github_url}}">this site on github</a></li>
+   <li><a href='{{site.github_url}}/edit/master/{{page.path|replace_first: "{{site.github_repo}}/",""}}'>edit this page on github</a></li>
   </ul>
  </nav>
 </div>
