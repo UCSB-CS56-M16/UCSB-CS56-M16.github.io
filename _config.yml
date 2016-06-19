@@ -47,11 +47,17 @@ defaults:
       type: lab
     values:
       layout: lab
-
+  - 
     scope:
       path: ""
       type: exam
     values:
       layout: exam_info
-      
+  - 
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: info
+  
 
