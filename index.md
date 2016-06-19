@@ -6,12 +6,12 @@ title: CS56, Summer 2016, pconrad
 
 
 <div id="info" data-role="collapsible" data-collapsed="false">
-  <h2>Course Information</h2>
-    <ul>
-      {% for item in site.info %}
-         <li><a href="{{item.url}}">{{item.title }}</a></li>
-      {% endfor %}
-    </ul>
+<h2>Course Information</h2>
+<ul markdown=0>
+  {% for item in site.info %}
+    <li><a href="{{item.url}}">{{item.title }}</a></li>
+  {% endfor %}
+</ul>
 </div>
 
 <div data-role="collapsible" data-collapsed="false">
