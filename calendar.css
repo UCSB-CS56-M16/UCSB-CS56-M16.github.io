@@ -1,0 +1,14 @@
+
+
+#calendar table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calendar table tr th,td {
+    border: 1px solid black;
+}
+
+#calendar table tr td  {
+    text-align:center;
+}
