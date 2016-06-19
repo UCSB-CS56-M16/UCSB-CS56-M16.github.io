@@ -22,6 +22,9 @@ collections:
   exam:
     output: true
     permalink: /exam/:path/
+  info:
+    output: true
+    permalink: /info/:path/
 
 
 defaults:
