@@ -11,6 +11,19 @@ var dates = {
 	},
 	{% endfor %}
     ],
+    "lab": [
+	{% for asn in site.lab %}
+	{
+	    "num" : "{{ asn.num }}",
+	    "ready" :  "{{ asn.ready }}",
+	    "desc" :  "{{ asn.desc }}",
+	    "assigned" :  "{{ asn.assigned }}",
+	    "due" :  "{{ asn.due }}",
+	    "url" :  "{{ asn.url }}",
+	},
+	{% endfor %}
+    ],
+    
 };
 
 
@@ -28,44 +41,47 @@ function traverseDates(dates) {
     var mmdd = thisDay.format("MM/DD");
     for (var i = 1, len = cal.numWeeks; i <= len; i++) {
 	for (var j=1; j<=7; j++) {
-	    console.log("mmdd=" + mmdd);
 	    cal.days[mmdd] = [];
 	    thisDay = thisDay.add(1,"days");
 	    mmdd = thisDay.format("MM/DD");	    
 	}
     }
     for (var i = 0, len = dates.hwk.length; i < len; i++) {
-	processHwk(dates.hwk[i]);
+	processHwkOrLab(dates.hwk[i],"hwk");
+    }
+    for (var i = 0, len = dates.lab.length; i < len; i++) {
+	processHwkOrLab(dates.lab[i],"lab");
     }
 }
 
-
-function isHwkAssignment(hwk) {
-    return hwk.hasOwnProperty('num') &&
-	hwk.hasOwnProperty('ready') &&
-	hwk.hasOwnProperty('desc') &&
- 	hwk.hasOwnProperty('assigned') &&
-	hwk.hasOwnProperty('due') ;
+function isHwkOrLabAssignment(hwkOrLab) {
+    return hwkOrLab.hasOwnProperty('num') &&
+	hwkOrLab.hasOwnProperty('ready') &&
+	hwkOrLab.hasOwnProperty('desc') &&
+ 	hwkOrLab.hasOwnProperty('assigned') &&
+	hwkOrLab.hasOwnProperty('due') ;
 }
 
-function processHwk(item) {
-    if (!isHwkAssignment(item)) {
-	reportError("problem with hwk object: " + JSON.stringify(hwk));
+function processHwkOrLab(item,which) {
+    if (which!="hwk" && which!="lab") {
+	reportError("processHwkorLab: second param must be hwk or lab: " + which);
 	return;
     }
+    if (!isHwkOrLabAssignment(item)) {
+	reportError("processHwkOrLab: problem with item" + JSON.stringify(item));
+    }
 
-    var hwk=item;     // Now we know properties are present.
+    mmdd_assigned = moment(item.assigned).format("MM/DD");
+    mmdd_due = moment(item.due).format("MM/DD");
 
-    mmdd_assigned = moment(hwk.assigned).format("MM/DD");
-    mmdd_due = moment(hwk.due).format("MM/DD");
-
-    var assigned = {"asn_type" : "hwk", "date_type" : "assigned", "value": JSON.stringify(hwk) };
+    var assigned = {"asn_type" : which, "date_type" : "assigned", "value": JSON.stringify(item) };
     pushToFirstIfArrayElseSecond(assigned,cal.days[mmdd_assigned],cal.days_outside_calendar);
 
-    var due = {"asn_type" : "hwk", "date_type" : "due", "value": JSON.stringify(hwk)};
+    var due = {"asn_type" : which, "date_type" : "due", "value": JSON.stringify(item)};
     pushToFirstIfArrayElseSecond(due,cal.days[mmdd_due],cal.days_outside_calendar);
     
 }
+
 
 // Used to cal.days[date], but fail over to
 //  the cal.days_outside_calendar as a backup
@@ -135,16 +151,26 @@ function addCalendarTable(cal) {
 	$(this).addClass("hwk");
     });
 
+    $('.cal-assignments div[data-asn-type="lab"]').each(function() {
+	var asn = ($(this).data("date-value"));
+	var link = $('<a />')
+	    .attr('href',asn.url)
+	    .attr('data-ajax','false')
+	    .text(asn.num)
+	    .appendTo($(this));
+	$(this).addClass("lab");
+    });
+
+    
     $('.cal-assignments div[data-date-type="due"]').each(function() {
-	var hwk = ($(this).data("date-value"));
-	$(this).append(" due " + moment(hwk.due).format("hh:mma") );
+	var asn = ($(this).data("date-value"));
+	$(this).append(" due " + moment(asn.due).format("hh:mma") );
     });
 
     $('.cal-assignments div[data-date-type="assigned"]').each(function() {
 	$(this).append(" assigned");
     });
 
-    
 }
 
 function getAssignments(cal,mmdd) {
