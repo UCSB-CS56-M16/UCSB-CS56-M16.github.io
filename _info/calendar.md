@@ -4,6 +4,6 @@ layout: calendar
 ---
 
 
-<div id='calendar'></div>
+<div id='calendar' class='calendar'></div>
 
 

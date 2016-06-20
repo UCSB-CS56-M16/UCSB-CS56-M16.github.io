@@ -1,14 +1,15 @@
 
 
-#calendar table {
+.calendar table {
     border-collapse: collapse;
     width: 100%;
 }
 
-#calendar table tr th,td {
+.calendar table tr th,td {
     border: 1px solid black;
 }
 
-#calendar table tr td  {
+.calendar table tr td  {
     text-align:center;
+    vertical-align:top;
 }
