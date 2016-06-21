@@ -81,6 +81,8 @@ Here is an overview of the remaining steps in the lab:
     - For that, you'll need the basic git workflow, explained [here](git_basic_workflow)
     - Once you have an initial version of the files, you are ready to start work.
 10. Follow the detailed instructions below to complete the assignment.
+    - Refer to the README file at the root of the [cs56-rational-example repo](https://github.com/UCSB-CS56-M16/cs56-rational-example/blob/master/README.md)
+    - Refer to the README files inside each of the ex** directories in the repo
 11. When you are finished, to "submit", there will be a link on Gauchospace for you to enter
     the URL of your repo, and the URL of your javadoc.    If you cannot find that link,
     ask your instructor on Piazza.
