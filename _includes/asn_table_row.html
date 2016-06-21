@@ -1,4 +1,4 @@
-<tr>
+<tr class={% if asn.ready %}"ready"{% else %}"not-ready"{% endif %} >
   <td class="asn_num"  ><a href="{{asn.url}}" data-ajax="false">{{ asn.num }}</a></td>
   <td class="asn_ready">{{asn.ready}}</td>
   <td class="asn_desc" >{{ asn.desc }}</td>

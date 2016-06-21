@@ -143,6 +143,11 @@ function addCalendarTable(cal) {
     }
     $('.cal-assignments div[data-asn-type="hwk"]').each(function() {
 	var hwk = ($(this).data("date-value"));
+    if (hwk.ready=="true") {
+		$(this).addClass("ready");
+	} else {
+		$(this).addClass("not-ready");
+	}
 	var link = $('<a />')
 	    .attr('href',hwk.url)
 	    .attr('data-ajax','false')
@@ -152,10 +157,15 @@ function addCalendarTable(cal) {
     });
 
     $('.cal-assignments div[data-asn-type="lab"]').each(function() {
-	var asn = ($(this).data("date-value"));
+	var asn = $(this).data("date-value");
+    if (asn.ready=="true") {
+		$(this).addClass("ready");
+	} else {
+		$(this).addClass("not-ready");
+	}
 	var link = $('<a />')
 	    .attr('href',asn.url)
-	    .attr('data-ajax','false')
+		// .attr('data-ajax','false')
 	    .text(asn.num)
 	    .appendTo($(this));
 	$(this).addClass("lab");

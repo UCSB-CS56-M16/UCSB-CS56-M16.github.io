@@ -1,5 +1,3 @@
-
-
 .calendar table {
     border-collapse: collapse;
     width: 100%;
@@ -12,4 +10,33 @@
 .calendar table tr td  {
     text-align:center;
     vertical-align:top;
+}
+
+.cal-assignments {
+   padding: 0.5em 0.5em 0.5em 0.5em;
+   text-align: left;
+}
+
+.not-ready {
+   color: #ccc;
+}
+
+.not-ready  a {
+   color: #cce;
+}
+
+.not-ready  a:visited {
+   color: #cce;
+}
+
+.ready a:hover {
+   color: #00f;
+}
+
+.not-ready a:hover {
+   color: #00f;
+}
+
+a:hover {
+   color: #00f;
 }
