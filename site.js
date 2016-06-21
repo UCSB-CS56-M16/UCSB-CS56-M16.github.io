@@ -14,13 +14,9 @@ function countPoints(n) {                     // n is a Node
   return numpoints;   // Return total of all children's points
 }
 
-function updatePointCount()
-{
-  if ($(".pointCount").length > 0 ) {
-    var total = countPoints(document.body);
-    $(".pointCount").html(total);
-  }
-}
+
+  
+
 
 $(document).ready(function(){
     console.log("site.js: document is ready");
@@ -38,7 +34,10 @@ $(document).ready(function(){
 	$(this).html(i+1); // re-calculate page numbers
     });
     
-    updatePoints();
+    if ($(".pointCount").length > 0 ) {
+      var total = countPoints(document.body);
+      $(".pointCount").html(total);
+    }
     
     console.log("site.js: done");
 });
