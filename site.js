@@ -2,6 +2,19 @@
 layout: null
 ---
 
+// TODO: Rewrite in JQuery.  Add unit tests
+function pointCount(n) {
+  var text = n.data;
+  // look for (x pts) where x is some sequence of [0-9]+
+  // save the result of [0-9]+ in result[1]
+  var pointRegExp = /\([ ]*([0-9]+)[ ]*pt[s]?[ ]*\)/i;  
+  var result = pointRegExp.exec(text);
+  return result ? parseInt(result[1]) : 0; 
+  // if there was a match, result is truthy
+  // if there was a match, numeric part is in result[1]
+  // otherwise result is 0 points
+}
+
 // TODO: Rewrite in JQuery 
 function countPoints(n) {                     // n is a Node 
   if (n.nodeType == 3 /*Node.TEXT_NODE*/)   // Check if n is a Text object
