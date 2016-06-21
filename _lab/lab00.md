@@ -52,7 +52,7 @@ Here is an overview of the remaining steps in the lab:
 2. Create a *private* repo for lab00 under the UCSB-CS56-M16 organization
     - It should be called lab00_yourgithubid
     - Add a .gitignore for Java and a README.md file
-    - detailed instructions [here](#Step_2)
+    - detailed instructions [here](#step-2)
 3.  Configure your CSIL account for git
     - detailed instructions [here](https://ucsb-cs56-pconrad.github.io/topics/csil_git_configuration/)
 
