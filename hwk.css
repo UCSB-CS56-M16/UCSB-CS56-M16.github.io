@@ -116,3 +116,7 @@ nav ul li a:hover {
     background-color: rgb(51, 136, 204);
     color: white;
 }
+
+ol li ol li {
+   list-style-type: lower-alpha;
+}

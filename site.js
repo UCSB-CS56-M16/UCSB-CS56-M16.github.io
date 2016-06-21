@@ -36,7 +36,7 @@ $(document).ready(function(){
     $('[data-hfj]').each(function() {
 	var chapter_num = $(this).data('hfj');
 	var href = "{{ site.hfj_chapter_url_prefix }}" + chapter_num;
-	$(this).html('<a href="' + href + '">HFJ Chapter ' + $(this).data('hfj') + '</a>');
+	$(this).append($('<a href="' + href + '">HFJ Chapter ' + $(this).data('hfj') + '</a>'));
     });
 
     $('.pagebreak').each(function() {
