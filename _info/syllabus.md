@@ -1,5 +1,6 @@
 ---
 title: "Syllabus, CMPSC 56, Summer 2016"
+layout: handout
 ---
 
 CS56, Summer 2016, Syllabus
@@ -9,13 +10,11 @@ CS56, Summer 2016, Syllabus
 Basic Facts
 -----------
 
-|                |                                                 |                              |                                                             |
-|----------------|-------------------------------------------------|------------------------------|-------------------------------------------------------------|
-| **Instructor** | [Phill Conrad](http://www.cs.ucsb.edu/~pconrad) | **Lecture**                  | TWR 9:30am-10:50pm Phelps 3526                               
-                                                                                                   ATTENDANCE REQUIRED.                                         |
-| **TAs**        | Hiranya Jayathilaka, Richard Jiang (contact via Piazza)      | **Lab** (discussion section) | Friday 9am-10:20am, 10:30am-11:50am Phelps 3525           
-                                                                                                   ATTENDANCE REQUIRED.                                         
-                                                                                                   Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  |
+* **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
+* **Lecture**: TWR 9:30am-10:50pm Phelps 3526, ATTENDANCE REQUIRED.
+* **TAs**:  Hiranya Jayathilaka, Richard Jiang (contact via Piazza)
+* **Lab** (discussion section) Friday 9am-10:20am, 10:30am-11:50am Phelps 3525, ATTENDANCE REQUIRED.                                         
+* Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
 For course website links, visit the course Gauchospace site.
 
@@ -74,7 +73,6 @@ A+ grades: These may be awarded to the very best performing students in the clas
 | Final                                                                        | 30 %                      |
 | Labs (typically closed source, some open source), Hwks, In Class Assignments | 20 %                      |
 | Projects (open source)                                                       | 20 %                      |
-
 
 More On Grading
 ---------------
