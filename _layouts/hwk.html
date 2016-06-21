@@ -41,11 +41,13 @@
 	      <th class="asn_ready">ready?</th>
 	      <th class="asn_date" >assigned</th>
 	      <th class="asn_date" >due</th>
+	      <th class="asn_date" >points</th>
 	    </tr>
 	    <tr>
 	      <td class="asn_ready">{{page.ready}}</td>
 	      <td class="asn_date" >{{page.assigned | date: "%a %m/%d %I:%M%p"  }}</td> 
 	      <td class="asn_date" >{{page.due | date: "%a %m/%d %I:%M%p" }}</td>
+	      <td class="pointCount"></td>
 	    </tr>
 	   </table>
 
