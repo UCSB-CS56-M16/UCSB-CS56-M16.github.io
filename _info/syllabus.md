@@ -41,6 +41,7 @@ Note that "sharing code" doesn't mean "stealing code". We still don't take credi
 The official course description is here:
 
 <div style="background-color:#eee; border: 8px inset #333; font-size:75%; margin:1em; width:45em; padding: 0.5em;">
+
 CMPSC 56. Advanced Applications Programming
 (4) STAFF
 Prerequisite: Computer Science 24 and 32 with a grade of C or better
@@ -48,8 +49,9 @@ Prerequisite: Computer Science 24 and 32 with a grade of C or better
 Advanced application programming using a high-level, virtual-machine-based language. Topics include generic programming, exception handling, programming language implementation; automatic memory management, and application development, management, and maintenance tools; event handling, concurrency and threading, and advanced library use.
 
 </div>
-</div>
-<div style="font-size:122%">
+
+<div style="page-break-before:always;">&nbsp;</div>
+
 Final Course Grades
 ===================
 
@@ -78,13 +80,13 @@ More On Grading
 ---------------
 
 <div style="font-size:90%">
+
 Grading: we'll have two exams--a midterms and a final. That part of the course will be traditional. And, there will be some traditional lab and homework assignments (and perhaps quizzes) where "everybody in the class does roughly the same thing"---those make up another 20% of your grade.
 
 The remaining part of your grade--the last 20%--comes from project points which are explained in more detail later in this syllabus.
 
 </div>
-</div>
-<div style="font-size:102%">
+
 Project Points
 ==============
 
@@ -107,6 +109,7 @@ You may not earn more than 1100 total project points--any points in excess of 11
 How to interpret these "due dates":
 
 <div style="font-size:80%">
+
 -   Unless told otherwise in the instructions for a particular project points assignment, you may complete any project point assignment at any time.
 -   However, the points have to be "recorded" somewhere to count towards your grade.
 -   Before the first deadline , you have the possibility to earn up to 1100 project points.
@@ -116,6 +119,9 @@ How to interpret these "due dates":
 -   However, once a deadline has passed, only project points earned before that deadline may be applied to that assignment.
 
 </div>
+
+<div style="page-break-before:always;">&nbsp;</div>
+
 Attendance
 ==========
 
@@ -166,8 +172,7 @@ Notes sheets on exams
 -   Your notes sheet will be collected and WILL NOT BE RETURNED
 -   So, if you need a copy of it, make a copy BEFORE you come to the exam.
 
-</div>
-<div style="font-size:112%">
+
 Questions about grades
 ----------------------
 
