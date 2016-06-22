@@ -98,8 +98,8 @@ These are adapted from the material in the cs56-rational-example/ex08/README.md 
 * Note that for each method, you should add a reasonable number of tests.  The exact number is left to you to determine, but it should be no less than three for each method.
 
 
-| method                             | explanation                     |
-|------------------------------------|---------------------------------|
+| method                                    | explanation                     |
+|-------------------------------------------|---------------------------------|
 | `public static int lcm(int a, int b)` | returns least common multiple of a and b. See [wikipedia discussion](https://en.wikipedia.org/wiki/Least_common_multiple#Computing_the_least_common_multiple) |
 | `public Rational plus(Rational r)` | returns sum of this number plus r |
 | `public static Rational sum(Rational a, Rational b)` | returns a+b |
