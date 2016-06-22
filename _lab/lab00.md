@@ -137,10 +137,10 @@ Publishing your javadoc online
 2. cd into your ~/cs56 directory (or into whatever directory you cloned your `lab00_yourgithubid` repo).  You want to clone your `lab00_javadoc_yourgithubid` repo into the same directory so that they are siblings, side-by-side in the same directory.
 3. We will now add some lines into your build.xml that copy the generated javadoc from your private repo to the public repo, 
    and we'll set the default branch of the public repo to be gh-pages.
-   That process is explained in detail [here](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo)
+   That process is explained in detail here: [Javadoc: publishing to github pages from private repo](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo)
 4. Once you've followed the instructions in the link at step 3, your javadoc should be available online at a URL similar to
    the following one (but with your githubid instead of `yourgithubid`).
-   <https://UCSB-CS56-M16.github.io/lab00_javadoc_yourgithubid/javadoc/index.html>
+   `https://UCSB-CS56-M16.github.io/lab00_javadoc_yourgithubid/javadoc/index.html`
 
 If you run into difficulties, ask your mentor/TA/instructor if in class, or ask on Piazza if outside of class.
 
