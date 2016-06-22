@@ -60,6 +60,7 @@ layout: null
 @media print {
 	div.header {display: none; }
 	div.footer {display: none; }
+	div.not-ready-warning { display: none; }
 	body { 
 		font-size: 12px;
 		font-family: "Times New Roman",  serif;
@@ -75,3 +76,20 @@ layout: null
 }
 
 tr.not-ready td { color: #ccc; }
+
+
+div.not-ready-warning {
+   width:80%;
+   margin-left:auto;
+   margin-right:auto;
+   padding:1em 1em 1em 1em;
+   margin:1em 1em 1em 1em;		     
+   border: 10px outset red;
+   color: black;
+   background-color: #ffc;
+   text-align: left;
+}
+
+div.not-ready-warning h2, h3 {
+ text-align:center;
+}
