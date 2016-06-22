@@ -87,3 +87,71 @@ Here is an overview of the remaining steps in the lab:
     
 Come back to this page for updates; we may add some information about testing,
 and a grading rubric that you can check your lab against before you submit.
+
+Detailed Instructions 
+=====================
+
+These are adapted from the material in the cs56-rational-example/ex08/README.md file
+
+* Start with the code in the ex08 directory. 
+* Add both tests and correct implementations of these methods to the class.
+* Note that for each method, you should add a reasonable number of tests.  The exact number is left to you to determine, but it should be no less than three for each method.
+
+
+| method                             | explanation                     |
+|------------------------------------|---------------------------------|
+| `public static int lcm(int a, int b)` | returns least common multiple of a and b. See [wikipedia discussion](https://en.wikipedia.org/wiki/Least_common_multiple#Computing_the_least_common_multiple) |
+| `public Rational plus(Rational r)` | returns sum of this number plus r |
+| `public static Rational sum(Rational a, Rational b)` | returns a+b |
+| `public Rational minus(Rational r)` | returns this number minus r |
+| `public static Rational difference(Rational a, Rational b)` | returns a-b |
+| `public Rational reciprocalOf()`   | returns reciprocal (swap numerator and denominator).  If numerator if zero, throws an instance of `java.lang.ArithmeticException`  |
+| `public Rational dividedBy(Rational r)` | returns this number divided by r |
+| `public static Rational quotient(Rational a, Rational b`) | returns a divided by b |
+
+Some hints to make things easier:
+
+* (a - b) is equivalent to (a + (-1 * b))
+* (a / b) is equivalent to (a * reciprocal(b))
+
+So, don't repeat yourself:
+* Multiplication and gcd are already defined for you in the example code.
+* You need lcm to find a common denominator to add two rationals, so define lcm before addition.
+* The lcm can be defined in terms of gcd and absolute value&mdash;see [wikipedia discussion](https://en.wikipedia.org/wiki/Least_common_multiple#Computing_the_least_common_multiple). Absolute value is predefined `public int Math.abs(int a)`
+* Define addition before subtraction, and then define subtraction in terms of addition and multiplication.
+* Define reciprocal before division, then define division as multiplication by the reciprocal.
+
+Signify that you are finished by committing code to a github repo that contains a modified version of ex08, with all of the
+following:
+* a `build.xml` file (you shouldn't need to modify the example)
+* a `src` subdirectory containing `Main.java`, `Rational.java`, and `RationalTest.java`
+* a `lib` subdirectory contining the jar file for JUnit
+* a `javadoc` subdirectory in which you have produced the javadoc by running `ant javadoc`
+
+Note that you will not be able to publish your javadoc online with the github pages technique (i.e. pushing to a gh-pages branch), because this only works with public repos, not with private ones.   So, we've added some instructions below for publishing the javadoc to a separate public repo with the name lab00_javadoc_yourgithubid.
+
+Publishing your javadoc online
+==============================
+
+1. Create a *public*_repo with the name `lab00_javadoc_yourgithubid` under the <https://github.com/UCSB-CS56-M16> organization with a `README.md` (it is not necessary to include a .gitignore).
+2. cd into your ~/cs56 directory (or into whatever directory you cloned your `lab00_yourgithubid` repo).  You want to clone your `lab00_javadoc_yourgithubid` repo into the same directory so that they are siblings, side-by-side in the same directory.
+3. We will now add some lines into your build.xml that copy the generated javadoc from your private repo to the public repo, 
+   and we'll set the default branch of the public repo to be gh-pages.
+   That process is explained in detail [here](https://ucsb-cs56-pconrad.github.io/topics/javadoc_publishing_to_github_pages_from_private_repo)
+4. Once you've followed the instructions in the link at step 3, your javadoc should be available online at a URL similar to
+   the following one (but with your githubid instead of `yourgithubid`).
+   <https://UCSB-CS56-M16.github.io/lab00_javadoc_yourgithubid/javadoc/index.html>
+
+If you run into difficulties, ask your mentor/TA/instructor if in class, or ask on Piazza if outside of class.
+
+When you are finished
+=====================
+
+When you are finished, you'll have:
+* the url of your completed repo (e.g. <https://github.com/UCSB-CS56-M16/lab00_yourgithubid> )
+* the url of your javadoc (which will be in a separate public repo)
+    * URL of that repo will be: <https://github.com/UCSB-CS56-M16/lab00_javadoc_yourgithubid>
+    * When you push to a gh-pages branch, that repo's content will be published at
+      <https://UCSB-CS56-M16.github.io/lab00_javadoc_yourgithubid/javadoc/index.html>
+
+Look for instructions on Gauchospace to paste these URLs into the "online text" submission area for lab00.
