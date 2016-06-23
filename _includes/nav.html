@@ -14,4 +14,13 @@
    <li><a href="https://github.com/UCSB-CS56-Projects">projects</a></li>
   </ul>
  </nav>
+ {% if page.layout == "hwk" %}
+ <nav data-role="navbar" data-grid-"d">
+  <ul class="hwk-nav-bar">
+  {% for asn in site.hwk %}
+    <li><a href="{{asn.url}}">{{asn.num}}</a></li>
+  {% endfor %}
+  </ul>
+ </nav>
+{% endif %}
 </div>
