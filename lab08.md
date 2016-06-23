@@ -71,18 +71,18 @@ You'll be asked for:
 </div>
 Step 2: Find the Heroku "Getting Started With Java" tutorial
 ------------------------------------------------------------
-![Heroku Dashboard Getting Started](IMAGES/HerokuDashboardWithGettingStarted.png)
+
 
 Next, find the Heroku "Getting Started With Java" tutorial. There are two ways to find this:
 
--   (1) Just login to your Heroku account. If you are a new Heroku user, there may very well be some kind of obvious link, such as the one you find in the picture to right ("Java: Get Started")
+-   (1) Just login to your Heroku account. If you are a new Heroku user, there may very well be some kind of obvious link, such as the one you find in the picture below to the right ("Java: Get Started")
 
+![Heroku Dashboard Getting Started](IMAGES/HerokuDashboardWithGettingStarted.png)
 
-![Select Docs from Menu](IMAGES/SelectDocsFromMenu.png)
 
 -   (2) Find the "docs" link from the menu at upper left. That should take you to documentation, where you can find the "getting started with Java" as well as many other helpful links.
 
-<!-- -->
+![Select Docs from Menu](IMAGES/SelectDocsFromMenu.png)
 
 -   (3) Just do a web search for "heroku getting started java".
 
