@@ -6,7 +6,7 @@ start_date: 2016-06-19 00:00:00.00-7:00
 course: "CS56"
 qtr: "M16"
 quarter: "Summer 2016"
-hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/chapters/HFJ_Chapter_"
+hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfj/HFJ_Chapter_"
 
 kramdown:
    parse_block_html: true
