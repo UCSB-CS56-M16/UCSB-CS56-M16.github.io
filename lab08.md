@@ -81,8 +81,8 @@ Next, find the Heroku "Getting Started With Java" tutorial. There are two ways t
 
 
 -   (2) Find the "docs" link from the menu at upper left. That should take you to documentation, where you can find the "getting started with Java" as well as many other helpful links.
+| ![Navigate to Documentation](IMAGES/nav_to_documentation.png) |![Navigate to Java](IMAGES/nav_to_java.png) |
 
-![Select Docs from Menu](IMAGES/SelectDocsFromMenu.png)
 
 -   (3) Just do a web search for "heroku getting started java".
 
@@ -92,7 +92,7 @@ However, you get there, you are looking for the page that looks like the one at 
 
 |                                                                      |                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| ![Java on Heroku](IMAGES/JavaOnHeroku.png) |![Getting Started with Java on Heroku](IMAGES/GettingStartedWithJavaOnHeroku.png) |
+|![Smaller Java on Heroku](IMAGES/lower_size_nav_to_getting_started.png) |![Getting Started with Java on Heroku](IMAGES/GettingStartedWithJavaOnHeroku.png) |
 
 Step 3: Completing the Heroku Java Tutorial on CSIL
 ---------------------------------------------------
