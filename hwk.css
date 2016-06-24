@@ -154,3 +154,12 @@ table.asn_table tr.not-ready td.asn_ready {
 table.asn_table tr.ready td.asn_ready {
   color: green;		
 }
+
+td.h03-table table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td.h03-table table * td,th {
+    border: 1px solid black;
+    padding: 4px;
+}
