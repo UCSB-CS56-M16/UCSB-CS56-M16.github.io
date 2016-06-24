@@ -105,7 +105,7 @@ These are adapted from the material in the cs56-rational-example/ex08/README.md 
 | `public static Rational sum(Rational a, Rational b)` | returns a+b |
 | `public Rational minus(Rational r)` | returns this number minus r |
 | `public static Rational difference(Rational a, Rational b)` | returns a-b |
-| `public Rational reciprocalOf()`   | returns reciprocal (swap numerator and denominator).  If numerator if zero, throws an instance of `java.lang.ArithmeticException`  |
+| `public Rational reciprocalOf()`   | returns reciprocal (swap numerator and denominator).  If numerator if zero, throws an instance of `java.lang.ArithmeticException`. To review exceptions, see [ex07](https://github.com/UCSB-CS56-M16/cs56-rational-example/tree/master/ex07) |
 | `public Rational dividedBy(Rational r)` | returns this number divided by r |
 | `public static Rational quotient(Rational a, Rational b`) | returns a divided by b |
 
