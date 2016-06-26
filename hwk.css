@@ -165,6 +165,7 @@ td.h03-table table * td,th {
 }
 
 * ul li {
+    color: green;
     list-style-type: circle;   
 }
 }
