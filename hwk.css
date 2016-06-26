@@ -165,8 +165,14 @@ td.h03-table table * td,th {
 }
 
 ol li ol li ul  {
-   list-style-type: square;
-    color: red;
+  list-style: none; /* Remove list bullets */
+  color: red;
 }
+
+ol li ol li ul li {
+  color: purple;
+}
+
+
 
 }
