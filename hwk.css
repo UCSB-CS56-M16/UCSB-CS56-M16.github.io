@@ -163,3 +163,8 @@ td.h03-table table * td,th {
     border: 1px solid black;
     padding: 4px;
 }
+
+* ul li {
+    list-style-type: disc;   
+}
+}
