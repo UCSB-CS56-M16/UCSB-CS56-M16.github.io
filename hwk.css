@@ -164,7 +164,7 @@ td.h03-table table * td,th {
     padding: 4px;
 }
 
-* ul  {
+ol li ol li ul  {
     list-style-type: circle;   
     color: red;
 }
