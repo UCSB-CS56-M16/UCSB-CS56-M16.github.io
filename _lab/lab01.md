@@ -79,7 +79,7 @@ From /cs/faculty/pconrad/public\_html/cs56/16W/labs/lab03/code, you will copy th
 
 Since one of the things we are coping is a subdirectory, we'll need to use a `cp` `-r` command, like this:
 
-    cp -r /cs/faculty/pconrad/public_html/cs56/16W/labs/lab03/code/* ~/cs56/cs56-w16-lab03
+    cp -r /cs/faculty/pconrad/public_html/cs56/16W/labs/lab03/code/* .
 
 Also, you are going to copy you build.xml file from your [lab00](lab00)
 
