@@ -3,6 +3,32 @@ layout: null
 ---	    
 /* hwk_header.css */
 
+ol li table {
+    border-collapse: collapse;
+}
+
+
+ol li ol li table {
+    border-collapse: collapse;
+}
+
+
+ol li table * td {
+    border: 1px solid black;
+}
+
+ol li ol li table * td {
+    border: 1px solid black;
+}
+
+div.handwriting-table table {
+    width: 100%;
+}
+
+div.handwriting-table table * td {
+    height: 3em;
+}
+
 div.hwk-page-header {
     page-break-before:always;
     font-family: Arial Narrow,sans-serif;
@@ -163,7 +189,6 @@ td.h03-table table * td,th {
     border: 1px solid black;
     padding: 4px;
 }
-
 
 
 
