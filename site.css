@@ -3,6 +3,18 @@ layout: null
 ---
 
 
+table {
+    border-collapse: collapse;
+}
+
+table * th {
+    border: 1px solid black;
+}
+
+table * td {
+    border: 1px solid black;
+}
+
 .asn_table  {
     border: 2px solid black;
     border-collapse: collapse;
