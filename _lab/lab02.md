@@ -22,3 +22,11 @@ Together with your pair partner, you will do the following steps.
    your own laptop or desktop machine.  If it is your own computer, you'll need to install Java 8, and Ant.)
 4. Once you have cloned the forked repo, create a file called M16_lab02.md in the root directory of the repo.   In this file, 
    at the top, put both pair partner's names (if you prefer you may use first name last initial, e.g. Selena G., Justin T.)
+
+
+
+
+
+----
+
+Link to web version: http://ucsb-cs56-m16.github.io/labs/lab02
