@@ -21,11 +21,11 @@ ratio.
 | [cs56-games-pokemon-map](https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map) | Xiaohe | MadRubicant  |  SElegans  |    | 
 | [cs56-games-maze](https://github.com/UCSB-CS56-Projects/cs56-games-maze) | Christian |    |    |    | 
 | [cs56-utilities-GEscraper](https://github.com/UCSB-CS56-Projects/cs56-utilities-GEscraper) | Dylan |    |    |    | 
-| [cs56-utilities-restaurant-list](https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list) | Dylan |    |    |    | 
+| [cs56-utilities-restaurant-list](https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list) | Dylan | timnkwong |  alanthetran |    | 
 | [cs56-games-poker](https://github.com/UCSB-CS56-Projects/cs56-games-poker) | Dylan |    |    |    | 
 | [cs56-utilities-password-generator](https://github.com/UCSB-CS56-Projects/cs56-utilities-password-generator) | Christian |  EdieS  |  jhpenger  |    |
-| [cs56-music-beatbox](https://github.com/UCSB-CS56-Projects/cs56-music-beatbox) | Dylan |    |    |    | 
-| [cs56-networking-chat](https://github.com/UCSB-CS56-Projects/cs56-networking-chat) | Dylan |    |    |    | 
+| [cs56-music-beatbox](https://github.com/UCSB-CS56-Projects/cs56-music-beatbox) | Dylan |  osheaanaya  |  shanemasuda  |    | 
+| [cs56-networking-chat](https://github.com/UCSB-CS56-Projects/cs56-networking-chat) | Dylan |  milanes1  | winterfreddy |    | 
 | [cs56-games-rock-paper-scissors](https://github.com/UCSB-CS56-Projects/cs56-games-rock-paper-scissors) | Michael |    |    |    | 
 | [cs56-games-towers-of-hanoi](https://github.com/UCSB-CS56-Projects/cs56-games-towers-of-hanoi) | Michael  |    |    |    | 
 | [cs56-games-states-quiz](https://github.com/UCSB-CS56-Projects/cs56-games-states-quiz) | Michael  |    |    |    | 
