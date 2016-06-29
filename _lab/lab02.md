@@ -29,4 +29,4 @@ Together with your pair partner, you will do the following steps.
 
 ----
 
-Link to web version: http://ucsb-cs56-m16.github.io/labs/lab02
+Link to web version: http://ucsb-cs56-m16.github.io/lab/lab02
