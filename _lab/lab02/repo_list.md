@@ -35,24 +35,3 @@ ratio.
 | [cs56-games-memory-card](https://github.com/UCSB-CS56-Projects/cs56-games-memory-card) | Xiaohe |    |    |    | 
 | [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe |    |    |    | 
 | [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe |    |    |    | 
-
-
-| cs56-games-connectfour           | Christian |    |    |    | <https://github.com/UCSB-CS56-Projects/cs56-games-connectfour |
-| cs56-games-pokemon-map           | Christian |    |    |    | <https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map |
-| cs56-games-maze                  | Christian |    |    |    | <https://github.com/UCSB-CS56-Projects/cs56-games-maze |
-| cs56-utilities-GEscraper         | Dylan |    |    |    | <https://github.com/UCSB-CS56-Projects/cs56-utilities-GEscraper |
-| cs56-utilities-restaurant-list   | Dylan |    |    |    | <https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list |
-| cs56-pokergame                   | Dylan |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-pokergame |
-| cs56-utilities-password-generator | Dylan |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-utilities-password-generator |
-| cs56-music-beatbox               | Dylan |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-music-beatbox |
-| cs56-networking-chat             | Dylan |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-networking-chat |
-| cs56-games-rock-paper-scissors   | Michael |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-games-rock-paper-scissors |
-| cs56-games-towers-of-hanoi       | Michael  |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-games-towers-of-hanoi |
-| cs56-android-conversion-showdown | Nate |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-android-conversion-showdown |
-| cs56-android-smoke-signals       | Nate |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-android-smoke-signals |
-| cs56-android-games-pacman        | Nate |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman |
-| cs56-android-getting-started     | Nate |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-android-getting-started |
-| cs56-games-memory-card           | Xiaohe |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-games-memory-card |
-| cs56-games-Go                    | Xiaohe |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-games-Go |
-| cs56-utilities-cryptography      | Xiaohe |    |    |    | https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography |
-
