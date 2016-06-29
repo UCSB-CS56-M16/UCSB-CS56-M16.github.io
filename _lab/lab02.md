@@ -29,4 +29,6 @@ Together with your pair partner, you will do the following steps.
 
 ----
 
+<div style="display:none;">
 Link to web version: http://ucsb-cs56-m16.github.io/lab/lab02
+</div>
