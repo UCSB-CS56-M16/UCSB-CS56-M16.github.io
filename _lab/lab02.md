@@ -10,7 +10,7 @@ due: 2016-07-01 17:00:00.00-7
 
 In this lab, you'll be working in the pair partners that you chose during lecture on Tuesday June 28 in lecture via the [In-Class Assignment ic00](hwk/ic00).
 
-If you are solo or trio programming, see [this note](solo_and_trio).
+If you are solo or trio programming, see [this note](solo_trio).
 
 Together with your pair partner, you will do the following steps.
 
