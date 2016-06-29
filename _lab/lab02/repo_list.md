@@ -37,5 +37,5 @@ ratio.
 | [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe |    |    |    | 
 
 For convenience, if you are viewing the .md source in github while editing, here are links that take you directly to
-* web version of this page: [UCSB-CS56-M16.github.io/lab02/repo_list](http://UCSB-CS56-M16.github.io/lab02/repo_list)
-* web version of lab02: [UCSB-CS56-M16.github.io/lab02](http://UCSB-CS56-M16.github.io/lab02)
+* web version of this page: [UCSB-CS56-M16.github.io/lab02/repo_list](http://UCSB-CS56-M16.github.io/lab/lab02/repo_list)
+* web version of lab02: [UCSB-CS56-M16.github.io/lab02](http://UCSB-CS56-M16.github.io/lab/lab02)
