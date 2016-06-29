@@ -35,6 +35,8 @@ ratio.
 | [cs56-games-memory-card](https://github.com/UCSB-CS56-Projects/cs56-games-memory-card) | Xiaohe |    |    |    | 
 | [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe |    |    |    | 
 | [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe |    |    |    | 
+| [cs56-games-snake](https://github.com/UCSB-CS56-Projects/cs56-games-snake) | Xiaohe |    |    |    | 
+| [cs56-discretemath-towers-sierpinski](https://github.com/UCSB-CS56-Projects/cs56-discretemath-towers-sierpinski) | Xiaohe |    |    |    | 
 
 <div style="display:none;">
 
