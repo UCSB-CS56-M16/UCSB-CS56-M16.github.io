@@ -1,3 +1,8 @@
+---
+topic: "lab02: solo and trio programmers"
+desc: "Adapt the instructions using common sense"
+layout: default
+---
 
 
 # Special Note for Solo and Trio Programmers
