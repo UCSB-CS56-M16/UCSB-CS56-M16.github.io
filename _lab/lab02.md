@@ -7,7 +7,6 @@ assigned: 2016-06-29 09:30:00.00-7
 due: 2016-07-01 17:00:00.00-7
 ---
 
-<div style="display:none;">http://ucsb-cs56-m16.github.io/lab/lab02</div> 
 
 In this lab, you'll be working in the pair partners that you chose during lecture on Tuesday June 28 in lecture via the [In-Class Assignment ic00](hwk/ic00).
 
@@ -29,4 +28,7 @@ Together with your pair partner, you will do the following steps.
 
 
 
+<div style="display:none;">
+http://ucsb-cs56-m16.github.io/lab/lab02
+</div> 
 
