@@ -5,7 +5,7 @@ layout: default
 ---
 
 
-# Special Note for Solo and Trio Programmers
+# Special Note for Solo and Trio Programmers for [lab02](/lab/lab02)
 
 Note that although solo and trio situations are rare, they do sometimes happen.   Adjust the instructions using common sense.  For example:
 
@@ -13,3 +13,7 @@ Note that although solo and trio situations are rare, they do sometimes happen. 
 
 * If you are trio programming, read "partner" as "partners", "both&nbsp;partners" as "all&nbsp;three&nbsp;partners", and whatever is 
    suggested for pair&nbsp;partner&nbsp;2, repeat the step for pair&nbsp;partner&nbsp;3.
+
+<div style="display:none;">
+http://ucsb-cs56-m16.github.io/lab/lab02/solo_trio
+</div>
