@@ -28,6 +28,9 @@ ratio.
 | [cs56-networking-chat](https://github.com/UCSB-CS56-Projects/cs56-networking-chat) | Dylan |    |    |    | 
 | [cs56-games-rock-paper-scissors](https://github.com/UCSB-CS56-Projects/cs56-games-rock-paper-scissors) | Michael |    |    |    | 
 | [cs56-games-towers-of-hanoi](https://github.com/UCSB-CS56-Projects/cs56-games-towers-of-hanoi) | Michael  |    |    |    | 
+| [cs56-games-states-quiz](https://github.com/UCSB-CS56-Projects/cs56-games-states-quiz) | Michael  |    |    |    | 
+| [cs56-games-minesweeper](https://github.com/UCSB-CS56-Projects/cs56-games-minesweeper) | MIchael  |    |    |    | 
+| [cs56-games-country-runner](https://github.com/UCSB-CS56-Projects/cs56-games-country-runner) | Michael  |    |    |    | 
 | [cs56-android-conversion-showdown](https://github.com/UCSB-CS56-Projects/cs56-android-conversion-showdown) | Nate | dummyindex   |    |    | 
 | [cs56-android-smoke-signals](https://github.com/UCSB-CS56-Projects/cs56-android-smoke-signals) | Nate |    |    |    | 
 | [cs56-android-games-pacman](https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman) | Nate | colerogers   | kevinchuanucsb     |    | 
