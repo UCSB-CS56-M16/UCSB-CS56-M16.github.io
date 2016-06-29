@@ -22,7 +22,7 @@ ratio.
 | [cs56-games-maze](https://github.com/UCSB-CS56-Projects/cs56-games-maze) | Christian |    |    |    | 
 | [cs56-utilities-GEscraper](https://github.com/UCSB-CS56-Projects/cs56-utilities-GEscraper) | Dylan |    |    |    | 
 | [cs56-utilities-restaurant-list](https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list) | Dylan | timnkwong |  alanthetran |    | 
-| [cs56-games-poker](https://github.com/UCSB-CS56-Projects/cs56-games-poker) | Dylan |  dvanmali  |  ttsherpa   |  atyuen  | 
+| [cs56-games-poker](https://github.com/UCSB-CS56-Projects/cs56-games-poker) | Michael |  dvanmali  |  ttsherpa   |  atyuen  | 
 | [cs56-utilities-password-generator](https://github.com/UCSB-CS56-Projects/cs56-utilities-password-generator) | Christian |  EdieS  |  jhpenger  |    |
 | [cs56-music-beatbox](https://github.com/UCSB-CS56-Projects/cs56-music-beatbox) | Dylan |  osheaanaya  |  shanemasuda  |    | 
 | [cs56-networking-chat](https://github.com/UCSB-CS56-Projects/cs56-networking-chat) | Dylan |  milanes1  | winterfreddy |    | 
