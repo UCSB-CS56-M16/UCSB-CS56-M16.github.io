@@ -230,7 +230,7 @@ Try typing `heroku` at the shell prompt when logged into CSIL.
 
 What do you see?
 
-<table style="border: 1px solid black;">
+<table style="border: 1px solid black;" markdown="1">
 <tr>
 <td style="width:50%">
 <b>This is what you want to see:</b>
@@ -242,7 +242,8 @@ What do you see?
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top;">
+<td style="vertical-align:top;" markdown="1">
+```
     -bash-4.3$ heroku
     -bash-4.3$ heroku
     Updating Heroku v4 CLI to 4.27.9-cce0260 (master)... done
@@ -251,24 +252,25 @@ What do you see?
     Usage: heroku COMMAND [--app APP] [command-specific-options]
 
     Primary help topics, type "heroku help TOPIC" for more details:
-
+```
 <em>\[Many lines of output omitted\]</em>
-
+```
       twofactor    #  manage two-factor authentication settings
       update       #  update the heroku client
       version      #  display version
     -bash-4.3$ 
-
+```
 In this case, click on the button (shown below) on the Heroku tutorial web page, and continue:
 
 
-
+```
 </td>
-<td style="vertical-align:top;">
+<td style="vertical-align:top;" markdown="1">
+```
     -bash-4.3$ heroku
     bash: heroku: command not found...
     Install package 'rubygem-heroku' to provide command 'heroku'? [N/y] 
-
+```
 In this case, type N and hit enter, and then read through this step again.
 
 </td>
