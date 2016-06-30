@@ -94,8 +94,8 @@ You'll be asked for:
 
 <div style="clear:both;">
 </div>
-Step 2: Find the Heroku "Getting Started With Java" tutorial
-------------------------------------------------------------
+
+# Step 2: Find the Heroku "Getting Started With Java" tutorial
 
 
 Next, find the Heroku "Getting Started With Java" tutorial. There are two ways to find this:
