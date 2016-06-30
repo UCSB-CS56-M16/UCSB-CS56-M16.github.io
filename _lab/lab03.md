@@ -8,9 +8,9 @@ due: 2016-07-06 17:00:00.00-7
 last_before: Midterm Exam
 ---
 
-TODO: Fill in this lab.
-
-
+<div style="display:none" >
+Look here for formatted version: http://ucsb-cs56-m16-github.io/lab/lab03
+</div>
 
 This is an individual lab on the topic of Java web apps on Heroku.
 
