@@ -256,7 +256,7 @@ What do you see?
     Primary help topics, type "heroku help TOPIC" for more details:
 ```
 
-<em>\[Many lines of output omitted\]</em>
+*Many lines of output omitted...*
 
 ```
       twofactor    #  manage two-factor authentication settings
@@ -264,6 +264,7 @@ What do you see?
       version      #  display version
     -bash-4.3$ 
 ```
+
 In this case, click on the button (shown below) on the Heroku tutorial web page, and continue:
 
 
