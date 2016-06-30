@@ -255,7 +255,9 @@ What do you see?
 
     Primary help topics, type "heroku help TOPIC" for more details:
 ```
+
 <em>\[Many lines of output omitted\]</em>
+
 ```
       twofactor    #  manage two-factor authentication settings
       update       #  update the heroku client
