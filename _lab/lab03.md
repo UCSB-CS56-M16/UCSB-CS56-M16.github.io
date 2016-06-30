@@ -48,7 +48,18 @@ To run a servlet locally on your own machine, you could also use a servlet conta
 You may already have some experience with creating static web pages, and/or with creating web applications (e.g. using PHP, Python (Django or Flask) or Ruby on Rails.) If so, then the "Learn More" section will be basic review.
 
 If you are new to writing software for the web, you are <em>strongly encouaged</em> to read the background information at the "learn more" link below.
--   (Learn more about [Static Web Pages vs Web Apps](https://foo.cs.ucsb.edu/56wiki/index.php/WIP:Labs:Getting_Started_With_Heroku_In_Java:Learn_More#Static_Web_Pages_vs_Web_Apps) )
+-   [Web Pages vs. Web Apps](http://pconrad-webapps.github.io/topics/webpage_vs_webapp/)
+
+### What are we trying to accomplish again in this lab?
+
+If you just did a deep dive into the article [Web Pages vs. Web Apps](http://pconrad-webapps.github.io/topics/webpage_vs_webapp/), it may be helpful to again review what we are trying to accomplish in this lab:
+
+-   In this lab, we will <em>create a basic "Hello, World" type web app in Java"</em>
+-   To test that, we need to run that on a server somewhere.
+-   Configuring a web server for Java is challenging. But, fortunately, we don't have to.
+-   Heroku.com offers "platform as a service" cloud computing for Java web applications.
+    -   We'll use the "free plan" that they offer for folks just getting started with learning Heroku.
+    -   This puts your application "on the web", for real, so that anyone in the world can access it 24/7
 
 ### Disk Quota
 
