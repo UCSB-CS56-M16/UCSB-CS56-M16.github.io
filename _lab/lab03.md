@@ -325,7 +325,7 @@ Here's what to do to add a remote for <https://github.com>
 
 (1) Create a new public repository on your <https://github.com> account according to these instructions. READ ALL OF THEM before clicking the button to create the repo.
 
--   -   Call it cs56-{{site.qtr|downcase}}-{{page.num}}.
+-   -   Call it <tt>cs56-{{site.qtr|downcase}}-{{page.num}}</tt>.
     -   Make it public
     -   This time, DO NOT create it with a README.md
     -   This time, DO NOT add a .gitignore or a license. You are creating an empty repo.
@@ -335,7 +335,7 @@ It should look like this:
 
 Note that if you do accidentally create it with those files, you can still proceed, but you'll have to deal with a "merge conflict" on those files. That's not the end of the world—it's actually much easier to resolve that folks may think. You just edit the conflicting files, and then do another "git add", "git commit", "git push". But it's an extra detail we don't really want to deal with today if we can avoid it.
 
-(2) Locate the "ssh" URL for that repo (e.g. something like `git@github.com:yourgithubid/cs56-`{{site.qtr|downcase}}`-`{{page.num}}`.git`) You are going to copy/paste that, so have that ready.
+(2) Locate the "ssh" URL for that repo (e.g. something like `git@github.com:yourgithubid/cs56-`<tt>{{site.qtr|downcase}}-{{page.num}}</tt>`.git`) You are going to copy/paste that, so have that ready.
 
 (3) At the command line, cd into the place you cloned the `java-getting-started` repo provided in the Heroku tutorial. The type this command (substituting the
 
@@ -353,7 +353,7 @@ We are now going to repeat this step for <https://github.ucsb.edu>
 
 (4) Create a new empty public repository on your <https://github.ucsb.edu> account called `cs56-`<tt>{{site.qtr}}</tt>`-`<tt>{{page.num}}</tt>. Remember to select the options for NO README.md, NO .gitignore, and NO license so that you get an empty repo.
 
-(5) Locate the "ssh" URL for that repo (e.g. something like git@github.ucsb.edu:yourCSILid/cs56-w16-lab08.git) You are going to copy/paste that, so have that ready.
+(5) Locate the "ssh" URL for that repo (e.g. something like `git@github.ucsb.edu:`*yourCSILid*`/cs56-`<tt>{{site.qtr}}</tt>`-`<tt>{{page.num}}</tt>) You are going to copy/paste that, so have that ready.
 
 (6) At the command line, cd into the place you cloned the `java-getting-started` repo provided in the Heroku tutorial (same as step 3 above). Then type this command:
 
