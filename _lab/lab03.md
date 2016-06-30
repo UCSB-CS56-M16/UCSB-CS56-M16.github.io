@@ -353,7 +353,7 @@ We are now going to repeat this step for <https://github.ucsb.edu>
 
 (4) Create a new empty public repository on your <https://github.ucsb.edu> account called `cs56-`<tt>{{site.qtr}}</tt>`-`<tt>{{page.num}}</tt>. Remember to select the options for NO README.md, NO .gitignore, and NO license so that you get an empty repo.
 
-(5) Locate the "ssh" URL for that repo (e.g. something like `git@github.ucsb.edu:`*yourCSILid*`/cs56-`<tt>{{site.qtr}}</tt>`-`<tt>{{page.num}}</tt>) You are going to copy/paste that, so have that ready.
+(5) Again, locate the "ssh" URL for that repo (same as in step 2 above))
 
 (6) At the command line, cd into the place you cloned the `java-getting-started` repo provided in the Heroku tutorial (same as step 3 above). Then type this command:
 
@@ -361,7 +361,7 @@ We are now going to repeat this step for <https://github.ucsb.edu>
 
 So, it will look something like this:
 
-`git remote add ucsb git@github.ucsb.edu:yourgithubid/cs56-w16-lab08.git`
+`git remote add ucsb git@github.com:yourgithubid/`<tt>cs56-{{site.qtr|downcase}}-{{page.num}}</tt>`.git`
 
 Then, do this command: `git push ucsb master`
 
@@ -549,10 +549,10 @@ This lab is mainly here to just get you famliar with working with web apps on He
 
 So, this lab is only worth (100 pts).
 
-You need to complete it, and then go to the lab08 link on Gauchospace and do these things:
+You need to complete it, and then go to the {{page.num}} link on Gauchospace and do these things:
 
--   Paste the link to your github.com lab08 repo
--   Paste the link to your github.ucsb.edu lab08 repo.
+-   Paste the link to your github.com {{page.num}} repo
+-   Paste the link to your github.ucsb.edu {{page.num}} repo.
 -   Paste a link to your running web app on Heroku (e.g. <http://blonde-raccoon-90210.herokuapp.com>)
 
 There is more to come with Java web apps, but that's it for this lab.
