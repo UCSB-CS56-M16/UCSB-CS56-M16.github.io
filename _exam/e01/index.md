@@ -1,7 +1,7 @@
 ---
 layout: exam_info
 num: e01
-ready: false
+ready: true
 desc: "Midterm Exam"
 exam_date: 2016-07-07 09:30:00.00-7
 ---
