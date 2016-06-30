@@ -232,15 +232,17 @@ What do you see?
 
 <table style="border: 1px solid black;" markdown="1">
 <tr>
+
 <td style="width:50%">
 <b>This is what you want to see:</b>
-
 </td>
+
 <td style="width:50%">
 <b>This is what you do NOT want to see:</b>
-
 </td>
+
 </tr>
+
 <tr>
 <td style="vertical-align:top;" markdown="1">
 ```
@@ -263,7 +265,6 @@ What do you see?
 In this case, click on the button (shown below) on the Heroku tutorial web page, and continue:
 
 
-```
 </td>
 <td style="vertical-align:top;" markdown="1">
 ```
