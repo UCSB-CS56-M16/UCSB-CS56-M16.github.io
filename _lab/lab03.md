@@ -328,7 +328,7 @@ Note that if you do accidentally create it with those files, you can still proce
 
 (3) At the command line, cd into the place you cloned the `java-getting-started` repo provided in the Heroku tutorial. The type this command (substituting the
 
-`git remote add github`<em>paste-ssh-url-from-step-2-above-here</em>
+`git remote add github`&nbsp;<em>paste-ssh-url-from-step-2-above-here</em>
 
 So, it will look something like this:
 
