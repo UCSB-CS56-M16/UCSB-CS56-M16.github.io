@@ -345,10 +345,10 @@ My suggestion is: make them private UNLESS you write units tests. And writing un
 There are three additional things that can help while doing your debugging:
 
 -   (1) There is a main program that you can run to test basic Polynomial operations and printing of Polynomials. Here are some examples of the Unix command line to run that program. Note that you need single quotes around the Polynomials, and that the \* operator needs a backslash in front of it (so the Unix shell doesn't turn into a "wildcard" for filenames.) You can use this main to see what happens when you take in a Polynomial and then print it back out with the toString() method. If you pass just ONE polynomial in the command line, it simply gets "constructed" from the string, and then printed back out with toString. If you are using "debug print statements" (see item 2 below) then it can be hard to make sense of those in the JUnit test output. But, running the main, you can isolate what's happening with just ONE polynomial at a time, and see your debugging print statements in a less cluttered, sensible order.
-    -   <code>java -cp build Polynomial '10x^2 - 20x + 3'
-    -   <code>java -cp build Polynomial '2x + 3' + '4x - 5'
-    -   <code>java -cp build Polynomial '2x + 3' \\\* '4x - 5'
-    -   <code>java -cp build Polynomial '2x + 3' - '4x - 5'
+    -   `java -cp build Polynomial '10x^2 - 20x + 3'`
+    -   `java -cp build Polynomial '2x + 3' + '4x - 5'`
+    -   `java -cp build Polynomial '2x + 3' \\\* '4x - 5'`
+    -   `java -cp build Polynomial '2x + 3' - '4x - 5'`
 
 
 -   (2) There is a public static boolean variable called `debug` inside the Polynomial class. You can set this to true, and then print debugging output. You'll see examples of that in the constructor that creates a Polynomial object from a String.
