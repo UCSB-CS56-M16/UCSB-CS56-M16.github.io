@@ -5,7 +5,7 @@ ready: true
 desc: "Polynomials"
 assigned: 2016-06-24 09:30:00.00-7
 due: 2016-06-29 17:00:00.00-7
-submit_cs_link: https://submit.cs.ucsb.edu/p/513
+submit_cs_link: "https://submit.cs.ucsb.edu/p/513"
 ---
 
 In this lab:
@@ -434,7 +434,7 @@ Step 5: Submitting via submit.cs
 
 UPDATE: We are using submit.cs for lab01.
 
-Please download a .zip file from your github repo, rename it to {{page.num}}.zip and submit it at: {{page.submit_cs_link}} 
+Please download a `.zip` file from your github repo, rename it to <tt>{{page.num}}</tt>`.zip` and submit it at: <{{page.submit_cs_link}}>
 
 * If you worked in a pair, please register your pair as a *group* in submit.cs for lab01 before submitting.  One partner's submission
   on submit.cs counts for both of you.
