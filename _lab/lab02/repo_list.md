@@ -26,7 +26,7 @@ ratio.
 | [cs56-utilities-password-generator](https://github.com/UCSB-CS56-Projects/cs56-utilities-password-generator) | Christian |  EdieS  |  jhpenger  |    | [fork](https://github.com/EdieS/cs56-utilities-password-generator)
 | [cs56-music-beatbox](https://github.com/UCSB-CS56-Projects/cs56-music-beatbox) | Dylan |  osheaanaya  |  shanemasuda  |    | [fork](https://github.com/osheaanaya/cs56-music-beatbox)
 | [cs56-networking-chat](https://github.com/UCSB-CS56-Projects/cs56-networking-chat) | Dylan |  milanes1  | winterfreddy |    | [fork](https://github.com/winterfreddy/cs56-networking-chat)
-| [cs56-games-rock-paper-scissors](https://github.com/UCSB-CS56-Projects/cs56-games-rock-paper-scissors) | Christian | giovannidominguez   |  issacholguin |    | 
+| [cs56-games-rock-paper-scissors](https://github.com/UCSB-CS56-Projects/cs56-games-rock-paper-scissors) | Christian | giovannidominguez   |  issacholguin |    | [fork](https://github.com/giovannidominguez/cs56-games-rock-paper-scissors)
 | [cs56-games-towers-of-hanoi](https://github.com/UCSB-CS56-Projects/cs56-games-towers-of-hanoi) | Michael  |    |    |    | 
 | [cs56-games-states-quiz](https://github.com/UCSB-CS56-Projects/cs56-games-states-quiz) | Michael  |    |    |    | 
 | [cs56-games-minesweeper](https://github.com/UCSB-CS56-Projects/cs56-games-minesweeper) | Michael  | hwangaustin   | ije896   |  saisrimat96  | [fork](https://github.com/hwangaustin/cs56-games-minesweeper) |
