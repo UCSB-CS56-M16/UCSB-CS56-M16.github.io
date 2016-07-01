@@ -15,14 +15,14 @@ a "trio" or a "solo", check in with the instructor for approval.
 The mentors listed are the ones that originally curated the repo, but we may adjust those assignments to balance the student/mentor
 ratio.
 
-| repo | mentor | githubid1 | githubid2 | githubid3 |
-|------|--------|-----------|-----------|-----------|
+| repo | mentor | githubid1 | githubid2 | githubid3 | fork |
+|------|--------|-----------|-----------|-----------|------|
 | [cs56-games-connectfour](https://github.com/UCSB-CS56-Projects/cs56-games-connectfour) | Christian | bryannaphan |  joelbagan |    | 
 | [cs56-games-pokemon-map](https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map) | Xiaohe | MadRubicant  |  SElegans  |    | 
 | [cs56-games-maze](https://github.com/UCSB-CS56-Projects/cs56-games-maze) | Christian |    |    |    | 
 | [cs56-utilities-GEscraper](https://github.com/UCSB-CS56-Projects/cs56-utilities-GEscraper) | Dylan |    |    |    | 
 | [cs56-utilities-restaurant-list](https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list) | Dylan | timnkwong |  alanthetran |    | 
-| [cs56-games-poker](https://github.com/UCSB-CS56-Projects/cs56-games-poker) | Michael |  dvanmali  |  ttsherpa   |  atyuen  | 
+| [cs56-games-poker](https://github.com/UCSB-CS56-Projects/cs56-games-poker) | Michael |  dvanmali  |  ttsherpa   |  atyuen  | [fork](https://github.com/dvanmali/cs56-games-poker) |
 | [cs56-utilities-password-generator](https://github.com/UCSB-CS56-Projects/cs56-utilities-password-generator) | Christian |  EdieS  |  jhpenger  |    |
 | [cs56-music-beatbox](https://github.com/UCSB-CS56-Projects/cs56-music-beatbox) | Dylan |  osheaanaya  |  shanemasuda  |    | 
 | [cs56-networking-chat](https://github.com/UCSB-CS56-Projects/cs56-networking-chat) | Dylan |  milanes1  | winterfreddy |    | 
