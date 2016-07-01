@@ -5,6 +5,7 @@ ready: true
 desc: "Polynomials"
 assigned: 2016-06-24 09:30:00.00-7
 due: 2016-06-29 17:00:00.00-7
+submit_cs_link: https://submit.cs.ucsb.edu/p/513
 ---
 
 In this lab:
@@ -428,60 +429,14 @@ If working in a pair, BOTH pair partners should do this, and if you ARE working 
 indicate this.
 
 
-Grading Rubric: <span id="pointCount"></span>
-=============================================
+Step 5: Submitting via submit.cs
+--------------------------------
 
-Partial credit may be awarded for each step at the discretion of the TA/Instructor.
+UPDATE: We are using submit.cs for lab01.
 
-Polynomial.java
----------------
+Please download a .zip file from your github repo, rename it to {{page.num}}.zip and submit it at: {{page.submit_cs_link}} 
 
-Each of these functions must pass its unit tests, be written in good style, and have appropriate Javadoc comments to get full credit.
-
--   (10 pts) degreeCoeffsLowtoHigh
--   (10 pts) degreeCoeffsHighToLow
--   (10 pts) lowToHigh
--   (10 pts) highToLow
--   (20 pts) constructor from an int \[\]
--   (20 pts) toString
--   (20 pts) equals
--   (20 pts) plus
--   (20 pts) times
--   (10 pts) minus
-
-Secret Tests
-------------
-
--   (50 pts) Passing secret tests:
-
--   The remainder of the points are for passing "secret tests" for other kinds of corner cases--such as adding a polynomial to one that causes certain terms to be "cancelled out", changing the resulting degree to one that you might not have expected.
--   These tests will not be revealed until after the assignment has been graded. Your job is to anticipate as many of these as you can, and make sure your code will pass them.
--   So you should try do figure out as many of these cases as you, can and adding additional tests to try to catch these. This is optional, but HIGHLY RECOMMENDED to make sure that you are able to pass the "secret" tests.
-
-Build.xml
----------
-
-To get full credit for any item in this list, the item must be present, AND must do its job correctly.
-
--   (10 pts) Your build.xml should have targets for added attributes on the javac task
--   (10 pts) targets for run, compile, test, javadoc and clean
-
-javadoc page
-------------
-
--   (20 pts) javadoc is present on the web (for both pair partners if appropriate) and is complete.
-
-.gitignore file
----------------
-
--   (10 pts) .gitignore has two extra lines (as explained in Step 1), and javadoc is NOT commited in the repo
-
-General Good Practices
-----------------------
-
--   (30 pts) Following Instructions
-    -   If there is anything that you should have done that was in the instructions but isn't already covered elsewhere in the grading rubric, these points are the ones that are "at risk" for those items.
-    -   Late submissions ALWAYS lose all of these points--and are subject to receiving a zero if the TA has already finished grading the assignment before the submission is received. TO ENSURE THAT YOU GET CREDIT, SUBMIT BEFORE THE DEADLINE.
--   (20 pts) Coding Style
-    -   By this point in your programming career, you should know about things like using good variable names, indenting properly, factoring out common code into a subroutine, etc. Anything that is an obvious defect in your code is something that TAs have discretion to deduct points for, up to the amount specified for this item.
+* If you worked in a pair, please register your pair as a *group* in submit.cs for lab01 before submitting.  One partner's submission
+  on submit.cs counts for both of you.
+* If you haven't yet registered for submit.cs, register on the submit.cs page with your umail address, then join the {{site.course}}_{{site.qtr|downcase}} course.
 
