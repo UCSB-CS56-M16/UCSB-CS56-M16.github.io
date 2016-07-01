@@ -18,7 +18,7 @@ ratio.
 | repo | mentor | githubid1 | githubid2 | githubid3 | fork |
 |------|--------|-----------|-----------|-----------|------|
 | [cs56-games-connectfour](https://github.com/UCSB-CS56-Projects/cs56-games-connectfour) | Christian | bryannaphan |  joelbagan |    | 
-| [cs56-games-pokemon-map](https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map) | Xiaohe | MadRubicant  |  SElegans  | [fork](https://github.com/MadRubicant/cs56-games-pokemon-map)   | 
+| [cs56-games-pokemon-map](https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map) | Xiaohe | MadRubicant  |  SElegans  |  | [fork](https://github.com/MadRubicant/cs56-games-pokemon-map)
 | [cs56-games-maze](https://github.com/UCSB-CS56-Projects/cs56-games-maze) | Christian |    |    |    | 
 | [cs56-utilities-GEscraper](https://github.com/UCSB-CS56-Projects/cs56-utilities-GEscraper) | Dylan |    |    |    | 
 | [cs56-utilities-restaurant-list](https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list) | Dylan | timnkwong |  alanthetran |   | [fork](https://github.com/timnkwong/cs56-utilities-restaurant-list) 
@@ -36,8 +36,8 @@ ratio.
 | [cs56-android-games-pacman](https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman) | Nate | colerogers   | kevinchuanucsb     |    | 
 | [cs56-android-getting-started](https://github.com/UCSB-CS56-Projects/cs56-android-getting-started) | Nate |    |    |    | 
 | [cs56-games-memory-card](https://github.com/UCSB-CS56-Projects/cs56-games-memory-card) | Xiaohe |    |    |    | 
-| [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  | [fork](https://github.com/RityZhang/cs56-games-Go)   | 
-| [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe | zhanchengqian | liang121900  | [fork](https://github.com/zhanchengqian/cs56-utilities-cryptography)   | 
+| [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  |  | [fork](https://github.com/RityZhang/cs56-games-Go) 
+| [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe | zhanchengqian | liang121900  |   | [fork](https://github.com/zhanchengqian/cs56-utilities-cryptography)
 | [cs56-games-snake](https://github.com/UCSB-CS56-Projects/cs56-games-snake) | Nate | marcellisb    |   markwu35  |    | 
 | [cs56-discretemath-towers-sierpinski](https://github.com/UCSB-CS56-Projects/cs56-discretemath-towers-sierpinski) | Xiaohe |    |    |    | 
 
