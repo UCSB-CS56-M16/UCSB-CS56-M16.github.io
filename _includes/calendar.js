@@ -13,6 +13,7 @@ var dates = {
     ],
     "lab": [
 	{% for asn in site.lab %}
+	{% if asn.num %}
 	{
 	    "num" : "{{ asn.num }}",
 	    "ready" :  "{{ asn.ready }}",
@@ -21,6 +22,7 @@ var dates = {
 	    "due" :  "{{ asn.due }}",
 	    "url" :  "{{ asn.url }}",
 	},
+	{% endif %}
 	{% endfor %}
     ],
     
