@@ -74,6 +74,11 @@ div.exam-page-header * td.asn-num {
     font-family: Arial Narrow, sans-serif; color:black; font-size: 500%; text-align:center; padding-left: 3px; padding-right: 3px;
 }
 
+div.exam-page-header * td.handout-asn-num {
+    font-family: Arial Narrow, sans-serif; color:black; font-size: 150%; text-align:center; padding-left: 3px; padding-right: 3px;
+}
+
+
 div.exam-page-header * td.course-qtr {
     font-family: Arial Narrow, sans-serif;  color:black; font-size: 150%; text-align:center; padding-left: 3px; padding-right: 3px;
 }
@@ -246,4 +251,41 @@ table td.odd-page-box {
     border: 2px solid black;
     width: 50%;
     text-align:center;
+}
+
+.boxingTable tr td pre {
+    border: none; font-size: 150%; line-height: 0.8;
+    margin-top:0px; margin-bottom:0px; padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+td.checkbox {
+    text-align:center;
+    font-size: 400%;
+    line-height: 1.0;
+}
+
+.finePrint {
+    font-size: 80%;
+}
+
+ol li ol li ul li {
+    list-style-type: disc;
+}
+
+div.fill-in-blanks-table table  {
+    width: 100%;
+}
+
+
+div.fill-in-blanks-table table * th {
+    font-weight: bold;
+    margin: 2em 2em 2em 1em;
+    padding: 2em 2em 2em 1em;    
+}
+
+div.fill-in-blanks-table table * td {
+    font-weight: bold;
+    margin: 2em 2em 2em 1em;
+    padding: 2em 2em 2em 1em;
 }
