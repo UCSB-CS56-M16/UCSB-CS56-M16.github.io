@@ -16,25 +16,10 @@
           <div class="exam-page-header exam-page-header-template">
 	    {% include exam-page-header-template.html %}
 	  </div> <!-- exam-page-header -->
-	  
-	  <table class="exam-header-table">	   
-	    <tr>
-	      <th colspan="2" class="exam-header-name">Name:</th>
-	      <!-- 
-		   <th rowspan="3" class="exam-header-section"> section<br>
-		     <span class="exam-header-section-subtext">9am or 10:30am</span>
-		   </th>
-		   -->
-	      
-	    </tr>
-	    <tr><th colspan="2" class="exam-header-subtext">(as it would appear on official course roster)</th></tr>
-	    <tr>
-	      <th class="exam-header-umail-label">  Umail address:</th>
-	      <th class="exam-header-umail-entry"> @umail.ucsb.edu</th>
-	    </tr>
-          </table>
 
-	  <h1>EXAM: {{page.num}}: {{ page.desc }}</h1>
+	  {% include exam-name-header-template.html %}
+
+	  <h1 style="clear:left;">EXAM: {{page.num}}: {{ page.desc }}</h1>
 	  
 	  <table class="exam_table">
 	    <tr>
@@ -57,18 +42,12 @@
 	  <div class="instructions">
 	    <ul>
 	      {% include exam_instructions_li_elements.html %}
-
 	    </ul>
-	    <hr />
-	    
 	  </div>
-      
-      
-      <hr />
-
-      
-      </div><!-- exam-header -->  
-          {{ content }}
+	</div><!-- exam-header -->
+<hr />	
+        {{ content }}
+	<div class="end-of-exam">End of Exam</div>
         </div><!-- content -->
         {% include footer.html %}
       </div><!-- container -->

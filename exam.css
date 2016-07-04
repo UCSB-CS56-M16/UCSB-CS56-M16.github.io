@@ -29,14 +29,26 @@ div.handwriting-table table * td {
     height: 3em;
 }
 
+.page-break-before {
+    clear: left;
+}
+
+.exam-name-header-table {
+    width:50%;
+    float:left;
+    margin-bottom:1em;
+}
+
 div.exam-page-header {
     page-break-before:always;
     font-family: Arial Narrow,sans-serif;
     font-size: 18px; font-weight: bold; text-align:right;
-    page-break-before:always; float:right;
+    page-break-before:always;
+    float:right;
+    width: 8em;
     text-align:right;
     margin:0px; padding:0px;
-    width:8em; margin-left: 1em;
+    margin-left: 1em;
 }
 
 
@@ -68,15 +80,13 @@ div.exam-page-header * td.course-qtr {
 
 
 
-table.exam-header-table *  {
+table.exam-name-header-table *  {
     border-collapse: collapse;
     font-family:Arial Narrow, sans-serif;
     font-size: 18px;
 }
 
-.exam-header-table {
 
-}
 
 .exam-header-name {
     width:75%; text-align:left; border-bottom:none;
@@ -219,4 +229,9 @@ td.h03-table table * td,th {
 	margin: 5%;
     }
     
+}
+
+table td.odd-page-box {
+    width: 70% !important ;
+    border: 1px solid blue !important;
 }
