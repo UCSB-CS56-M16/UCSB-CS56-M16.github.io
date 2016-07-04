@@ -235,3 +235,15 @@ table td.odd-page-box {
     width: 70% !important ;
     border: 1px solid blue !important;
 }
+
+.end-of-exam {
+
+    font-size: 120%;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 2px solid black;
+    width: 50%;
+    text-align:center;
+}
