@@ -15,6 +15,9 @@ TODO LIST:
 * Create {{page.starter_repo}}.  Populate master branch with the code the students should start with.  Remove fuzzer code.
 * Create {{page.tutorial_repo}}.  Put the code from the branches of cs56-parsing-assignment-private, part01 through part13, into subdirectories part01 through part13.   Also, create a README.md and factor out into that, some of the tutorial material from the lab06 writeup.
 * Update the javadoc.  (i.e. consider adding some actual javadoc comments in the places where that would add value.)
+* Add a "q" to the REPL in main that quits (and perhaps read until EOF so that CTRL/D works?)  Try using the repl
+  interactively, by running `java -jar parser.jar` 
+
 
 # Summary #
 
@@ -372,7 +375,6 @@ These step-by-step refactorings are available in the cs56-parsing-tutorial repo 
 Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}} is available: 
 * [cs56-parsing-assignment-javadoc](https://ucsb-cs56-m16.github.io/cs56-parsing-assignment-javadoc/).
 
-TODO: REMOVE THE CODE FROM THE `src/edu/ucsb/cs56/pconrad/parsing/fuzzing` directory.
 
 ----
 
