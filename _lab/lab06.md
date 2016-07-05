@@ -6,6 +6,7 @@ desc: "Recursive Descent Parsing"
 assigned: 2016-07-13 09:30:00.00-7
 due: 2016-07-22 17:00:00.00-7
 javadoc_prefix: "https://ucsb-cs56-m16.github.io/cs56-parsing-assignment-javadoc/index.html?"
+starter_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-assignment/"
 ---
 
 TODO: Fill in this lab.
@@ -322,13 +323,13 @@ Your task is to update all three components&mdash;the tokenizer, parser, and int
 
 Both of these are binary operators that compare the integer values on the left and right.  They will each return a true or false value, with true represented as the integer `1`, and false represented as the integer `0`.    Accordingly, there is still only one *type* in the system, namely *integer*.
 
-In the tokenizer, adding these operators will entail handling `==` and `!=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html) interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.
+In the tokenizer, adding these operators will entail handling `==` and `!=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html) interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.   As models, you might look at the classes that currently implement that interface.  You can figure out what those are from looking at the javadoc for [`interface edu.ucsb.cs56.pconrad.parsing.tokenizer.Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html).
 
-Reading in the tokens will require you to use the [State Pattern](https://en.wikipedia.org/wiki/State_pattern), which is heavily utilized in the tokenizer.
+Reading in the tokens will require you to use the [State Pattern](https://en.wikipedia.org/wiki/State_pattern), which is a Design Pattern heavily utilized in the tokenizer.    Your reading in the HFDP textbook about Design Patterns, in general, may help here.
 
-Adding in additional tokens will require you to understand the Visitor Pattern; for this, you should consult [our tutorial on the Visitor Pattern](https://github.com/UCSB-CS56-M16/visitor-pattern-tutorial), and perhaps also [the Wikipedia entry on the Visitor Pattern](https://en.wikipedia.org/wiki/Visitor_pattern).
+Adding in additional tokens will require you to understand another Design Pattern, namely the Visitor Pattern. For this, you should consult [our tutorial on the Visitor Pattern](https://github.com/UCSB-CS56-M16/visitor-pattern-tutorial), and perhaps also [the Wikipedia entry on the Visitor Pattern](https://en.wikipedia.org/wiki/Visitor_pattern).
 
-In the parser, you'll need to handle the following EBNF description, derived from the Wikipedia page for [Operator-precedence_parser](https://en.wikipedia.org/wiki/Operator-precedence_parser) (as of 06/13/2016):
+In the parser, you'll need to handle the following EBNF description, derived from the Wikipedia page for [Operator-precedence_parser](https://en.wikipedia.org/wiki/Operator-precedence_parser) (retrieved 06/13/2016):
 
 ```
 expression ::= equality-expression
@@ -338,25 +339,35 @@ multiplicative-expression ::= primary ( ( '*' | '/' ) primary ) *
 primary ::= '(' expression ')' | INTEGER | '-' primary
 ```
 
-The crucial difference between this EBNF description and the one currenly implemented this one has an additional level in it, namely `equality-expression`.
+There is a crucial difference between this EBNF description and the one in the code provided to you.  The difference&mdash;that is, the change that your code needs to implement&mdash;is the addition of another level in the grammar, namely `equality-expression`.
 
-In the interpreter, these new operations will also need to be handled.
-Equality expressions will be evaluated and return either 1 for true, or 0 for false (thus preserving the simplifying rule that the results of all operations are of type integer.)
+The interpreter will also need to be modified to handle the two new operators `==` and `!=`.
+Expressions involving either `==` or `!=` will be evaluated and will return either `1` for true, or `0` for false.   This means that there is a new type of entity that can be part of the Abstract Syntax Trees (ASTs).  You'll need to understand the code that implements the ASTs, and determine what needs to be changed to allow for this new structure.
 
-The `main` function defined in `src/edu/ucsb/cs56/pconrad/parsing/Main.java` serves as an entry point for the overall interpreter.
-This should work properly with the new operations you have added, and you **should not** modify `main` in any way.
+The `main` function defined in `src/edu/ucsb/cs56/pconrad/parsing/Main.java` provides a "Read/Eval/Print" loop (REPL) for the combined tokenizer/parser/interpreter.    This is sometimes also called a "Command Line Interface", though we don't really have any commands, except for "q" for quit.   TODO: IMPLEMENT THIS...    This should work properly with the new operations you have added, and you **should not** modify `main` in any way.
 
-The provided code is fairly complex, and it very much resembles the final product after many rounds of modification and refactoring.
-To get a better idea of how this code works starting from the most basic version, you may wish to consult the code on branches `part01` through `part13`.
-`part01` is the first version, which has a major bug present, and it can only determine if something parses.
-That is, it does *not* produce ASTs, so it is not very useful in practice.
-However, it is extremely simple, with nearly all the code in a single file under 150 lines.
-Incrementally this is refined all the way up until `part13`, which is the version which you'll be putting your modifications on.
+# Understanding the starter code
 
-Javadoc for the provided code is available [here](https://ucsb-cs56-m16.github.io/cs56-parsing-assignment-javadoc/).
+The starter code you are given is fairly complex.
 
-You may ignore the code in the `src/edu/ucsb/cs56/pconrad/parsing/fuzzing` directory.
-This code, however, should compile without modification.
+To help you understand this code, we have provided a series of examples of a complete tokenizer/parser/interpreter that show a progression from:
+
+* in the starting point, a simplistic code structure that is easier to understand, but limited in its power,
+* through a series of intermediate refactorings, each motivated by either a desire to make the code more powerful, or easier to maintain, or both,
+* to, finally, the code that you have as your starting point.
+
+These step-by-step refactorings are available in the cs56-parsing-tutorial repo in a series of subdirectories called `part01` through `part13`.    
+
+*   `part01` is the first version, which has a major bug present, and it can only determine if something parses.
+    That is, it does *not* produce ASTs, so it is not very useful in practice.
+    However, it is extremely simple, with nearly all the code in a single file under 150 lines.
+*   Incrementally this is refined all the way up until `part13`, which is equivalent to the `master` branch of 
+    the repo containing your starter code, [cs56-parsing-assignment]({{page.starter_repo}}).
+
+Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}} is available: 
+* [cs56-parsing-assignment-javadoc](https://ucsb-cs56-m16.github.io/cs56-parsing-assignment-javadoc/).
+
+TODO: REMOVE THE CODE FROM THE `src/edu/ucsb/cs56/pconrad/parsing/fuzzing` directory.
 
 ----
 
