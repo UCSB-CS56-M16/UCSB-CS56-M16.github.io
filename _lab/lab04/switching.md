@@ -5,7 +5,7 @@ layout: default
 ---
 
 If you are switching to a different legacy code project from the one that you worked on during the initial code review,
-then you should first, for 250 points towards your project points, make a version of the {{site.qtr}\_lab02.md file 
+then you should first, for 250 points towards your project points, make a version of the {{site.qtr}}\_lab02.md file 
 for the new repo to which you are assigned.
 
 This will involve forking the new repo you are assigned to, following the instructions from [lab02](/lab/lab02).
