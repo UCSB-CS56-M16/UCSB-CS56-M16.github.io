@@ -1,0 +1,79 @@
+github_url: https://github.com/UCSB-CS56-M16/UCSB-CS56-M16.github.io
+mentor_url: https://ucsb-cs56-pconrad-mentors.github.io
+
+on_campus: http://proquest.safaribooksonline.com
+off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
+hfj_url: book/programming/java/0596009208
+hfdp_url: book/software-engineering-and-development/patterns/0596007124 
+
+
+num_weeks: 6
+start_date: 2016-06-19 00:00:00.00-7:00
+
+course: "CS56"
+qtr: "M16"
+quarter: "Summer 2016"
+hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfj/HFJ_Chapter_"
+
+kramdown:
+   parse_block_html: true
+
+exclude: [vendor]
+
+timezone: America/Los_Angeles
+
+collections:
+  hwk:
+    output: true
+    permalink: /hwk/:path/
+    last_before: false
+  lab:
+    output: true
+    permalink: /lab/:path/
+    last_before: false
+  exam:
+    output: true
+    permalink: /exam/:path/
+  info:
+    output: true
+    permalink: /info/:path/
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+  - 
+    scope:
+      path: ""
+      type: hwk
+    values:
+      layout: hwk
+  - 
+    scope:
+      path: ""
+      type: lab
+    values:
+      layout: lab
+  - 
+    scope:
+      path: ""
+      type: exam
+    values:
+      layout: exam_info
+  - 
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: info
+  -
+    scope:
+      path: "syllabus.md"
+      type: info
+    values:
+      layout: handout
+
+
