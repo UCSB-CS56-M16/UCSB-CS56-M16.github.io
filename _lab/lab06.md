@@ -314,13 +314,17 @@ The only exeception to this is if division by zero occurs, in which case it will
 
 # What You'll Implement #
 
-Your task is to update all three components to handle the following new features:
+Your task is to update all three components&mdash;the tokenizer, parser, and interpreter&mdash;to handle the following new features:
 
 - The equals operator (`==`)
 - The not-equals operator (`!=`)
 
-In the tokenizer, this will entail handling `==` and `!=` as fundamentally new tokens which inherit from the `Token` interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.
+Both of these are binary operators that compare the integer values on the left and right.  They will each return a true or false value, with true represented as the integer `1`, and false represented as the integer `0`.    Accordingly, there is still only one *type* in the system, namely *integer*.
+
+In the tokenizer, adding these operators will entail handling `==` and `!=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the `Token` interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.
+
 Reading in the tokens will require you to use the [State Pattern](https://en.wikipedia.org/wiki/State_pattern), which is heavily utilized in the tokenizer.
+
 Adding in additional tokens will require you to understand the Visitor Pattern; for this, you should consult [our tutorial on the Visitor Pattern](https://github.com/UCSB-CS56-M16/visitor-pattern-tutorial), and perhaps also [the Wikipedia entry on the Visitor Pattern](https://en.wikipedia.org/wiki/Visitor_pattern).
 
 In the parser, you'll need to handle the following EBNF description, derived from the Wikipedia page for [Operator-precedence_parser](https://en.wikipedia.org/wiki/Operator-precedence_parser) (as of 06/13/2016):
