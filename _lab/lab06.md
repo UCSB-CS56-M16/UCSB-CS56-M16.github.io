@@ -358,6 +358,11 @@ Javadoc for the provided code is available [here](https://ucsb-cs56-m16.github.i
 You may ignore the code in the `src/edu/ucsb/cs56/pconrad/parsing/fuzzing` directory.
 This code, however, should compile without modification.
 
+----
+
+Credits: This lab primarily written by Kyle Dewey, with edits by Phill Conrad.  Additional helpful suggestions from Hiranya Jayathilaka, and others.
+
+
 <div style="display:none">
 http://ucsb-cs56-m16.github.io/lab/lab06/
 </div>
