@@ -289,9 +289,13 @@ primary ::= '(' expression ')' | INTEGER | '-' primary
 This grammar adds in some additional complexity, along with some features of EBNF which have not yet been discussed.
 Here is how to make sense of these four productions:
 
-* The non-terminals in the above grammar are `expression`, `additive-expression`, `multiplicative-expression`, and `primary`.  
-* The terminals are `'+'`, `'-'`, `'*'`, `'/'`, `'('`, `')'`, and `INTEGER`, where `INTEGER` is a stand-in for non-negative integers (e.g., `1`, `17`, `254`, and so on)
-* When parentheses appear without quotes around them (e.g. `( )` as opposed to `'('` and `')'`), they are used for grouping.
+*   The non-terminals in the above grammar are 
+    `expression`, `additive-expression`, `multiplicative-expression`, and `primary`.  
+*   The terminals are `'+'`, `'-'`, `'*'`, `'/'`, `'('`, `')'`, and `INTEGER`, where `INTEGER` is a stand-in 
+    for non-negative integers (e.g., `1`, `17`, `254`, and so on)
+*   When parentheses appear without quotes around them (e.g. `( )` as opposed to `'('` and `')'`), 
+    they are used for grouping.
+
 * The vertical bar (`|`) signifies "or".  For example `( '*' | '/' )` means "either the star or the slash symbol appears here".
 * The star, when not in quotes, signifies "zero or more repetitions of".  
   For example `primary ( ( '*' | '/' ) primary ) *` means "a instance of `primary`" followed by zero or more instances of "a star or a slash followed by another `primary`."
