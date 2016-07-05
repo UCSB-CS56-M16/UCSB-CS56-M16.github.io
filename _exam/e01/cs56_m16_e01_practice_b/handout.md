@@ -37,21 +37,21 @@ public class Dog {
 	Dog d5 = new Dog("Snoopy"); 
 
 
-	d1.setAsDogOfTheWeek();   /*  1 */
-	d1 = d2;                 /*  2 */
-	Dog d6 = d3;             /*  3 */ 
-	Dog temp = d4;		 /*  4 */
-	d4 = d3;                 /*  5 */
-	d3 = temp;		 /*  6 */
-	d2 = getDogOfTheWeek();  /*  7 */
-	d4.setAsDogOfTheWeek();	 /*  8 */
-	d5 = null;               /*  9 */
-	d4 = null;		 /* 10 */
-	d3 = null;               /* 11 */
-	d2 = null;		 /* 12 */
-	d1 = null;               /* 13 */
-	temp = null;		 /* 14 */
-    }                            /* 15 */
+	d1.setAsDogOfTheWeek();    /*  1 */
+	d1 = d2;                   /*  2 */
+	Dog d6 = d3;               /*  3 */ 
+	Dog temp = d4;             /*  4 */
+	d4 = d3;                   /*  5 */
+	d3 = temp;                 /*  6 */
+	d2 = getDogOfTheWeek();    /*  7 */
+	d4.setAsDogOfTheWeek();    /*  8 */
+	d5 = null;                 /*  9 */
+	d4 = null;                 /* 10 */
+	d3 = null;                 /* 11 */
+	d2 = null;                 /* 12 */
+	d1 = null;                 /* 13 */
+	temp = null;               /* 14 */
+    }                              /* 15 */
 }
 ```
 
