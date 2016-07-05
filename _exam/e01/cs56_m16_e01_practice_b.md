@@ -21,7 +21,13 @@ On the [handout](handout) there is some code.    Your job: figure out after whic
 
 If an object is still not eligible for garbage collection when the last line of main is reached, write "never".    Your answer should be one of the line numbers that appears in comments in main (e.g. `/* 3 */` or `/* 7 */`) or the word "never".
 
-<div class="fill-in-blanks-table" markdown="1">
+<style>
+ .fill-in-blanks-smaller table * td {
+    margin: 1em 2em 2em 2em;
+    padding: 1em 2em 2em 2em;
+ }
+</style>
+<div class="fill-in-blanks-smaller" markdown="1">
 
 | Object         | Fill in line  here |
 |----------------|--------------------|
