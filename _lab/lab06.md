@@ -129,7 +129,7 @@ A breakdown of this term follows:
 To better understand what an AST is, consider the following example.
 This shows an AST which resulted from parsing the tokens `1`, `+`, `2`:
 
-![1+2](/ASSIGNMENT/IMAGES/1+2.png)
+![1+2](IMAGES/1+2.png)
 
 As shown, `+` forms the root of the tree, and it has the child nodes `1` and `2`.
 Each of these is a leaf, which makes sense considering that integer constants simply evaluate to themselves without any other bits of code getting involved.
@@ -145,7 +145,7 @@ The actual tokens have been repeated below for convenience.
 |`.`              |`err`| `.`  |`println`|`(`     |
 |`"FIX THIS CODE"`|`)`  | `;`  |`}`      |        |
 
-![parsing_example](/ASSIGNMENT/IMAGES/parsing_example.png)
+![parsing_example](IMAGES/parsing_example.png)
 
 As shown in the above example, parsing takes operator precedence into account.
 Specifically, the parser knew to parse `System.err.println(...)` effectively as `(System.err).println(...)`, as opposed ot the invalid `System.(err.println(...))`.
@@ -159,7 +159,7 @@ Instead, we'll use a much simpler arithmetic expression language for the purpose
 
 Consider the AST below, corresponding to the expression `3 * 4 + 2`:
 
-![interp_01](/ASSIGNMENT/IMAGES/interp_01.png)
+![interp_01](IMAGES/interp_01.png)
 
 Evaluation starts at the top of the AST, which corresponds to the `+` node in this AST.
 The `+` node first finds the value of its left child, corresponding to the `*` node.
@@ -168,30 +168,30 @@ This leads evaluation to the `3` node.
 Because the constant `3` trivially evaluates to itself, evaluation returns `3` at this point.
 This is illustrated in the image below, which shows values returned from evaluation in red:
 
-![interp_02](/ASSIGNMENT/IMAGES/interp_02.png)
+![interp_02](IMAGES/interp_02.png)
 
 Once the `3` node is complete, evaluation goes back to the `*` node, which gets the value of its right child.
 Evaluation then moves to the `4` node, which simply returns `4`.
 This is illustrated below:
 
-![interp_03](/ASSIGNMENT/IMAGES/interp_03.png)
+![interp_03](IMAGES/interp_03.png)
 
 Evaluation now proceeds to the `*` node, which finally has the values of both of its child nodes.
 From here, it multiplies these values together, and returns the result.
 This is illustrated below:
 
-![interp_04](/ASSIGNMENT/IMAGES/interp_04.png)
+![interp_04](IMAGES/interp_04.png)
 
 At this point, evaluation returns to the `+` node, which now has the value of its left child (`*`).
 Evaluation then proceeds to the right child, which returns the constant `2`, illustrated below:
 
-![interp_05](/ASSIGNMENT/IMAGES/interp_05.png)
+![interp_05](IMAGES/interp_05.png)
 
 The `+` node finally has the values of both of its children, and subsequently adds them together.
 This result is then returned.
 This is illustrated below:
 
-![interp_06](/ASSIGNMENT/IMAGES/interp_06.png)
+![interp_06](IMAGES/interp_06.png)
 
 Note that this entire process followed the general pattern of a recursive depth-first traversal.
 
@@ -253,7 +253,7 @@ This technique, along with its particular application to our arithmetic expressi
 In EBNF, languages are broken up into **terminals** and **non-terminals**.
 To understand what these terms mean, consider the AST for `1+2` again, repeated below for convenience:
 
-![1+2](/ASSIGNMENT/IMAGES/1+2.png)
+![1+2](IMAGES/1+2.png)
 
 In this AST, `1` and `2` would be terminals, because they are leaves in the tree (that is, they *terminate* paths through the tree).
 In contrast, `+` would be a non-terminal, as it acts as an internal node in the tree (that is, non-terminals *do not terminate* paths through the tree).
