@@ -5,6 +5,7 @@ ready: false
 desc: "Recursive Descent Parsing"
 assigned: 2016-07-13 09:30:00.00-7
 due: 2016-07-22 17:00:00.00-7
+javadoc_prefix: "https://ucsb-cs56-m16.github.io/cs56-parsing-assignment-javadoc/index.html?"
 ---
 
 TODO: Fill in this lab.
@@ -321,7 +322,7 @@ Your task is to update all three components&mdash;the tokenizer, parser, and int
 
 Both of these are binary operators that compare the integer values on the left and right.  They will each return a true or false value, with true represented as the integer `1`, and false represented as the integer `0`.    Accordingly, there is still only one *type* in the system, namely *integer*.
 
-In the tokenizer, adding these operators will entail handling `==` and `!=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the `Token` interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.
+In the tokenizer, adding these operators will entail handling `==` and `!=` as fundamentally new tokens.  You'll need to defined new classes for these tokens that implement the [`Token`]({{page.javadoc_prefix}}edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.html) interface defined in `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/Token.java`.
 
 Reading in the tokens will require you to use the [State Pattern](https://en.wikipedia.org/wiki/State_pattern), which is heavily utilized in the tokenizer.
 
