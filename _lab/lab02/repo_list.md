@@ -21,9 +21,8 @@ ratio.
 |------|--------|-----------|-----------|-----------|------|
 | [cs56-games-rock-paper-scissors](https://github.com/UCSB-CS56-Projects/cs56-games-rock-paper-scissors) | Christian | giovannidominguez   |  issacholguin |    | [fork](https://github.com/giovannidominguez/cs56-games-rock-paper-scissors)
 | [cs56-games-connectfour](https://github.com/UCSB-CS56-Projects/cs56-games-connectfour) | Christian | bryannaphan |  joelbagan |    | [fork](https://github.com/bryannaphan/cs56-games-connectfour)
-| [cs56-utilities-password-generator](https://github.com/UCSB-CS56-Projects/cs56-utilities-password-generator) | Christian | [cs56-utilities-GEscraper](https://github.com/UCSB-CS56-Projects/cs56-utilities-GEscraper) | Dylan |    |    |    | 
+| [cs56-utilities-password-generator](https://github.com/UCSB-CS56-Projects/cs56-utilities-password-generator) | Christian |  EdieS  |  jhpenger  |    | [fork](https://github.com/EdieS/cs56-utilities-password-generator)
 | [cs56-utilities-restaurant-list](https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list) | Dylan | timnkwong |  alanthetran |   | [fork](https://github.com/timnkwong/cs56-utilities-restaurant-list) 
-|  EdieS  |  jhpenger  |    | [fork](https://github.com/EdieS/cs56-utilities-password-generator)
 | [cs56-music-beatbox](https://github.com/UCSB-CS56-Projects/cs56-music-beatbox) | Dylan |  osheaanaya  |  shanemasuda  |    | [fork](https://github.com/osheaanaya/cs56-music-beatbox)
 | [cs56-networking-chat](https://github.com/UCSB-CS56-Projects/cs56-networking-chat) | Dylan |  milanes1  | winterfreddy |    | [fork](https://github.com/winterfreddy/cs56-networking-chat)
 | [cs56-games-poker](https://github.com/UCSB-CS56-Projects/cs56-games-poker) | Michael |  dvanmali  |  ttsherpa   |  atyuen  | [fork](https://github.com/dvanmali/cs56-games-poker) |
@@ -43,6 +42,7 @@ ratio.
 | repo | mentor | githubid1 | githubid2 | githubid3 | fork |
 |------|--------|-----------|-----------|-----------|------|
 | [cs56-games-maze](https://github.com/UCSB-CS56-Projects/cs56-games-maze) | Christian |    |    |    | 
+| [cs56-utilities-GEscraper](https://github.com/UCSB-CS56-Projects/cs56-utilities-GEscraper) | Dylan |    |    |    | 
 | [cs56-games-towers-of-hanoi](https://github.com/UCSB-CS56-Projects/cs56-games-towers-of-hanoi) | Michael  |    |    |  |
 | [cs56-games-states-quiz](https://github.com/UCSB-CS56-Projects/cs56-games-states-quiz) | Michael  |    |    |    | 
 | [cs56-android-getting-started](https://github.com/UCSB-CS56-Projects/cs56-android-getting-started) | Nate |    |    |  |
