@@ -24,10 +24,12 @@ If an object is still not eligible for garbage collection when the last line of 
 <style>
  .fill-in-blanks-smaller table {
    width: 100%;
+   color: red;
  }
  .fill-in-blanks-smaller table * td {
     margin: 1em 1em 1em 1em;
     padding: 1em 2em 2em 2em;
+    color: green;
  }
 </style>
 <div class="fill-in-blanks-smaller" markdown="1">
