@@ -7,9 +7,14 @@ assigned: 2016-07-13 09:30:00.00-7
 due: 2016-07-22 17:00:00.00-7
 javadoc_prefix: "https://ucsb-cs56-m16.github.io/cs56-parsing-assignment-javadoc/index.html?"
 starter_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-assignment/"
+tutorial_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-tutorial/"
 ---
 
-TODO: Fill in this lab.
+TODO LIST:
+
+* Create {{page.starter_repo}}.  Populate master branch with the code the students should start with.  Remove fuzzer code.
+* Create {{page.tutorial_repo}}.  Put the code from the branches of cs56-parsing-assignment-private, part01 through part13, into subdirectories part01 through part13.   Also, create a README.md and factor out into that, some of the tutorial material from the lab06 writeup.
+* Update the javadoc.  (i.e. consider adding some actual javadoc comments in the places where that would add value.)
 
 # Summary #
 
