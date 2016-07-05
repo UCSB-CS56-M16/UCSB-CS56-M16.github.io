@@ -1,7 +1,7 @@
 ---
 layout: exam
 num: e01b
-ready: false
+ready: true
 desc: "Practice Midterm Exam 'B' "
 exam_date: 2016-07-07 09:30:00.00-7
 ---
