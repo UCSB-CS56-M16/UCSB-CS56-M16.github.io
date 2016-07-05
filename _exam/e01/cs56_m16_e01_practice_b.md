@@ -9,7 +9,7 @@ exam_date: 2016-07-07 09:30:00.00-7
 Note: This is not a "complete" 100 point practice exam.  This is a place I'll put additional example problems as I encounter them
 between now and the exam on Thursday.
 
-[For a full 100 point practice exam, click here.](/exams/e01/cs56_m16_e01_practice).
+[For a full 100 point practice exam, click here.](/exam/e01/cs56_m16_e01_practice/){:data-ajax="false"}.
 
 <ol>
 
