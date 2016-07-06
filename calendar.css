@@ -40,3 +40,11 @@
 a:hover {
    color: #00f;
 }
+
+.exam {
+    font-size: 120%;
+    font-weight: bold;
+    padding: 0.25em;
+    margin: 0.25em 0.25em; 0.25em; 0.25em;
+    border: 3px inset #369;
+}

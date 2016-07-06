@@ -25,7 +25,21 @@ var dates = {
 	{% endif %}
 	{% endfor %}
     ],
-    
+
+    "exam": [
+	{% for asn in site.exam %}
+	 {% if asn.layout == "exam_info" %}
+	{
+	    "num" : "{{ asn.num }}",
+	    "ready" :  "{{ asn.ready }}",
+	    "desc" :  "{{ asn.desc }}",
+	    "exam_date" :  "{{ asn.exam_date }}",
+	    "url" :  "{{ asn.url }}",
+	},
+	{% endif %}
+	{% endfor %}
+    ],
+
 };
 
 
@@ -54,6 +68,10 @@ function traverseDates(dates) {
     for (var i = 0, len = dates.lab.length; i < len; i++) {
 	processHwkOrLab(dates.lab[i],"lab");
     }
+    for (var i = 0, len = dates.exam.length; i < len; i++) {
+	processExam(dates.exam[i]);
+    }
+
 }
 
 function isHwkOrLabAssignment(hwkOrLab) {
@@ -63,6 +81,15 @@ function isHwkOrLabAssignment(hwkOrLab) {
  	hwkOrLab.hasOwnProperty('assigned') &&
 	hwkOrLab.hasOwnProperty('due') ;
 }
+
+
+function isExam(exam) {
+    return exam.hasOwnProperty('num') &&
+	exam.hasOwnProperty('ready') &&
+	exam.hasOwnProperty('desc') &&
+ 	exam.hasOwnProperty('exam_date');
+}
+
 
 function processHwkOrLab(item,which) {
     if (which!="hwk" && which!="lab") {
@@ -82,6 +109,19 @@ function processHwkOrLab(item,which) {
     var due = {"asn_type" : which, "date_type" : "due", "value": JSON.stringify(item)};
     pushToFirstIfArrayElseSecond(due,cal.days[mmdd_due],cal.days_outside_calendar);
     
+}
+
+function processExam(item) {
+    if (!isExam(item)) {
+	reportError("processExam: problem with item" + JSON.stringify(item));
+    }
+
+    mmdd_exam_date = moment(item.exam_date).format("MM/DD");
+
+    var assigned = {"asn_type" : "exam", "date_type" : "exam", "value": JSON.stringify(item) };
+    pushToFirstIfArrayElseSecond(assigned,
+				 cal.days[mmdd_exam_date],
+				 cal.days_outside_calendar);
 }
 
 
@@ -143,6 +183,7 @@ function addCalendarTable(cal) {
 	    thisDay = thisDay.add(1,'days');
 	}
     }
+    
     $('.cal-assignments div[data-asn-type="hwk"]').each(function() {
 	var hwk = ($(this).data("date-value"));
     if (hwk.ready=="true") {
@@ -158,6 +199,8 @@ function addCalendarTable(cal) {
 	$(this).addClass("hwk");
     });
 
+    
+    
     $('.cal-assignments div[data-asn-type="lab"]').each(function() {
 	var asn = $(this).data("date-value");
     if (asn.ready=="true") {
@@ -173,6 +216,26 @@ function addCalendarTable(cal) {
 	$(this).addClass("lab");
     });
 
+
+    $('.cal-assignments div[data-asn-type="exam"]').each(function() {
+	var exam = ($(this).data("date-value"));
+    if (exam.ready=="true") {
+		$(this).addClass("ready");
+	} else {
+		$(this).addClass("not-ready");
+	}
+	var label = $('<span />')
+	    .text(exam.desc + ": ")
+	    .appendTo($(this));
+	var link = $('<a />')
+	    .attr('href',exam.url)
+	    .attr('data-ajax','false')
+	    .text(exam.num)
+	    .appendTo($(this));
+	$(this).addClass("exam")
+;
+    });
+
     
     $('.cal-assignments div[data-date-type="due"]').each(function() {
 	var asn = ($(this).data("date-value"));
@@ -182,6 +245,7 @@ function addCalendarTable(cal) {
     $('.cal-assignments div[data-date-type="assigned"]').each(function() {
 	$(this).append(" assigned");
     });
+
 
 }
 
