@@ -27,7 +27,11 @@ In this assignment, you will add some features to an existing parser and interpr
 You should start by reading the [cs56-parsing-tutorial]({{page.tutorial_repo}}).   It contains important background
 information about parsing, grammars, tokens, etc.   
 
-*The remainder of this writeup assumes that you have thoughly read and understood the information in the [cs56-parsing-tutorial]({{page.tutorial_repo}}).  If you have not, it will not make any sense to you.*
+<div style="margin-left:auto; margin-right:auto; width:80%; border: 10px inset red; font-weight: bold; padding: 1em;" markdown="1">
+
+The remainder of this writeup assumes that you have thoughly read and understood the information in the [cs56-parsing-tutorial]({{page.tutorial_repo}}).  If you have not, it will not make any sense to you.
+
+</div>
 
 The provided interpreter may or may not be buggy; it is your responsibility to test things thoroughly.
 
