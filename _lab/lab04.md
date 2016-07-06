@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab04
-ready: false
+ready: true
 desc: "Legacy Code Next Steps"
 assigned: 2016-07-06 09:30:00.00-7
 due: 2016-07-15 17:00:00.00-7
@@ -14,8 +14,6 @@ That is, it counts towards the first 500 points of the 1000 point needed before 
 Those points are recorded in Gauchospace under proj1 and proj2, each of which is out of 250 points.
 
 You should complete at least 500 points by the time of the due date listed for lab04.
-
-TODO: Fill in the rest of this lab.
 
 # If you are switching pairs or projects
 
