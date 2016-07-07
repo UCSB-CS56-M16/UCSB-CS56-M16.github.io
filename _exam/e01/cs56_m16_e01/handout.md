@@ -1,7 +1,7 @@
 ---
 layout: examHandoutNoName
 num: e01
-ready: false
+ready: true
 desc: "Midterm Exam Handout"
 exam_date: 2016-07-07 09:30:00.00-7
 ---
@@ -104,6 +104,49 @@ SeatGuru, Copyright © TripAdvisor LLC, 2016.  Reproduced here under "fair use" 
 for classroom use.
 </div>
 
-<h2 class="page-break-before">See other side</h2>
+<h2 class="page-break-before">Code for Question 6</h2>
+
+```java
+
+public class Dog {
+
+    private static Dog dogOfTheWeek = null;
+    
+    private String name;
+    
+    public void setAsDogOfTheWeek() {
+	dogOfTheWeek = this;
+    }
+
+    public static Dog getDogOfTheWeek() {
+	return dogOfTheWeek;
+    }
+    
+    public Dog(String name) { this.name = name;}
+
+    public static void main(String [] args) {
+
+	Dog d1 = new Dog("Snoopy"); 
+	Dog d2 = new Dog("Princess"); 
+	Dog d3 = new Dog("Rover");
+	Dog d4 = new Dog("Spot"); 
+	Dog d5 = new Dog("Fido"); 
 
 
+	d5.setAsDogOfTheWeek();    /*  1 */
+	d2 = d1;                   /*  2 */
+	Dog d3 = d6;               /*  3 */ 
+	Dog temp = d2;             /*  4 */
+	d2 = d5;                   /*  5 */
+	d5 = temp;                 /*  6 */
+	d3 = getDogOfTheWeek();    /*  7 */
+	d1.setAsDogOfTheWeek();    /*  8 */
+	d1 = null;                 /*  9 */
+	d2 = null;                 /* 10 */
+	d3 = null;                 /* 11 */
+	d4 = null;                 /* 12 */
+	d5 = null;                 /* 13 */
+	temp = null;               /* 14 */
+    }                              /* 15 */
+}
+```

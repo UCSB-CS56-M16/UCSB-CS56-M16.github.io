@@ -1,10 +1,12 @@
 ---
 layout: examHandoutNoName
 num: e01
-ready: false
+ready: true
 desc: "Summary of class java.util.ArrayList&lt;E&gt;"
 exam_date: 2016-07-07 09:30:00.00-7
 ---
+
+# class `java.util.ArrayList<E>`
 
 <div style="font-size:90%; font-family: Arial Narrow, sans-serif;">
 

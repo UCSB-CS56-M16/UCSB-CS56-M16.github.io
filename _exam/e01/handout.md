@@ -38,6 +38,3 @@ or write a `.equals` method.
 
 Total Points: <span class="pointCount">Total points: ?</span>
 
-<h2 class="page-break-before">See other side</h2>
-
-
