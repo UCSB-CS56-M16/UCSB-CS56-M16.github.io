@@ -11,7 +11,7 @@ WRONG: `Dog d3 = d6;     /* 3 */`
 
 CORRECT: `Dog d6 = d3;   /* 3 /`
 
-# Clairifications and Hints
+# Clarifications and Hints
 
 Question 1: You have a choice: you can design for an unlimited number of Cabins per Aircraft, or 
 you can set a maximum (e.g. 4, or 10).   
