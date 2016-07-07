@@ -38,7 +38,13 @@ $(document).ready(function(){
 	var href = "{{ site.hfj_chapter_url_prefix }}" + chapter_num;
 	$(this).html($('<a href="' + href + '">HFJ Chapter ' + $(this).data('hfj') + '</a>'));
     });
-    
+
+    $('[data-hfdp]').each(function() {
+	var chapter_num = $(this).data('hfdp');
+	var href = "{{ site.hfdp_chapter_url_prefix }}" + chapter_num;
+	$(this).html($('<a href="' + href + '">HFDP Chapter ' + $(this).data('hfdp') + '</a>'));
+    });
+
     if ($(".pointCount").length > 0 ) {
       var total = countPoints(document.body);
       $(".pointCount").html(total);
