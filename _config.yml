@@ -14,6 +14,7 @@ course: "CS56"
 qtr: "M16"
 quarter: "Summer 2016"
 hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfj/HFJ_Chapter_"
+hfdp_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfdp/HFDP_Chapter_"
 
 kramdown:
    parse_block_html: true
