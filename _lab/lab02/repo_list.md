@@ -23,14 +23,14 @@ ratio.
 | [cs56-games-connectfour](https://github.com/UCSB-CS56-Projects/cs56-games-connectfour) | Christian | bryannaphan |  joelbagan |    | [fork](https://github.com/bryannaphan/cs56-games-connectfour)
 | [cs56-utilities-password-generator](https://github.com/UCSB-CS56-Projects/cs56-utilities-password-generator) | Christian |  EdieS  |  jhpenger  |    | [fork](https://github.com/EdieS/cs56-utilities-password-generator)
 | [cs56-utilities-restaurant-list](https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list) | Dylan | timnkwong |  alanthetran |   | [fork](https://github.com/timnkwong/cs56-utilities-restaurant-list) 
-| [cs56-music-beatbox](https://github.com/UCSB-CS56-Projects/cs56-music-beatbox) | Dylan |  osheaanaya  |  shanemasuda  |    | [fork](https://github.com/osheaanaya/cs56-music-beatbox)
 | [cs56-networking-chat](https://github.com/UCSB-CS56-Projects/cs56-networking-chat) | Dylan |  milanes1  | winterfreddy |    | [fork](https://github.com/winterfreddy/cs56-networking-chat)
+| [cs56-games-snake](https://github.com/UCSB-CS56-Projects/cs56-games-snake) | Dylan | marcellisb | markwu35 | | [fork](https://github.com/markwu35/cs56-games-snake)
 | [cs56-games-poker](https://github.com/UCSB-CS56-Projects/cs56-games-poker) | Michael |  dvanmali  |  ttsherpa   |  atyuen  | [fork](https://github.com/dvanmali/cs56-games-poker) |
 | [cs56-games-minesweeper](https://github.com/UCSB-CS56-Projects/cs56-games-minesweeper) | Michael  | hwangaustin   | ije896   |  saisrimat96  | [fork](https://github.com/hwangaustin/cs56-games-minesweeper) |
 | [cs56-games-country-runner](https://github.com/UCSB-CS56-Projects/cs56-games-country-runner) | Nate  |  ethanyuwang  |  kyokotake  |    | [fork](https://github.com/ethanyuwang/cs56-games-country-runner) |
+| [cs56-android-getting-started](https://github.com/UCSB-CS56-Projects/cs56-android-getting-started) | Nate | osheaanaya  |  shanemasuda    |  |
 | [cs56-android-conversion-showdown](https://github.com/UCSB-CS56-Projects/cs56-android-conversion-showdown) | Nate | dummyindex   |    |    | [fork](https://github.com/dummyindex/cs56-android-conversion-showdown) |
 | [cs56-android-games-pacman](https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman) | Nate | colerogers   | kevinchanucsb     |    | [fork](https://github.com/colerogers/cs56-android-games-pacman) |
-| [cs56-games-snake](https://github.com/UCSB-CS56-Projects/cs56-games-snake) | Nate | marcellisb | markwu35 | | [fork](https://github.com/markwu35/cs56-games-snake)
 | [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  |  | [fork](https://github.com/chunqingliu/cs56-games-Go) 
 | [cs56-games-pokemon-map](https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map) | Xiaohe | MadRubicant  |  SElegans  |  | [fork](https://github.com/MadRubicant/cs56-games-pokemon-map)
 | [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe | zhanchengqian | liang121900  |   | [fork](https://github.com/zhanchengqian/cs56-utilities-cryptography)
@@ -43,7 +43,6 @@ ratio.
 | [cs56-utilities-GEscraper](https://github.com/UCSB-CS56-Projects/cs56-utilities-GEscraper) | Dylan |    |    |    | 
 | [cs56-games-towers-of-hanoi](https://github.com/UCSB-CS56-Projects/cs56-games-towers-of-hanoi) | Michael  |    |    |  |
 | [cs56-games-states-quiz](https://github.com/UCSB-CS56-Projects/cs56-games-states-quiz) | Michael  |    |    |    | 
-| [cs56-android-getting-started](https://github.com/UCSB-CS56-Projects/cs56-android-getting-started) | Nate |    |    |  |
 | [cs56-android-smoke-signals](https://github.com/UCSB-CS56-Projects/cs56-android-smoke-signals) | Nate |    |    |    | 
 | [cs56-discretemath-towers-sierpinski](https://github.com/UCSB-CS56-Projects/cs56-discretemath-towers-sierpinski) | Xiaohe |    |    |    | 
 | [cs56-games-memory-card](https://github.com/UCSB-CS56-Projects/cs56-games-memory-card) | Xiaohe |    |    |    | 
