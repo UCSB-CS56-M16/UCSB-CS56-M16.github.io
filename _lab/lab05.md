@@ -10,16 +10,6 @@ starter_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-assignment/"
 tutorial_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-tutorial/"
 ---
 
-TODO LIST:
-
-* Create {{page.starter_repo}}.  Populate master branch with the code the students should start with.  Remove fuzzer code.
-* Create {{page.tutorial_repo}}.  Put the code from the branches of cs56-parsing-assignment-private, part01 through part13, into subdirectories part01 through part13.   Also, create a README.md and factor out into that, some of the tutorial material from the lab05 writeup.
-* Update the javadoc.  (i.e. consider adding some actual javadoc comments in the places where that would add value.)
-* Add a "q" to the REPL in main that quits (and perhaps read until EOF so that CTRL/D works?)  Try using the repl
-  interactively, by running `java -jar parser.jar` 
-
-
-
 # Summary #
 
 In this assignment, you will add some features to an existing parser and interpreter of arithmetic expressions.
