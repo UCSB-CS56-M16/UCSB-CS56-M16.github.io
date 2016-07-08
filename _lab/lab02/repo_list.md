@@ -29,7 +29,7 @@ ratio.
 | [cs56-games-minesweeper](https://github.com/UCSB-CS56-Projects/cs56-games-minesweeper) | Michael  | hwangaustin   | ije896   |  saisrimat96  | [fork](https://github.com/hwangaustin/cs56-games-minesweeper) |
 | [cs56-games-country-runner](https://github.com/UCSB-CS56-Projects/cs56-games-country-runner) | Nate  |  ethanyuwang  |  kyokotake  |    | [fork](https://github.com/ethanyuwang/cs56-games-country-runner) |
 | [cs56-android-conversion-showdown](https://github.com/UCSB-CS56-Projects/cs56-android-conversion-showdown) | Nate | dummyindex   |    |    | [fork](https://github.com/dummyindex/cs56-android-conversion-showdown) |
-| [cs56-android-games-pacman](https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman) | Nate | colerogers   | kevinchuanucsb     |    | [fork](https://github.com/colerogers/cs56-android-games-pacman) |
+| [cs56-android-games-pacman](https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman) | Nate | colerogers   | kevinchanucsb     |    | [fork](https://github.com/colerogers/cs56-android-games-pacman) |
 | [cs56-games-snake](https://github.com/UCSB-CS56-Projects/cs56-games-snake) | Nate | marcellisb | markwu35 | | [fork](https://github.com/markwu35/cs56-games-snake)
 | [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  |  | [fork](https://github.com/chunqingliu/cs56-games-Go) 
 | [cs56-games-pokemon-map](https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map) | Xiaohe | MadRubicant  |  SElegans  |  | [fork](https://github.com/MadRubicant/cs56-games-pokemon-map)
