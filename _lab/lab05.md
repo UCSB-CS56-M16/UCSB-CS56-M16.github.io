@@ -64,12 +64,12 @@ The `main` function defined in `src/edu/ucsb/cs56/pconrad/parsing/Main.java` pro
 
 # Understanding the starter code
 
-The starter code you are given is fairly complex.    The [cs56-parsing-tutorial]({{page.tutorial_repo}} has lots of information to help you.  We are not going to repeat that information here&mdash;we are only going to suggest&mdash;again&mdash;that you thoroughy read that tutorial.
+The starter code you are given is fairly complex.    The [cs56-parsing-tutorial]({{page.tutorial_repo}}) has lots of information to help you.  We are not going to repeat that information here&mdash;we are only going to suggest&mdash;again&mdash;that you thoroughy read that tutorial.
 
 
 # Javadoc for the starter code 
 
-Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}} is available: 
+Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}}) is available: 
 * [cs56-parsing-assignment-javadoc](https://ucsb-cs56-m16.github.io/cs56-parsing-assignment-javadoc/).
 
 # Getting started
