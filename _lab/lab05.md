@@ -60,7 +60,7 @@ There is a crucial difference between this EBNF description and the one in the c
 The interpreter will also need to be modified to handle the two new operators `==` and `!=`.
 Expressions involving either `==` or `!=` will be evaluated and will return either `1` for true, or `0` for false.   This means that there is a new type of entity that can be part of the Abstract Syntax Trees (ASTs).  You'll need to understand the code that implements the ASTs, and determine what needs to be changed to allow for this new structure.
 
-The `main` function defined in `src/edu/ucsb/cs56/pconrad/parsing/Main.java` provides a "Read/Eval/Print" loop (REPL) for the combined tokenizer/parser/interpreter.    This is sometimes also called a "Command Line Interface", though we don't really have any commands, except for "q" for quit.   TODO: IMPLEMENT THIS...    This should work properly with the new operations you have added, and you **should not** modify `main` in any way.
+The `main` function defined in `src/edu/ucsb/cs56/pconrad/parsing/Main.java` provides a "Read/Eval/Print" loop (REPL) for the combined tokenizer/parser/interpreter.    This is sometimes also called a "Command Line Interface", though we don't really have any commands, except for "q" for quit.  This should work properly with the new operations you have added, and you **should not** modify `main` in any way.
 
 # Understanding the starter code
 
