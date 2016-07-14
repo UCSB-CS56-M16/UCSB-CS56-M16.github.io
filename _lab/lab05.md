@@ -62,18 +62,18 @@ Expressions involving either `==` or `!=` will be evaluated and will return eith
 
 The `main` function defined in `src/edu/ucsb/cs56/pconrad/parsing/Main.java` provides a "Read/Eval/Print" loop (REPL) for the combined tokenizer/parser/interpreter.    This is sometimes also called a "Command Line Interface", though we don't really have any commands, except for "q" for quit.  This should work properly with the new operations you have added, and you **should not** modify `main` in any way.
 
-# Understanding the starter code
+# Understanding the Starter Code #
 
 The starter code you are given is fairly complex.    The [cs56-parsing-tutorial]({{page.tutorial_repo}}) has lots of information to help you.  We are not going to repeat that information here&mdash;we are only going to suggest&mdash;again&mdash;that you thoroughy read that tutorial.
 
 
-# Javadoc for the starter code 
+# Javadoc for the Starter Code #
 
 Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}}) is available:
 
 * [cs56-parsing-assignment-javadoc](https://ucsb-cs56-m16.github.io/cs56-parsing-assignment-javadoc/).
 
-# Getting started
+# Getting Started #
 
 Please create a private repo in the UCSB-CS56-M16 organization with the name `lab05_yourgithubid`.
 
@@ -88,19 +88,33 @@ In the unlikely event that any problems are discovered in the starter code, you 
 Once you've done the `git pull starter master` to bring in the starter code:
 
 1. Try doing an `ant test` on the starter code.  The code should compile, and the tests should pass.
-2. Try running the code with `java -jar build/parser.jar`.  You should get a prompt for a "read-eval-print" loop 
+2. Try running the code with `ant jar && java -jar build/jar/CS56Parser.jar`.  You should get a prompt for a "read-eval-print" loop 
     where you can type in expressions, and the parser will evaluate them.
 
 If that works, you are now ready to pull in the tests for the additional features, i.e. the addition of the `==` and
-`!=` operators.    These tests will "break" the code, in that it will initially no longer compile.
+`!=` operators.    These tests will "break" the code, in that it will initially no longer compile.  We have organized the tests so that they incrementally build on top of each other, allowing you to first get your tokenizer working, then your parser, and finally your evaluator.
 
-Your first job will be to make the code compile, by writing "stubs" for all of the objects, methods, etc. that the tests imply must exist before the test could even compile, much less pass.
+To bring the tests for the tokenizer into your repository, run the following command:
+
+* `git pull starter update_tokenizer`
+
+If you run `ant clean && ant test`, you should see that it no longer compiles.  Your first job will be to make the code compile, by writing "stubs" for all of the objects, methods, etc. that the tests imply must exist before the test could even compile, much less pass.  Stubs usually do relatively silly things like `return null;`, but they nonetheless will allow code to at least compile with failing tests.
 
 Your second job will be, once the code compiles, to make all of the tests pass.
 
 Your third job will be to try to come up with additional tests that might expose bugs in your code that the supplied 
 tests do not find.   How many of those you come up with will be up to you.  Keep in mind that as with the Polynomial
 lab earlier in the quarter, there may be "secret tests" that are not revealed to you that might be part of your grade.
+
+Once you have your tokenizer compiling and passing all the tests, you're ready to start on the parser.  You can bring in tests for the parser like so:
+
+* `git pull starter update_parser`
+
+You should follow the same development procedures to update the parser as you did with the tokenizer.
+
+Once the tokenizer is compiling and passing all the tests, you can start on the evaluator, which is the last component you'll need to implement.  Tests for the evaluator can be brought in like so:
+
+* `git pull starter update_evaluator`
 
 When you've done those three things, and all tests are passing, you are ready to submit.   You'll submit via a link
 on Gauchospace, just as before.
