@@ -45,7 +45,7 @@ Reading in the tokens will require you to use the [State Pattern](https://en.wik
 
 Adding in additional tokens will require you to understand another Design Pattern, namely the Visitor Pattern. For this, you should consult [our tutorial on the Visitor Pattern](https://github.com/UCSB-CS56-M16/visitor-pattern-tutorial), and perhaps also [the Wikipedia entry on the Visitor Pattern](https://en.wikipedia.org/wiki/Visitor_pattern).
 
-In the parser, you'll need to handle the following EBNF description, derived from the Wikipedia page for [Operator-precedence_parser](https://en.wikipedia.org/wiki/Operator-precedence_parser) (retrieved 06/13/2016):
+In the parser, you'll need to handle the following EBNF description, derived from the Wikipedia page for [Operator Precedence Parser](https://en.wikipedia.org/wiki/Operator-precedence_parser) (retrieved 06/13/2016):
 
 ```
 expression ::= equality-expression
