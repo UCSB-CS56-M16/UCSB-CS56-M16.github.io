@@ -28,7 +28,7 @@ ratio.
 | [cs56-games-poker](https://github.com/UCSB-CS56-Projects/cs56-games-poker) | Michael |  dvanmali  |  ttsherpa   |  atyuen  | [fork](https://github.com/dvanmali/cs56-games-poker) |
 | [cs56-games-minesweeper](https://github.com/UCSB-CS56-Projects/cs56-games-minesweeper) | Michael  | hwangaustin   | ije896   |  saisrimat96  | [fork](https://github.com/hwangaustin/cs56-games-minesweeper) |
 | [cs56-games-country-runner](https://github.com/UCSB-CS56-Projects/cs56-games-country-runner) | Nate  |  ethanyuwang  |  kyokotake  |    | [fork](https://github.com/ethanyuwang/cs56-games-country-runner) |
-| [cs56-android-getting-started](https://github.com/UCSB-CS56-Projects/cs56-android-getting-started) | Nate | osheaanaya  |  shanemasuda    | [fork](https://github.com/osheaanaya/cs56-android-getting-started) |
+| [cs56-android-getting-started](https://github.com/UCSB-CS56-Projects/cs56-android-getting-started) | Nate | osheaanaya  |  shanemasuda |   | [fork](https://github.com/osheaanaya/cs56-android-getting-started) |
 | [cs56-android-conversion-showdown](https://github.com/UCSB-CS56-Projects/cs56-android-conversion-showdown) | Nate | dummyindex   |    |    | [fork](https://github.com/dummyindex/cs56-android-conversion-showdown) |
 | [cs56-android-games-pacman](https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman) | Nate | colerogers   | kevinchanucsb     |    | [fork](https://github.com/colerogers/cs56-android-games-pacman) |
 | [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  |  | [fork](https://github.com/chunqingliu/cs56-games-Go) 
