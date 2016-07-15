@@ -103,11 +103,11 @@ who typically sits in the same row with you in lab.
 
 | mentor | repo to fork |
 |--------|--------------|
-| Dylan     | <https://github.com/dlynch305/M16_lab06.git> |
-| Xiaohe    | <https://github.com/xiaoheh/M16_lab06.git> |
-| Nate      | <https://github.com/ntpincus/M16_lab06.git> |
-| Christian | <https://github.com/christiannewkirk/M16_lab06.git> |
-| Michael   | <https://github.com/mcaccamo/M16_lab06.git> |
+| Dylan     | <https://github.com/dlynch305/M16-lab06.git> |
+| Xiaohe    | <https://github.com/xiaoheh/M16-lab06.git> |
+| Nate      | <https://github.com/ntpincus/M16-lab06.git> |
+| Christian | <https://github.com/christiannewkirk/M16-lab06.git> |
+| Michael   | <https://github.com/mcaccamo/M16-lab06.git> |
 
 
 Step 1: Fork your repo
