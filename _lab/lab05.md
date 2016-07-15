@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab05
-ready: false
+ready: true
 desc: "Recursive Descent Parsing"
 assigned: 2016-07-15 09:00:00.00-7
 due: 2016-07-26 17:00:00.00-7
