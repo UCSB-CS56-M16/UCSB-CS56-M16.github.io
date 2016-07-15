@@ -36,10 +36,9 @@ up with one repository where every single person in the class has made
 a contribution to the single tree of source code in the form of a
 class and a set of test cases for that class. Getting that all
 organized is a bit complex, but as with many problems in Computer
-Science, a "divide and conquer" strategy can help. Chris and Lennon
-(the TAs) and Prof. Conrad will manage the pull requests to the master
-repo and the mentors () will provide an intermediate layer as shown in
-the tree below. In this diagram, we have **dchen**, **cgaucho**, and
+Science, a "divide and conquer" strategy can help. The TAs {% if site.ta_list %}{{site.ta_list}}{% endif %}
+and Prof. Conrad will manage the pull requests to the master
+repo and the mentors {% if site.mentors_list %}{{site.mentors_list}}{% endif %} will provide an intermediate layer as shown in the tree below. In this diagram, we have **dchen**, **cgaucho**, and
 **jcruz** standing in as sample students—that's where each of you will
 be in this tree (i.e. at the leaves).
 
