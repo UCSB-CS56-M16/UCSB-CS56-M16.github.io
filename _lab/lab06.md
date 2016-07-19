@@ -525,7 +525,7 @@ We need to stick to line drawings for now, because we are going to use them as a
 
 One catch: what you draw must be different from what everyone else in the class is drawing. There is a Gauchospace forum where you can register what you want to draw: that's right here:
 
--   <https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=513441>
+-   <https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=621230>
 
 BEFORE you register your drawing, though, read the rest of this section, down to where it says: ok, now you can register. :-)
 
