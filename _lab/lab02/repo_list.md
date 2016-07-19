@@ -33,7 +33,7 @@ ratio.
 | [cs56-android-games-pacman](https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman) | Nate | colerogers   | kevinchanucsb     |    | [fork](https://github.com/colerogers/cs56-android-games-pacman) | [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_colerogers_kevinchanucsb) |
 | [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  |  | [fork](https://github.com/chunqingliu/cs56-games-Go) | [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_chunqingliu_RityZhang) |
 | [cs56-games-pokemon-map](https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map) | Xiaohe | MadRubicant  |  SElegans  |  | [fork](https://github.com/MadRubicant/cs56-games-pokemon-map) | [feedback]() |
-| [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe | zhanchengqian | liang121900  |   | [fork](https://github.com/zhanchengqian/cs56-utilities-cryptography) | [feedback]() |
+| [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe | zhanchengqian | liang121900  |   | [fork](https://github.com/zhanchengqian/cs56-utilities-cryptography) | [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_zhanchengqian_liang121900) |
 
 # Available repos
 
