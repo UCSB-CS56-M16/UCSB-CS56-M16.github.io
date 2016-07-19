@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab08
-ready: false
+ready: true
 desc: "Leaving a legacy; issues and notes for next generation of students"
 assigned: 2016-07-27 09:30:00.00-7
 due: 2016-07-29 11:30:00.00-7
