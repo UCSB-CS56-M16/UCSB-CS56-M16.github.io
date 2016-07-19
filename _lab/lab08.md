@@ -72,6 +72,6 @@ The rest&mdash;the README.md with notes to the next set of students, and the iss
 
 * (50 pts): README.md note to next set of students.
 * (200 pts): 500 points of issues remaining for the next generation of students on the main fork of your legacy code project.
-** Each issue must have an OK from a {{site.qtr}} mentor.
-** Any issue not ok'd by mentor by {{ page.due | date "a m/d h:m A" }} DOES NOT COUNT.
+    * Each issue must have an OK from a {{site.qtr}} mentor.
+    * Any issue not ok'd by mentor by the due date/time of this lab DOES NOT COUNT.
 * (50 pts): <tt>{{site.qtr}}_{{page.num}}.md</tt> file with the list of issues for the next CS56 class of students.
