@@ -2,7 +2,7 @@
 layout: lab
 num: lab06
 ready: true
-desc: "GUIs, Graphics and Threads"
+desc: "GUIs, Graphics"
 assigned: 2016-07-19 09:30:00.00-7
 due: 2016-07-26 17:00:00.00-7
 ---
