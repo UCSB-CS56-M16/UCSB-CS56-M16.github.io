@@ -22,7 +22,7 @@ ratio.
 | [cs56-games-rock-paper-scissors](https://github.com/UCSB-CS56-Projects/cs56-games-rock-paper-scissors) | Christian | giovannidominguez   |  issacholguin |    | [fork](https://github.com/giovannidominguez/cs56-games-rock-paper-scissors) | [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_giovannidominguez_issacholguin) |
 | [cs56-games-connectfour](https://github.com/UCSB-CS56-Projects/cs56-games-connectfour) | Christian | bryannaphan |  joelbagan |    | [fork](https://github.com/bryannaphan/cs56-games-connectfour) | [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_bryannaphan_joelbagan) |
 | [cs56-utilities-password-generator](https://github.com/UCSB-CS56-Projects/cs56-utilities-password-generator) | Christian |  EdieS  |  jhpenger  |    | [fork](https://github.com/EdieS/cs56-utilities-password-generator) | [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_EdieS_jhpenger) |
-| [cs56-utilities-restaurant-list](https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list) | Dylan | timnkwong |  alanthetran |   | [fork](https://github.com/timnkwong/cs56-utilities-restaurant-list)  | [feedback]() |
+| [cs56-utilities-restaurant-list](https://github.com/UCSB-CS56-Projects/cs56-utilities-restaurant-list) | Dylan | timnkwong |  alanthetran |   | [fork](https://github.com/timnkwong/cs56-utilities-restaurant-list)  | [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_alanthetran_timnkwong) |
 | [cs56-networking-chat](https://github.com/UCSB-CS56-Projects/cs56-networking-chat) | Dylan |  milanes1  | winterfreddy |    | [fork](https://github.com/winterfreddy/cs56-networking-chat)  | [feedback]() |
 | [cs56-games-snake](https://github.com/UCSB-CS56-Projects/cs56-games-snake) | Dylan | marcellisb | markwu35 | | [fork](https://github.com/markwu35/cs56-games-snake)  | [feedback]() |
 | [cs56-games-poker](https://github.com/UCSB-CS56-Projects/cs56-games-poker) | Michael |  dvanmali  |  ttsherpa   |  atyuen  | [fork](https://github.com/dvanmali/cs56-games-poker) |   [feedback]() |
@@ -31,7 +31,7 @@ ratio.
 | [cs56-android-getting-started](https://github.com/UCSB-CS56-Projects/cs56-android-getting-started) | Nate | osheaanaya  |  shanemasuda |   | [fork](https://github.com/osheaanaya/cs56-android-getting-started) |   [feedback]() |
 | [cs56-android-conversion-showdown](https://github.com/UCSB-CS56-Projects/cs56-android-conversion-showdown) | Nate | dummyindex   |    |    | [fork](https://github.com/dummyindex/cs56-android-conversion-showdown) |   [feedback]() |
 | [cs56-android-games-pacman](https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman) | Nate | colerogers   | kevinchanucsb     |    | [fork](https://github.com/colerogers/cs56-android-games-pacman) | [feedback]() |
-| [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  |  | [fork](https://github.com/chunqingliu/cs56-games-Go) 
+| [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  |  | [fork](https://github.com/chunqingliu/cs56-games-Go) | [feedback]() |
 | [cs56-games-pokemon-map](https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map) | Xiaohe | MadRubicant  |  SElegans  |  | [fork](https://github.com/MadRubicant/cs56-games-pokemon-map) | [feedback]() |
 | [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe | zhanchengqian | liang121900  |   | [fork](https://github.com/zhanchengqian/cs56-utilities-cryptography) | [feedback]() |
 
