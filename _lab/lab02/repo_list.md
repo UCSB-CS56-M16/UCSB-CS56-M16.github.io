@@ -31,7 +31,7 @@ ratio.
 | [cs56-android-getting-started](https://github.com/UCSB-CS56-Projects/cs56-android-getting-started) | Nate | osheaanaya  |  shanemasuda |   | [fork](https://github.com/osheaanaya/cs56-android-getting-started) |   [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_osheaanaya_shanemasuda) |
 | [cs56-android-conversion-showdown](https://github.com/UCSB-CS56-Projects/cs56-android-conversion-showdown) | Nate | dummyindex   |    |    | [fork](https://github.com/dummyindex/cs56-android-conversion-showdown) |   [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_dummyindex) |
 | [cs56-android-games-pacman](https://github.com/UCSB-CS56-Projects/cs56-android-games-pacman) | Nate | colerogers   | kevinchanucsb     |    | [fork](https://github.com/colerogers/cs56-android-games-pacman) | [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_colerogers_kevinchanucsb) |
-| [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  |  | [fork](https://github.com/chunqingliu/cs56-games-Go) | [feedback]() |
+| [cs56-games-Go](https://github.com/UCSB-CS56-Projects/cs56-games-Go) | Xiaohe | chunqingliu | RityZhang  |  | [fork](https://github.com/chunqingliu/cs56-games-Go) | [feedback](https://github.com/UCSB-CS56-M16/FEEDBACK_chunqingliu_RityZhang) |
 | [cs56-games-pokemon-map](https://github.com/UCSB-CS56-Projects/cs56-games-pokemon-map) | Xiaohe | MadRubicant  |  SElegans  |  | [fork](https://github.com/MadRubicant/cs56-games-pokemon-map) | [feedback]() |
 | [cs56-utilities-cryptography](https://github.com/UCSB-CS56-Projects/cs56-utilities-cryptography) | Xiaohe | zhanchengqian | liang121900  |   | [fork](https://github.com/zhanchengqian/cs56-utilities-cryptography) | [feedback]() |
 
