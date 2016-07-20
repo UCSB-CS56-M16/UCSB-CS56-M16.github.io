@@ -12,7 +12,7 @@ tutorial_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-tutorial/"
 
 <style>
  div.tip {
-   text-align:center; 
+   
    margin-left:auto; 
    margin-right:auto; 
    width:80%; 
