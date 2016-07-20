@@ -77,6 +77,12 @@ Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}})
 
 Please create a private repo in the UCSB-CS56-M16 organization with the name `lab05_yourgithubid`.
 
+<div style="border: 3px outset red; padding:3em; margin:3em;" markdown="1">
+Note: You need to `git clone ...` that repo into your directory before you proceed with the
+rest of the instructions.
+</div>
+
+
 Then, add a remote for the starter code:
 
 `git remote add starter ` <tt>{{page.starter_repo}}.git</tt>
