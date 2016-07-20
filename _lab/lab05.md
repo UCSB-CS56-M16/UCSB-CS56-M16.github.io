@@ -88,7 +88,7 @@ Javadoc for the starter code in [cs56-parsing-assignment]({{page.starter_repo}})
 
 Please create a private repo in the UCSB-CS56-M16 organization with the name `lab05_yourgithubid`.
 
-<div style="border: 3px outset red; padding:3em; margin:3em;" markdown="1">
+<div class="tip" markdown="1">
 Note: You need to `git clone ...` that repo into your directory before you proceed with the
 rest of the instructions.
 </div>
@@ -99,6 +99,23 @@ Then, add a remote for the starter code:
 `git remote add starter ` <tt>{{page.starter_repo}}.git</tt>
 
 You can then do a `git pull starter master` to bring this code into your repository.
+
+<div class="tip" markdown="1">
+When you pull in this code, you may end up with merge conflicts in `README.md` and possibly in `.gitignore`.
+
+To resolve these, just edit those two files, and get rid of lines that look like these:
+
+* `<<<<<<<<< 240294feas234`  
+* `========`
+* `>>>>>>> HEAD `
+
+Then `git add README.md`, `git add .gitignore`, and do a commit.
+
+You might also get thrown into vi at some point.  To get out, use `<ESC>:wq` (that's hit the esc key, then type colon,
+then wq).
+
+</div>
+
 
 In the unlikely event that any problems are discovered in the starter code, you will be able to do a second or third `git pull starter master` after the instructional staff fix the starter code problems.   That additional `git pull` will update your code accordingly.   If you have already made modifications, there may be merge conflicts, but you'll be able to handle those with no problem.
 
