@@ -103,15 +103,17 @@ You can then do a `git pull starter master` to bring this code into your reposit
 <div class="tip" markdown="1">
 When you pull in this code, you may end up with merge conflicts in `README.md` and possibly in `.gitignore`.
 
-To resolve these, just edit those two files, and get rid of lines that look like these:
+To resolve these, just edit those two files, and get rid of lines that look like these (your SHA commit hash will be different from the one shown):
 
-* `<<<<<<<<< 240294feas234`  
+* `<<<<<<< HEAD`  
 * `========`
-* `>>>>>>> HEAD `
+* `>>>>>>> 0fe9c0565c5150b3a72df6c3a563213f565b3cc9`
 
-Then `git add README.md`, `git add .gitignore`, and do a commit.
+These lines mark the beginning and end of the parts that differ.  Edit the rest of the file as needed.
 
-You might also get thrown into vi at some point.  To get out, use `<ESC>:wq` (that's hit the esc key, then type colon,
+Then `git add README.md`, `git add .gitignore`, and do a commit.   That "resolves the merge conflict".
+
+You might also get thrown into vi at some point in the course of this lab.  To get out, use `<ESC>:wq` (that's hit the esc key, then type colon,
 then wq).
 
 </div>
