@@ -113,8 +113,7 @@ These lines mark the beginning and end of the parts that differ.  Edit the rest 
 
 Then `git add README.md`; `git add .gitignore`, and do a commit.   That "resolves the merge conflict".
 
-You might also get thrown into vi at some point in the course of this lab.  To get out, use `<ESC>:wq` (that's hit the esc key, then type colon,
-then wq).
+You might also get thrown into vim here or at some future point in the course of this lab.  To get out, use `<ESC>:wq` (that's hit the esc key, then type colon, then wq).
 
 </div>
 
@@ -133,6 +132,19 @@ If that works, you are now ready to pull in the tests for the additional feature
 To bring the tests for the tokenizer into your repository, run the following command:
 
 * `git pull starter update_tokenizer`
+
+<div class="tip" markdown="1">
+
+When you do the `git pull starter update_tokenizer`, you might get thrown into vim with the message at the top 
+of the screen `Merge branch ...` etc. 
+
+This is an automatic commit message, because pulling in the starter code is doing a commit.
+
+To finish the commit, use this sequence of keys to save and quit from vim: `<ESC>:wq` (that's hit the esc key, then type colon,
+then wq). 
+
+</div>
+
 
 If you run `ant clean && ant test`, you should see that it no longer compiles.  Your first job will be to make the code compile, by writing "stubs" for all of the objects, methods, etc. that the tests imply must exist before the test could even compile, much less pass.  Stubs usually do relatively silly things like `return null;`, but they nonetheless will allow code to at least compile with failing tests.  Further details are available in the following sections.  **Before** making any edits, be sure to at least read the **Restrictions** section, which specifies what you may and may not change.
 
