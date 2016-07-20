@@ -63,7 +63,7 @@ This repository is public (anyone can fork, and anyone can pull), but only the T
 -   Then each of you will then **fork your mentors repository**, NOT the original.
 
 - You'll then add some code into the repository, in a subdirectory of
-    src—a subdirectory src/edu/ucsb/cs56/m16/lab06/yourCSILuserid
+    src—a subdirectory src/edu/ucsb/cs56/lab06/yourCSILuserid
     (where the last part is replaced by your csil username, to ensure
     uniqueness. If your CSIL username contains characters not
     permitted in Java package names, e.g. hyphens, substitute
@@ -144,10 +144,10 @@ repo, as in previous weeks, and prepare to clone:
 
 `git clone git@github.com:cgaucho/M16-lab06.git`
 
-Step 3: Create your own subdirectories under src/edu/ucsb/cs56/m16/drawings
+Step 3: Create your own subdirectories under src/edu/ucsb/cs56/drawings
 ---------------------------------------------------------------------------
 
-cd into src/edu/ucsb/cs56/m16/drawings. You'll find directories there. One of them is **utilities**. The others, including **pconrad**, are all usernames of various contributors to this repository.
+cd into src/edu/ucsb/cs56/drawings. You'll find directories there. One of them is **utilities**. The others, including **pconrad**, are all usernames of various contributors to this repository.
 
 Create a "sibling" directory that has the same name as your CSIL username (not your github username).
 
@@ -159,42 +159,42 @@ Then cd into that directory.
 
 You can probably cd there with:
 
-`cd src/edu/ucsb/cs56/m16/drawings/${USER}/`
+`cd src/edu/ucsb/cs56/drawings/${USER}/`
 
 Or for folks that replaced hyphens with underscores, this magic command should automatically do the right thing:
 
-`src/edu/ucsb/cs56/m16/drawings/${USER//-/_}/`
+`src/edu/ucsb/cs56/drawings/${USER//-/_}/`
 
 `If you type pwd, you should now see that your path under src is:`
 
-`src/edu/ucsb/cs56/m16/drawings/yourCSILusername/`
+`src/edu/ucsb/cs56/drawings/yourCSILusername/`
 
 That corresponds to a Java package name of:
 
-`package edu.ucsb.cs56.m16.drawings.yourCSILusername;`
+`package edu.ucsb.cs56.drawings.yourCSILusername;`
 
 And that is going to be the first line of the files you put into that directory.
 
 Now, create two subdirectories under this directory, called simple and advanced, so that you have directories:
 
-`src/edu/ucsb/cs56/m16/drawings/yourCSILusername/simple`
-`src/edu/ucsb/cs56/m16/drawings/yourCSILusername/advanced`
+`src/edu/ucsb/cs56/drawings/yourCSILusername/simple`
+`src/edu/ucsb/cs56/drawings/yourCSILusername/advanced`
 
 Those correspond to package names
 
-`package edu.ucsb.cs56.m16.drawings.yourCSILusername.simple;`
-`package edu.ucsb.cs56.m16.drawings.yourCSILusername.advanced;`
+`package edu.ucsb.cs56.drawings.yourCSILusername.simple;`
+`package edu.ucsb.cs56.drawings.yourCSILusername.advanced;`
 
 -   (With hyphens replaced with underscores if needed. I really won't mention this every time—please know that in general, its true. Promise.)
 
 Step 4: Inspect the file SimpleGui1.java from the pconrad subdirectory
 ----------------------------------------------------------------------
 
-Under the src/edu/ucsb/cs56/m16/drawings/pconrad directory, there is a file SimpleGui1.java.
+Under the src/edu/ucsb/cs56/drawings/pconrad directory, there is a file SimpleGui1.java.
 
 Note that the VERY FIRST LINE in this file is:
 
-`package edu.ucsb.cs56.m16.drawings.pconrad;`
+`package edu.ucsb.cs56.drawings.pconrad;`
 
 As a reminder, when you have a code in a package, you need a line that
 specifies the package, and you need your source code to live in a
@@ -240,18 +240,18 @@ If the GUI came up, you are ready for the next step.
 
 Now copy
 
-`src/edu/ucsb/cs56/m16/drawings/pconrad/SimpleGui1.java into the src/edu/ucsb/cs56/m16/drawings/yourCSILusername directory that you created back in an earlier step.`
+`src/edu/ucsb/cs56/drawings/pconrad/SimpleGui1.java into the src/edu/ucsb/cs56/drawings/yourCSILusername directory that you created back in an earlier step.`
 
 -   change the package line as needed (the first line in the file)
 -   add your name as an additional author (with a second `@author` tag in the Javadoc comment.
 
-If you are in your src/edu/ucsb/cs56/m16/drawings/${USER} directory then you should be able to just type this to copy the file into your directory.
+If you are in your src/edu/ucsb/cs56/drawings/${USER} directory then you should be able to just type this to copy the file into your directory.
 
 `cp ../pconrad/SimpleGui1.java .`
 
 Then fix the package line. Be sure that the VERY FIRST LINE in your new personal copy of SimpleGui1.java is:
 
-`package edu.ucsb.cs56.m16.drawings.yourCSILusername;`
+`package edu.ucsb.cs56.drawings.yourCSILusername;`
 
 ... of course, replacing yourCSILusername as needed, and substituting hyphens for underscores as needed.
 
@@ -260,12 +260,13 @@ You should now be able to compile this file and run it by typing this at the com
 The second command uses the plain old "java" command, but specifying the classpath (the build directory) and the full package name and the class name.
 
 `ant compile`
-`java -cp build edu.ucsb.cs56.m16.drawings.yourCSILusername.SimpleGui1`
+
+`java -cp build edu.ucsb.cs56.drawings.yourCSILusername.SimpleGui1`
 
 If you get this message its probably because you copied a class from one directory to another, but forgot to change the "package" line in one of them:
 
 ```
-        [javac] ... /src/edu/ucsb/cs56/m16/drawings/.../SimpleGui1.java:13: duplicate class: edu.ucsb.cs56.m16.drawings....SimpleGui1
+        [javac] ... /src/edu/ucsb/cs56/drawings/.../SimpleGui1.java:13: duplicate class: edu.ucsb.cs56.drawings....SimpleGui1
         [javac] public class SimpleGui1 {
         [javac]        ^
         [javac] 1 error
@@ -279,15 +280,15 @@ You'll then see the duplicate classes, and you can make sure they are in differe
 
 Once you've compiled, you should be able to run with this command. This uses the plain old fashioned "java" command to invoke the Java Virtual Machine (JVM), specifying the classpath (the build directory) and the full package name and class name.
 
-`java -cp build edu.ucsb.cs56.m16.drawings.yourCSILusername.SimpleGui1`
+`java -cp build edu.ucsb.cs56.drawings.yourCSILusername.SimpleGui1`
 
 Another way to run this, if you are on CSIL (or you use the "tips" in the box below for running on your own machine), is:
 
-`java -cp build edu.ucsb.cs56.m16.drawings.${USER}.SimpleGui1`
+`java -cp build edu.ucsb.cs56.drawings.${USER}.SimpleGui1`
 
 or if you have hyphens:
 
-`java -cp build edu.ucsb.cs56.m16.drawings.${USER//-/_}.SimpleGui1`
+`java -cp build edu.ucsb.cs56.drawings.${USER//-/_}.SimpleGui1`
 
 You should also be able to run your program from ant as well by typing `ant` `mySimpleGui1` as long as your are running on CSIL:
 
@@ -395,10 +396,10 @@ Once you've copied these, you can now compile them and run them.
 | which verison            | with ant      | old fashioned way                                                            |
 |--------------------------|---------------|------------------------------------------------------------------------------|
 | original                 
- (don't modify this one)   | ant pconradPV | java -cp build edu.ucsb.cs56.m16.drawings.pconrad.simple.PictureViewer       |
+ (don't modify this one)   | ant pconradPV | java -cp build edu.ucsb.cs56.drawings.pconrad.simple.PictureViewer       |
 | Your version             
- (where you make changes)  | ant myPV      | java -cp build edu.ucsb.cs56.m16.drawings.${USER}.simple.PictureViewer       |
-| If you have hyphens:     | ant myPV      | java -cp build edu.ucsb.cs56.m16.drawings.${USER//-/\_}.simple.PictureViewer |
+ (where you make changes)  | ant myPV      | java -cp build edu.ucsb.cs56.drawings.${USER}.simple.PictureViewer       |
+| If you have hyphens:     | ant myPV      | java -cp build edu.ucsb.cs56.drawings.${USER//-/\_}.simple.PictureViewer |
 
 Step 8: Fix the snowman
 -----------------------
@@ -445,20 +446,20 @@ To invoke MultiPictureViewer with no command argument, use:
 | which verison            | with ant       | old fashioned way                                                                   |
 |--------------------------|----------------|-------------------------------------------------------------------------------------|
 | original                 
- (don't modify this one)   | ant pconradMPV | java -cp build edu.ucsb.cs56.m16.drawings.pconrad.advanced.MultiPictureViewer       |
+ (don't modify this one)   | ant pconradMPV | java -cp build edu.ucsb.cs56.drawings.pconrad.advanced.MultiPictureViewer       |
 | Your version             
- (where you make changes)  | ant myMPV      | java -cp build edu.ucsb.cs56.m16.drawings.${USER}.advanced.MultiPictureViewer       |
-| If you have hyphens:     | ant myMPV      | java -cp build edu.ucsb.cs56.m16.drawings.${USER//-/\_}.advanced.MultiPictureViewer |
+ (where you make changes)  | ant myMPV      | java -cp build edu.ucsb.cs56.drawings.${USER}.advanced.MultiPictureViewer       |
+| If you have hyphens:     | ant myMPV      | java -cp build edu.ucsb.cs56.drawings.${USER//-/\_}.advanced.MultiPictureViewer |
 
 To invoke MultiPictureViewer with a command line argument of 2, use:
 
 | which verison            | with ant        | old fashioned way                                                                     |
 |--------------------------|-----------------|---------------------------------------------------------------------------------------|
 | original                 
- (don't modify this one)   | ant pconradMPV2 | java -cp build edu.ucsb.cs56.m16.drawings.pconrad.advanced.MultiPictureViewer 2       |
+ (don't modify this one)   | ant pconradMPV2 | java -cp build edu.ucsb.cs56.drawings.pconrad.advanced.MultiPictureViewer 2       |
 | Your version             
- (where you make changes)  | ant myMPV2      | java -cp build edu.ucsb.cs56.m16.drawings.${USER}.advanced.MultiPictureViewer 2       |
-| If you have hyphens:     | ant myMPV2      | java -cp build edu.ucsb.cs56.m16.drawings.${USER//-/\_}.advanced.MultiPictureViewer 2 |
+ (where you make changes)  | ant myMPV2      | java -cp build edu.ucsb.cs56.drawings.${USER}.advanced.MultiPictureViewer 2       |
+| If you have hyphens:     | ant myMPV2      | java -cp build edu.ucsb.cs56.drawings.${USER//-/\_}.advanced.MultiPictureViewer 2 |
 
 For command line argument of 3, just do the same thing, putting a 3 in place of the 2. If you want to add additional command line arguments to your own version, you'll need to find the places to change the code in your own versions of:
 
@@ -551,7 +552,7 @@ Another example is the code in the CoffeeCup.java file shown below: this is usef
 
 So, you will end up creating a new class for your object (Skateboard.java, SoccerField.java, whateveer) Create that file in YOUR package:
 
-`edu.ucsb.cs56.m16.drawings.yourCSILusername`
+`edu.ucsb.cs56.drawings.yourCSILusername`
 
 You will also create a second class, which *should inherit from your first one*. As an example, look at the class HouseWithWindows which extends House.
 
@@ -573,9 +574,9 @@ Step 11: Draw something that you can draw
 
 Now we are ready to actually start drawing our own pictures.
 
-cd to the directory src/edu/ucsb/cs56/m16/drawings/yourCSILusername/advanced, and set B to that directory
+cd to the directory src/edu/ucsb/cs56/drawings/yourCSILusername/advanced, and set B to that directory
 
-`cd src/edu/ucsb/cs56/m16/drawings/yourCSILusername/advanced`
+`cd src/edu/ucsb/cs56/drawings/yourCSILusername/advanced`
 `` export B=`pwd` ``
 
 In that directory, create a java source file for the first object you are going to draw. You may want to copy either House.java or CoffeeCup.java as a model.
