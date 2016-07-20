@@ -111,7 +111,7 @@ To resolve these, just edit those two files, and get rid of lines that look like
 
 These lines mark the beginning and end of the parts that differ.  Edit the rest of the file as needed.
 
-Then `git add README.md`, `git add .gitignore`, and do a commit.   That "resolves the merge conflict".
+Then `git add README.md`; `git add .gitignore`, and do a commit.   That "resolves the merge conflict".
 
 You might also get thrown into vi at some point in the course of this lab.  To get out, use `<ESC>:wq` (that's hit the esc key, then type colon,
 then wq).
