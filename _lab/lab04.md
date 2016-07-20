@@ -32,7 +32,7 @@ INSERT LIST OF AVAILABLE PROJECTS HERE
 
 -   Ensure that you have done a pull request for your lab03 repo
     -   This is the one that you did the "code review" steps on.
-    -   This is the pull request that should, at a minimum, include a {{site.qtr}}\_lab02.md file that has the elements indicated in [lab02](/lab/lab02).
+    -   This is the pull request that should, at a minimum, include a {{site.qtr}}\_lab02.md file that has the elements indicated in [lab02](/lab/lab02/).
 
 At that point, what you do next depends on whether you are continuing on the same project, or starting a new one.
 
