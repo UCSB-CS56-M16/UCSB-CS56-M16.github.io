@@ -10,6 +10,17 @@ starter_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-assignment"
 tutorial_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-tutorial/"
 ---
 
+<style>
+ div.tip {
+   text-align:center; 
+   margin-left:auto; 
+   margin-right:auto; 
+   width:80%; 
+   border: 10px inset red; 
+   padding: 1em;
+ }
+</style>
+
 # Summary #
 
 In this assignment, you will add some features to an existing parser and interpreter of arithmetic expressions.
@@ -17,11 +28,11 @@ In this assignment, you will add some features to an existing parser and interpr
 You should start by reading the [cs56-parsing-tutorial]({{page.tutorial_repo}}).   It contains important background
 information about parsing, grammars, tokens, etc.   
 
-<div style="text-align:center; margin-left:auto; margin-right:auto; width:80%; border: 10px inset red; font-weight: bold; padding: 1em;" markdown="1">
+<div class="tip" markdown="1">
 
 The remainder of this writeup assumes that you have thoughly read and understood the information in the [cs56-parsing-tutorial]({{page.tutorial_repo}}).  
 
-If you have not, it will not make any sense to you.
+*If you have not, it will not make any sense to you.*
 
 </div>
 
