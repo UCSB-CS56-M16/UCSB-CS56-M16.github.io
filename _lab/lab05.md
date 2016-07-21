@@ -24,7 +24,7 @@ tutorial_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-tutorial/"
 </style>
 
 <div class="tip" markdown="1">
-NOW AVAILABLE ON submit.cs: <https://submit.cs.ucsb.edu/form/project/519>
+NOW AVAILABLE ON submit.cs: <https://submit.cs.ucsb.edu/form/project/519/submission>
 </div>
 
 # Summary #
@@ -311,6 +311,19 @@ Consider the following cases:
 In both cases, a `TokenizerException` should be thrown.    
 
 </div>
+
+# Submission
+
+Please submit your work two ways:
+
+* Please make a submission on submit.cs at: <https://submit.cs.ucsb.edu/form/project/519/submission>
+    *   If working in a pair: Please register your pair on submit.cs 
+        using the "Join Groups" feature, here: <https://submit.cs.ucsb.edu/form/project/519/group>
+* Please also submit via Gauchospace by providing a link to your repository in the normal way.  
+  The assignment on Gauchospace is here: <https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=619557>
+    *   If working in a pair, both pair partners should submit on Gauchospace, but only one submission per pair
+        is needed on submit.cs
+
 
 ----
 
