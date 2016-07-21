@@ -17,7 +17,9 @@ tutorial_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-tutorial/"
    margin-right:auto; 
    width:80%; 
    border: 10px inset red; 
-   padding: 1em;
+   padding: 0.5em;
+   margin-top: 1em;
+   margin-bottom: 1em;
  }
 </style>
 
