@@ -293,6 +293,19 @@ For the evaluator, you should have tests for every kind of operator, including s
 Whenever you're in doubt, write a test.
 This means that if you see code you're not confident about, you should immediately write a test to try to expose a bug in it.
 
+
+<div class="tip" markdown="1">
+## Some Hints:
+
+Consider the following cases:
+
+* What should happen if there is whitespace or something unexpected in the middle of a `==` or `!=` token, e.g. if the input is `2=3` or `2! =3` ?
+* What should happen if the input ends in the middle of a `==` or `!=` token, e.g. `2+3=` or `4/5!` ?
+
+In both cases, a `TokenizerException` should be thrown.    
+
+</div>
+
 ----
 
 Credits: This lab primarily written by Kyle Dewey, with edits by Phill Conrad.  Additional helpful suggestions from Hiranya Jayathilaka, and others.
