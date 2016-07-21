@@ -181,11 +181,24 @@ A large portion of the work for this lab is in how you structure your classes an
 
 # Restrictions #
 
-You may **not** modify `src/edu/ucsb/cs56/pconrad/parsing/Main.java`.
-Additionally, while you may add tests and are encouraged to add your own tests, you may **not** modify the existing tests.
-Any modifications you make to these components will be discarded on our end when we test your code.
-These restrictions are not arbitrary; `Main` and the tests already sensibly interface with the various parser components, so they should not need to be changed.
-This is reflective of a realistic scenario where certain implementation details are fixed.
+You may **not** modify the following files:
+
+- `src/edu/ucsb/cs56/pconrad/parsing/Main.java`
+- `src/edu/ucsb/cs56/pconrad/parsing/InterpreterInterface.java`
+- `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/TokenFactory.java`
+- `src/edu/ucsb/cs56/pconrad/parsing/syntax/ASTFactory.java`
+
+If any changes are made to the above files, it very likely indicates that your code will break on the internal tests suite.
+Additionally, you may **not** modify the following components, though the files containing the components may be modified:
+
+- `src/edu/ucsb/cs56/pconrad/parsing/DefaultInterpreterInterface.java` must extend `InterpreterInterface`.  This is necessary for the test suites, which ultimately call into your code through `DefaultInterpreterInterface`'s `static DEFAULT` field.
+- `src/edu/ucsb/cs56/pconrad/parsing/tokenizer/DefaultTokenFactory.java` must implement `TokenFactory`.  The `static DEFAULT` field is used in the test suites.
+- `src/edu/ucsb/cs56/pconrad/parsing/syntax/DefaultASTFactory.java` must implement `ASTFactory`.  The `static DEFAULT` field is used in the test suites.
+
+The above restrictions are not arbitrary.
+The interfaces for the various components are already sensible, so changes to these interfaces will likely result in more fragile code.
+Additionally, these interfaces are necessary to interact with our secret tests, which must make some assumptions about your code (e.g., how to call it and what it returns).
+This is also somewhat realistic of a production setting, where certain implementation details are fixed.
 
 Additionally, there are a number of design patterns which you must conform to.
 These are listed below, along where they must be used:
