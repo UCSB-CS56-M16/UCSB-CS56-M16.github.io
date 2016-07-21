@@ -21,6 +21,10 @@ tutorial_repo: "https://github.com/UCSB-CS56-M16/cs56-parsing-tutorial/"
  }
 </style>
 
+<div class="tip" markdown="1">
+NOW AVAILABLE ON submit.cs: <https://submit.cs.ucsb.edu/form/project/519>
+</div>
+
 # Summary #
 
 In this assignment, you will add some features to an existing parser and interpreter of arithmetic expressions.
