@@ -49,6 +49,15 @@ The bulk of the difficulty of this assignment is expected to be in determining e
 
 # What You'll Implement #
 
+As a reminder from the [cs56-parsing-tutorial]({{page.tutorial_repo}}), the starter code handles the following grammar:
+
+```
+expression ::= additive-expression
+additive-expression ::= multiplicative-expression ( ( '+' | '-' ) multiplicative-expression ) *
+multiplicative-expression ::= primary ( ( '*' | '/' ) primary ) *
+primary ::= '(' expression ')' | INTEGER | '-' primary
+```
+
 Your task is to update all three components of the starter code&mdash;the tokenizer, parser, and interpreter&mdash;to handle the following new features:
 
 - The equals operator (`==`)
