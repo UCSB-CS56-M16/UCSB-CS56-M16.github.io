@@ -148,10 +148,11 @@ When you are finished
 =====================
 
 When you are finished, you'll have:
+
 * the url of your completed repo (e.g. <https://github.com/UCSB-CS56-M16/lab00_yourgithubid> )
 * the url of your javadoc (which will be in a separate public repo)
-    * URL of that repo will be: <https://github.com/UCSB-CS56-M16/lab00_javadoc_yourgithubid>
-    * When you push to a gh-pages branch, that repo's content will be published at
-      <https://UCSB-CS56-M16.github.io/lab00_javadoc_yourgithubid/javadoc/index.html>
+  * URL of that repo will be: <https://github.com/UCSB-CS56-M16/lab00_javadoc_yourgithubid>
+  * When you push to a gh-pages branch, that repo's content will be published at
+    <https://UCSB-CS56-M16.github.io/lab00_javadoc_yourgithubid/javadoc/index.html>
 
 Look for instructions on Gauchospace to paste these URLs into the "online text" submission area for lab00.
