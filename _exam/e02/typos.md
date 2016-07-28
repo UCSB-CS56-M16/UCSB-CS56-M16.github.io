@@ -3,7 +3,7 @@ layout: default
 num: e02
 ---
 
-# Typo corrections and hints for {{site.qtr}} exam {{page.num}}
+<b>Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
 
 <b>On handout "A", p. 1, (blue sheet)</b>
 
