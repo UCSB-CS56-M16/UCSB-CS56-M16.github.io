@@ -9,4 +9,5 @@ num: e02
 
 Where you see `Comparator<ArrayList>`, CROSS IT OUT.
 
+
 Write `Comparator<Student>` instead.
