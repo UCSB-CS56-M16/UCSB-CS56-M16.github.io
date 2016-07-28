@@ -5,6 +5,12 @@ num: e02
 
 # Typo corrections for {{site.qtr}} exam {{page.num}}
 
+## On handout "A", p. 1, (blue sheet)
+
+The descriptions of `compare` and `compareTo` are reversed from what they should be.  That is:
+*    The description given for `compare` is actually the description for `compareTo`
+*    The description given for `compareTo` is actually the description for `compare`
+
 ## In Question 4:
 The *whole method*, not just the function prototype.
 
