@@ -3,7 +3,7 @@ layout: default
 num: e02
 ---
 
-# Typo corrections for {{site.qtr}} exam {{page.num}}
+# Typo corrections and hints for {{site.qtr}} exam {{page.num}}
 
 ## On handout "A", p. 1, (blue sheet)
 
@@ -22,8 +22,16 @@ Where you see `Comparator<ArrayList>`, CROSS IT OUT.
 Write `Comparator<Student>` instead.
 
 
-# Minor typos
-* In question 9, there are *three* things in the list of things to notice, not two.
+# Question 9
+
+Minor typo: there are *three* things in the list of things to notice, not two.
+
+Instead of `java.lang.Math.signum`, you may also use either of these methods of class `java.lang.Double`
+
+* `static int	compare(double d1, double d2)`: Compares the two specified double values.
+* `int	compareTo(Double anotherDouble)` : Compares two Double objects numerically.
+
+Those work in the usual way for a `compare` and `compareTo` method.
 
 <div style="display:none;">
 http://ucsb-cs56-m16.github.io/exam/e02/typos/
