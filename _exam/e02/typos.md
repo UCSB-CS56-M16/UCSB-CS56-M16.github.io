@@ -1,7 +1,9 @@
 ---
+layout: default
+num: e02
 ---
 
-TYPOS: for e02
+# Typo corrections for {{site.qtr}} exam {{page.num}}
 
 In questions 7,8,9
 
