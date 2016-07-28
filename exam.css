@@ -233,7 +233,8 @@ td.h03-table table * td,th {
 	size: auto;
 	margin: 5%;
     }
-    
+
+    body { font-size: 12px; }
 }
 
 table td.odd-page-box {

@@ -21,7 +21,11 @@ hfdp_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfdp/HFDP_Chapter_"
 kramdown:
    parse_block_html: true
 
-exclude: [vendor]
+
+exclude:
+   - vendor
+   - _exam/e02/cs56_m16_e02/code
+
 
 timezone: America/Los_Angeles
 
