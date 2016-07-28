@@ -21,7 +21,10 @@ Where you see `Comparator<ArrayList>`, CROSS IT OUT.
 
 Write `Comparator<Student>` instead.
 
-<http://ucsb-cs56-m16.github.io/exam/e02/typos/>
 
 # Minor typos
 * In question 9, there are *three* things in the list of things to notice, not two.
+
+<div style="display:none;">
+http://ucsb-cs56-m16.github.io/exam/e02/typos/
+</div>
