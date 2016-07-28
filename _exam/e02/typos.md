@@ -12,5 +12,6 @@ The *whole method*, not just the function prototype.
 
 Where you see `Comparator<ArrayList>`, CROSS IT OUT.
 
-
 Write `Comparator<Student>` instead.
+
+<http://ucsb-cs56-m16.github.io/exam/e02/typos/>
