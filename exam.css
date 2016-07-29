@@ -34,7 +34,8 @@ div.handwriting-table table * td {
 }
 
 .exam-name-header-table {
-    width:50%;
+  width: 30%;
+   background-color: pink;
     float:left;
     margin-bottom:1em;
 }
@@ -53,7 +54,7 @@ div.exam-page-header {
 
 
 div.exam-page-header table {
-    text-align:right; float:right; width:25%; text-align:right;
+    text-align:right; float:right; width:20%; text-align:right;
     margin:0px; padding:0px; border-width: 0px;
 }
 
@@ -94,7 +95,7 @@ table.exam-name-header-table *  {
 
 
 .exam-header-name {
-    width:75%; text-align:left; border-bottom:none;
+    width:50%; text-align:left; border-bottom:none;
     line-height: 30px;
 }
 
@@ -238,7 +239,7 @@ td.h03-table table * td,th {
 }
 
 table td.odd-page-box {
-    width: 70% !important ;
+    width: 50% !important ;
     border: 1px solid blue !important;
 }
 

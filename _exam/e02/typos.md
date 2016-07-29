@@ -1,29 +1,31 @@
 ---
 layout: default
-num: e01
+num: e02
 ---
 
-# Typo corrections for {{site.qtr}} exam {{page.num}}
+<b>Typo corrections and hints for {{site.qtr}} exam {{page.num}}</b>
 
-On the yellow handout, p.2., line 3 is incorrect:
+<b>On handout "A", p. 1, (blue sheet):</b> The descriptions of `compare` and `compareTo` are reversed from what they should be.  That is:
 
-WRONG: `Dog d3 = d6;     /* 3 */` <br>
-CORRECT: `Dog d6 = d3;   /* 3 /`
+*    The description given for `compare` is actually the description for `compareTo`
+*    The description given for `compareTo` is actually the description for `compare`
 
-On the yellow handout p. 1, there is an inconsistency in the examples for the toString() function.  I will therefore accept either answer as correct.   Specifically, the inconsistency is between: <br>
-`Boeing 747-400 (744) (Capacity: 374 )` <br> and
-`Bombardier CRJ-200 V1 (Capacity: 50)` in terms of whether there is a space before the final `)`
+<b>In Question 4:</b> The *whole method*, not just the function prototype.
 
-# Clarifications and Hints
+<b> In questions 7,8,9: </b> Where you see `Comparator<ArrayList>`, CROSS IT OUT.  Write `Comparator<Student>` instead.
 
-Question 1: You have a choice: you can design for an unlimited number of Cabins per Aircraft, or 
-you can set a maximum (e.g. 4, or 10).   
+<b> In question 7:</b> My intention was to NOT allow Lambda functions for this particular problem.  But, since I didn't clearly signal my intent, I will accept a correct answer based on lambda functions.
 
-If you DO choose to set a maximum, that MUST be declared as a
-constant, and the actual number should appear in only one place in your code.   Do that in whatever
-way is appropriate in Java.
+<b>Question 9:</b> Minor typo: there are *three* things in the list of things to notice, not two.
 
-For Question 2: java.lang.Integer has these constructors only:
+Also, instead of `java.lang.Math.signum`, you may also use either of these methods of class `java.lang.Double`
 
-|`Integer(int value)` | Constructs a newly allocated Integer object that represents the specified int value. |
-| `Integer(String s)` |  Constructs a newly allocated Integer object that represents the int value indicated by the String parameter. |
+* `static int	compare(double d1, double d2)`: Compares the two specified double values.
+* `int	compareTo(Double anotherDouble)` : Compares two Double objects numerically.
+
+Those work in the usual way for a `compare` and `compareTo` method.
+
+<div style="display:none;">
+http://ucsb-cs56-m16.github.io/exam/e02/typos/
+</div>
+
