@@ -75,3 +75,6 @@ The rest&mdash;the README.md with notes to the next set of students, and the iss
     * Each issue must have an OK from a {{site.qtr}} mentor.
     * Any issue not ok'd by mentor by the due date/time of this lab DOES NOT COUNT.
 * (50 pts): <tt>{{site.qtr}}_{{page.num}}.md</tt> file with the list of issues for the next CS56 class of students.
+
+
+NOTE: May impose a 10% (30 point) penalty for failing to do the final pull request.
