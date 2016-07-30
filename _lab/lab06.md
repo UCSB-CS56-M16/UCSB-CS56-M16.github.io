@@ -7,8 +7,6 @@ assigned: 2016-07-19 09:30:00.00-7
 due: 2016-07-26 17:00:00.00-7
 ---
 
-TODO: Fill in this lab.
-
 # A quick overview of this lab
 
 This lab is different in structure from any you may have ever done
@@ -367,16 +365,23 @@ You can do this the hard way, or the easy way.
 
 The "sed" command is a "stream editor" (you can learn more about it by typing "man sed" at the unix command line.)
 
-Assuming you are in the $B directory, you can do a global search replace on all the .java files at once, replacing foo with bar by doing:
+Assuming you are in the $B directory, you can do a global search replace on all the .java files at once, replacing foo with bar by doing this command (no
 
 ```
     sed -i -e 's/foo/bar/g' *.java
 ```
 
+NOTE: On Mac OS, the sed command is slightly different:
+
+```
+    sed -i .bak 's/foo/bar/g' *.java
+```
+
+
 In this case, we want to replace pconrad.simple with yourCSILUsername.simple
 
 ```
-    sed 's/pconrad.simple/yourCSILUsername.simple/g' -i *.java
+    sed -i -e 's/pconrad.simple/yourCSILUsername.simple/g' *.java
 ```
 
 You can easily see if it worked by using this command, which displays the first line of every .java file along with its filename:
